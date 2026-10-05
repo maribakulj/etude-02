@@ -1,0 +1,11 @@
+ENTITY	arrow, large, planted vertically	clear
+ENTITY	serpent-like creature (snake or eel)	clear
+ENTITY	ruined buildings with arch and obelisk/tower	clear
+ENTITY	birds in sky ×6 approx.	probable
+ENTITY	small leafless shrub	clear
+ATTRIBUTE	arrow: fletched at top, tip stuck in ground	clear
+ATTRIBUTE	creature: no visible fins at this resolution; head hidden or upturned at top	indeterminate
+ACTION	creature coils around the arrow shaft	clear
+RELATION	arrow: stands upright in the ground, centred	clear
+SETTING	hilly rocky landscape with ruins and distant town	clear
+RECOGNISED	arrow with a fish/serpent wound round it: Alciato 'Maturandum' (arrow + remora, festina lente); see p007 which shows the same motif with a fish	probable

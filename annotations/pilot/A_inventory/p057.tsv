@@ -1,0 +1,12 @@
+ENTITY	men ×2	clear
+ENTITY	walking staff	clear
+ENTITY	crossbow	probable
+ENTITY	spear or long arrow	probable
+ATTRIBUTE	carrier: cap, short tunic, bent forward	clear
+ATTRIBUTE	carried man: cloak/hood, long hair	probable
+ACTION	lower man carries the other on his back, walking with a staff	clear
+ACTION	carried man holds a spear/arrow pointing forward	probable
+RELATION	crossbow: hangs at the carrier's waist	probable
+RELATION	upper man: on the lower man's back	clear
+SETTING	grassy ground, blank background	clear
+RECOGNISED	blind man carrying the lame: Alciato 'Mutuum auxilium' (cf. p024, p036)	probable

@@ -1,0 +1,10 @@
+ENTITY	lion	clear
+ENTITY	hares ×4 approx.	probable
+ENTITY	tree	clear
+ENTITY	buildings/ruins on hill	clear
+ATTRIBUTE	lion: lying on its back, legs in the air, mouth open (dead)	clear
+ACTION	hares gather at the lion's head and mane	clear
+ACTION	one hare leaps/runs across the background	clear
+RELATION	hares: crowd around the lion's head at lower left	clear
+SETTING	hilly landscape with ruins, tree, clouds	clear
+RECOGNISED	hares mocking a dead lion: Alciato 'Cum larvis non luctandum' (cf. p003, p064)	clear

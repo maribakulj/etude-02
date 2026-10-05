@@ -170,3 +170,18 @@ development set. Next: S7 pilot (collation, Tung seeds, pilot coding of the dev 
 - Fetcher now retries on dropped connections (Glasgow closed one during the A31a fetch).
 - Running: blind-inventory pilot (separate model instance, anonymised pictures); qwen2.5vl:3b
   download for the probe pipeline test.
+
+## 2026-10-05 — S7 pilot, part 2: blind inventory
+
+The blind inventory form was piloted by a separate model instance on 79 anonymised pictures
+(`annotations/pilot/A_inventory/`, report there). Two findings:
+1. **Content:** on the cases that matter, the blind descriptions agree with Tung and with the
+   corrected readings: 1531 Isis cut = "arched plaque, blank, rests on the ass's back"; crowned bird
+   (006); gourd on a separate pole (068); blindfolded winged boy (096); the washed man in 083 not
+   drawn darker and the scene not recognised as the Ethiopian.
+2. **Blindness fails when one describer sees several variants of a subject**: recognition on
+   78/79 pictures, spreading across variants and shaping descriptions. For humans as for models,
+   Stage A must give each describer **one variant per emblem** (four describer batches in a
+   Latin-square), mixed with unrelated pictures, RECOGNISED collected first with a "did it change
+   your description?" flag. Also: POSE type, entity ids, counting rule, zoom.
+These go into ANNOTATION_GUIDE / PROTOCOL v0.2 at the end of S7.

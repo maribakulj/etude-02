@@ -1,0 +1,14 @@
+ENTITY	man (scholar)	clear
+ENTITY	lectern on twisted column with open book	clear
+ENTITY	candlesticks ×2	clear
+ENTITY	table with cloth	clear
+ENTITY	shelf with books/objects	clear
+ENTITY	round object on wall (mirror, sphere or window)	indeterminate
+ENTITY	small figures in landscape through doorway ×2 approx.	indeterminate
+ATTRIBUTE	man: square cap, long gown with wide sleeves	clear
+ACTION	man holds a finger to his lips	clear
+ACTION	man stands facing the open book	clear
+RELATION	lectern: in front of the man	clear
+RELATION	candlestick: on the table behind him; another in a wall niche	clear
+SETTING	interior study, tiled floor, vaulted/shelled ceiling, arched doorway to landscape	clear
+RECOGNISED	scholar with finger on lips before his books: Silence (Alciato 'Silentium')	probable

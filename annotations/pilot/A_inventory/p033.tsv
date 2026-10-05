@@ -1,0 +1,8 @@
+ENTITY	old tree, bare/leafless branches	clear
+ENTITY	grapevine with leaves and grapes	clear
+ENTITY	bunches of grapes ×5 approx.	clear
+ENTITY	buildings in distance	probable
+ACTION	vine twines up the trunk and through the branches	clear
+RELATION	grape bunches: hang among the dead tree's branches	clear
+SETTING	landscape with hill and buildings at right	clear
+RECOGNISED	vine embracing a dead tree: Alciato 'Amicitia etiam post mortem durans' (vine and dry elm)	probable

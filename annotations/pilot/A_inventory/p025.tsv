@@ -1,0 +1,10 @@
+ENTITY	naked winged boy	clear
+ENTITY	horn-shaped / shell-like curved object	clear
+ENTITY	cloud	clear
+ATTRIBUTE	boy: wings	clear
+ATTRIBUTE	boy: curly hair	clear
+ATTRIBUTE	object: spiral end, decorated (cornucopia or shell)	indeterminate
+ACTION	boy holds the curved object at his left side	clear
+ACTION	boy raises right hand, palm open	clear
+SETTING	open ground with grass; empty sky	clear
+RECOGNISED	winged boy (Cupid-like) with a horn/cornucopia; emblem not identified	indeterminate

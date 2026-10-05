@@ -1,0 +1,8 @@
+ENTITY	birds ×3 (one crowned)	clear
+ENTITY	small tree	clear
+ATTRIBUTE	left bird: wears a crown, long tail	clear
+ATTRIBUTE	right birds: hooked/heavy beaks, crow-like	probable
+ACTION	birds face each other; crowned bird opens beak	probable
+RELATION	crowned bird: stands apart on the left, facing the other two	clear
+SETTING	ground with grass, tree at left; plain background	clear
+RECOGNISED	crowned bird before other birds suggests a fable (king of the birds, or jackdaw in borrowed feathers); not certain	indeterminate

@@ -1,0 +1,15 @@
+ENTITY	sarcophagus/tomb chest on stepped base	clear
+ENTITY	tall tapering spire/obelisk with finial	clear
+ENTITY	large birds ×4	clear
+ENTITY	small birds in sky ×5 approx.	probable
+ENTITY	carved face/mask with curling hair	clear
+ENTITY	ruined arcades/architecture ×2	clear
+ATTRIBUTE	tomb front: scrolled cartouche frame around the face	clear
+ATTRIBUTE	two perched birds: crested, possibly cocks or hooked-beak birds	indeterminate
+ACTION	two birds fly down toward the tomb	clear
+ACTION	two birds stand on the tomb lid	clear
+RELATION	spire: rises from the centre of the tomb lid	clear
+RELATION	face: set in the middle of the tomb front	clear
+RELATION	perched birds: on either side of the spire, facing it	clear
+SETTING	ruins of classical arches left and right; rocky ground; sky with clouds	clear
+RECOGNISED	birds gathered on a tomb suggest an Alciato tomb emblem (e.g. bird on a hero's tomb), but I cannot tell which	indeterminate

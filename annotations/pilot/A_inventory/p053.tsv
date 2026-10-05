@@ -1,0 +1,16 @@
+ENTITY	pedestals ×2	clear
+ENTITY	seated figure (young woman?)	clear
+ENTITY	standing woman	clear
+ENTITY	vase/urn under standing woman	clear
+ENTITY	small cage or basket at seated figure's feet	probable
+ENTITY	net-covered object or shield hanging at left	indeterminate
+ENTITY	bridle or reins	probable
+ENTITY	radiant light/sun at top of ceiling	clear
+INSCRIPTION	SPES (left pedestal)	clear
+INSCRIPTION	NEMESIS (right pedestal)	clear
+ACTION	seated figure raises a hand toward a hanging object	probable
+ACTION	standing woman holds a bridle/strap	probable
+RELATION	seated figure: on a drum-shaped seat on the left pedestal	clear
+RELATION	standing woman: stands on a vase on the right pedestal	clear
+SETTING	interior with arched windows, tiled floor, rayed ceiling	clear
+RECOGNISED	statues labelled SPES and NEMESIS: Hope and Nemesis (Alciato emblem pairing them); recognised from the inscriptions	clear

@@ -1,0 +1,12 @@
+ENTITY	man (scholar)	clear
+ENTITY	desk with cloth	clear
+ENTITY	open book	clear
+ENTITY	inkwell	clear
+ENTITY	chair	clear
+ENTITY	shelf with books ×3	clear
+ENTITY	lattice window	clear
+ATTRIBUTE	man: cap, long gown	clear
+ACTION	man sits at desk with fingers to his lips	clear
+RELATION	book and inkwell: on the desk in front of him	clear
+SETTING	interior study, tiled floor	clear
+RECOGNISED	scholar with finger to lips: Silence (Alciato 'Silentium'; cf. p027)	probable

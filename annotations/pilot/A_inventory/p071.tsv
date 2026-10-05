@@ -1,0 +1,11 @@
+ENTITY	man (scholar)	clear
+ENTITY	desk with cloth	clear
+ENTITY	books, many, on shelves and desk	clear
+ENTITY	lattice-sided box/cage with arched lid	clear
+ENTITY	doorway / arched opening	clear
+ATTRIBUTE	man: bearded, cap, long gown	clear
+ATTRIBUTE	box: openwork lattice sides, lock or hasp on front	probable
+ACTION	man sits at desk with hands on a closed book	clear
+RELATION	box: stands beside the desk on the floor/bench	clear
+SETTING	interior study, tiled floor, bookshelves	clear
+RECOGNISED	scholar with books and a cage/coffer; emblem not identified (avarice? hoarding knowledge? a mousetrap?)	indeterminate

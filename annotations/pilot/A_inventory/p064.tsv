@@ -1,0 +1,9 @@
+ENTITY	lion	clear
+ENTITY	hares ×2	clear
+ENTITY	staff/stick on ground	indeterminate
+ATTRIBUTE	lion: mane, lying, eyes closed	probable
+ACTION	lion lies stretched out	clear
+ACTION	hares approach / nibble at the lion's head and mane	probable
+RELATION	hares: one above the lion's back, one at its face	clear
+SETTING	bare ground, no background	clear
+RECOGNISED	hares insulting a dead lion: Alciato 'Cum larvis non luctandum' (cf. p003)	probable

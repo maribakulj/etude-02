@@ -1,0 +1,13 @@
+ENTITY	ass/donkey	clear
+ENTITY	shrine/tabernacle with small statue	clear
+ENTITY	man with stick	clear
+ENTITY	crowd of people ×7 approx., some kneeling	probable
+ENTITY	small child	clear
+ENTITY	buildings and arched gate	clear
+ATTRIBUTE	man: bearded, dishevelled hair, bare-legged	probable
+ACTION	man raises stick to beat the ass	clear
+ACTION	people kneel and bow toward the ass	clear
+ACTION	child reaches toward the ass	probable
+RELATION	shrine: strapped on the ass's back over a saddle cloth	clear
+SETTING	town street with buildings, gateway, mountains	clear
+RECOGNISED	ass carrying a sacred image worshipped by a crowd: Alciato 'Non tibi sed religioni' (cf. p014, p016)	clear

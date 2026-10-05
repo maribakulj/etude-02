@@ -1,0 +1,8 @@
+ENTITY	old tree with bare broken branches	clear
+ENTITY	grapevine with leaves and grapes	clear
+ENTITY	bunches of grapes ×5 approx.	clear
+ENTITY	sun with rays (rising/setting) at left	clear
+ACTION	vine twines around the trunk and branches	clear
+RELATION	grape bunches: hang from the dead tree	clear
+SETTING	open landscape, sun on horizon, clouds	clear
+RECOGNISED	vine on a dead tree: Alciato 'Amicitia etiam post mortem durans' (cf. p033, p049)	probable

@@ -1,0 +1,14 @@
+ENTITY	men ×3	clear
+ENTITY	well with pulley wheel and ropes	clear
+ENTITY	tall jar/amphora	clear
+ENTITY	bucket on ground	clear
+ENTITY	cloth	clear
+ATTRIBUTE	seated man: dark skin rendered by dense hatching, curly hair	clear
+ATTRIBUTE	left and right men: light skin; right man bearded	clear
+ACTION	left man scrubs the seated man's arm	clear
+ACTION	bearded man wrings or holds up a cloth	probable
+ACTION	dark man sits being washed	clear
+RELATION	dark man: seated between the two washers	clear
+RELATION	well: behind at right, jar beside it	clear
+SETTING	courtyard with stone well and walls	clear
+RECOGNISED	washing the Ethiopian: Alciato 'Impossibile' (cf. p026)	clear

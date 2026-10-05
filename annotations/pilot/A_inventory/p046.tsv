@@ -1,0 +1,11 @@
+ENTITY	men ×2 seated	clear
+ENTITY	open book on ground	clear
+ENTITY	tree branch	clear
+ATTRIBUTE	left man: younger, beardless, cap, mouth open	clear
+ATTRIBUTE	right man: old, long beard, tall cap	clear
+ACTION	left man raises both hands in an animated gesture (laughing or exclaiming)	probable
+ACTION	right man rests head in hand, eyes closed (weeping or sorrow)	probable
+RELATION	men: seated side by side, turned toward each other	clear
+RELATION	book: on the ground at the left man's feet	clear
+SETTING	outdoor, hills, clouds	clear
+RECOGNISED	laughing and weeping philosophers: Democritus and Heraclitus (Alciato 'In vitam humanam'); cf. p013	probable

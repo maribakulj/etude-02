@@ -1,0 +1,6 @@
+ENTITY	tree, bare	clear
+ENTITY	wind heads (puffing faces) ×2	clear
+ATTRIBUTE	tree: no leaves; branches bent	clear
+ACTION	wind heads blow at the tree from upper left and upper right	clear
+SETTING	ploughed or striped fields, rounded ground	clear
+RECOGNISED	same motif as p009 (tree buffeted by two winds) in a cruder cut; emblem unknown	probable

@@ -1,0 +1,15 @@
+ENTITY	naked winged boy	clear
+ENTITY	seated woman	clear
+ENTITY	beehives (straw skeps) ×2	clear
+ENTITY	bench for hives	clear
+ENTITY	bees ×6 approx.	probable
+ENTITY	birds in sky ×5 approx.	probable
+ENTITY	house/shed	clear
+ENTITY	bow (dropped?)	indeterminate
+ATTRIBUTE	boy: wings, marks/spots on body (stings?)	probable
+ACTION	boy flies/rushes toward the woman, arms outstretched	clear
+ACTION	woman reaches out to receive the boy	clear
+ACTION	bees fly from the hives after the boy	probable
+RELATION	hives: on a bench against the house at right	clear
+SETTING	countryside with hills, town and house	clear
+RECOGNISED	winged boy fleeing beehives to a woman: Cupid stung by bees, running to Venus (cf. p063, p067)	probable

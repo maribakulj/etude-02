@@ -1,0 +1,13 @@
+ENTITY	women ×2	clear
+ENTITY	bridle/reins	probable
+ENTITY	rod/staff	clear
+ENTITY	cross-shaped rod with knobs (spindle, distaff or measuring rod)	indeterminate
+ENTITY	drum-shaped seat	clear
+ATTRIBUTE	standing woman: short-sleeved dress over long skirt	clear
+ATTRIBUTE	seated woman: cloak	clear
+ACTION	standing woman holds reins in left hand and a rod in right hand	probable
+ACTION	seated woman holds up a knobbed cross-shaped object	clear
+RELATION	women: face each other	clear
+RELATION	seated woman: on a round drum seat	clear
+SETTING	interior with arched windows	clear
+RECOGNISED	woman with bridle and rod facing a seated woman: probably Nemesis and Hope (cf. p053 labelled SPES/NEMESIS)	probable

@@ -1,0 +1,7 @@
+ENTITY	round floating object with domed centre and ring of dots (nest, shell or boat)	indeterminate
+ENTITY	building (corner of house with roof)	clear
+ENTITY	mountains	clear
+ATTRIBUTE	object: dotted rim, possibly eggs around a dome	indeterminate
+RELATION	object: floats on the water near the shore	probable
+SETTING	lake or sea with jagged mountains; house at right edge	clear
+RECOGNISED	round dotted object is probably a shield with boss floating near a building; after seeing p044/p079, likely Achilles' arms washed to Ajax's tomb (first reading: halcyon nest)	probable

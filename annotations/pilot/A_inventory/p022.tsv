@@ -1,0 +1,9 @@
+ENTITY	tall tree with needle-like foliage (pine)	probable
+ENTITY	climbing vine with large leaves and gourds	clear
+ENTITY	gourds ×3 approx.	clear
+ENTITY	buildings in distance ×2	probable
+ATTRIBUTE	vine: lobed leaves, flowers, tendrils	clear
+ACTION	vine winds up the tree trunk into the branches	clear
+RELATION	gourds: hang from the tree branches	clear
+SETTING	river/lake landscape with hills and buildings; grassy foreground	clear
+RECOGNISED	gourd climbing a pine: Alciato 'In momentaneam felicitatem' (pine and gourd)	probable

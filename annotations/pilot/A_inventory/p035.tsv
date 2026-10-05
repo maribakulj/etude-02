@@ -1,0 +1,12 @@
+ENTITY	naked woman	clear
+ENTITY	cloth/scarf	clear
+ENTITY	small object in right hand (blade?)	indeterminate
+ENTITY	curved object in left hand (bow or wheel rim?)	indeterminate
+ENTITY	animal at lower left (dolphin? wing?)	indeterminate
+ENTITY	cloud	clear
+ATTRIBUTE	woman: long hair streaming forward/back in wind	clear
+ACTION	woman extends right arm forward	clear
+ACTION	woman walks/stands on the water	probable
+RELATION	cloth: drapes over her arm and around her hips	clear
+SETTING	sea/water with distant mountains	clear
+RECOGNISED	naked woman with windblown hair at sea: probably Occasio/Fortuna as in p004 and p017	probable

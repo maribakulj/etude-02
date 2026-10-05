@@ -1,0 +1,15 @@
+ENTITY	men ×2	clear
+ENTITY	sack/bundle	clear
+ENTITY	table	clear
+ENTITY	inkwell and quill	clear
+ENTITY	dish with objects (food or coins)	indeterminate
+ENTITY	wall shelf with jars/books	clear
+ENTITY	candlestick in window	clear
+ENTITY	small grotesque/animal head at lower right corner	indeterminate
+ATTRIBUTE	left man: hooded, distressed or grimacing face	probable
+ATTRIBUTE	right man: cap, long gown, seated on bench	clear
+ACTION	left man carries a heavy sack on his back and walks away/hurries	clear
+ACTION	right man reaches down under the table toward something	probable
+RELATION	inkwell, quill and dish: on the table between the men	clear
+SETTING	interior room, coffered ceiling, plank floor, windows	clear
+RECOGNISED	no emblem recognised (possibly a scene about debt, theft or a miser)	indeterminate

@@ -1,0 +1,13 @@
+ENTITY	men ×2	clear
+ENTITY	walking staff	clear
+ENTITY	town on hill	clear
+ENTITY	bare tree / shrub	clear
+ATTRIBUTE	carried man: hat, apron/short tunic	clear
+ATTRIBUTE	carrying man: head bowed, eyes apparently closed	probable
+ATTRIBUTE	carrying man: pouch at belt	probable
+ACTION	lower man carries the upper man on his shoulders	clear
+ACTION	carried man points ahead with right hand	clear
+ACTION	carrier gropes forward with a staff	clear
+RELATION	upper man: sits astride the lower man's shoulders	clear
+SETTING	landscape with rocks, river, distant towns, clouds	clear
+RECOGNISED	blind man carrying the lame man who shows the way: Alciato 'Mutuum auxilium' (cf. p024)	clear

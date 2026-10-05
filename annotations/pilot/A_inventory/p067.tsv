@@ -1,0 +1,15 @@
+ENTITY	naked winged boy	clear
+ENTITY	woman (partly cut by right edge)	clear
+ENTITY	arrow	clear
+ENTITY	beehive on a stool	clear
+ENTITY	bees ×4 (large)	clear
+ENTITY	round fruit or ball (apple?)	probable
+ATTRIBUTE	boy: wings	clear
+ATTRIBUTE	boy: blindfold	clear
+ATTRIBUTE	woman: hair tied with ribbons	clear
+ACTION	bees fly around the boy	clear
+ACTION	boy holds arrow(s) and steps toward the woman	probable
+ACTION	woman holds a round fruit	probable
+RELATION	beehive: behind the boy at left	clear
+SETTING	ground with plants; blank background	clear
+RECOGNISED	blindfolded winged boy among bees from a hive, approaching a woman: Cupid stung by bees complaining to Venus (cf. p063)	probable

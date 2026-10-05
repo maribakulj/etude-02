@@ -1,0 +1,9 @@
+ENTITY	arrow, large, planted vertically	clear
+ENTITY	long fish/eel with forked tail and dorsal fin	clear
+ENTITY	small plant at base of arrow	clear
+ENTITY	stones ×4 approx.	probable
+ATTRIBUTE	fish: head at bottom, mouth open, tail at top	clear
+ACTION	fish coils around the arrow shaft	clear
+RELATION	arrow: stuck upright in the ground	clear
+SETTING	low grassy mounds; empty sky	clear
+RECOGNISED	arrow with remora (sucker-fish) wound round it: Alciato 'Maturandum' / festina lente; recognised from the fish-and-arrow combination	probable

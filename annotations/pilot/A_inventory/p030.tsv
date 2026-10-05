@@ -1,0 +1,10 @@
+ENTITY	tree	clear
+ENTITY	wind heads (puffing faces) in clouds ×2	clear
+ENTITY	leaves, many, some falling	clear
+ENTITY	bushes/trees in background	clear
+ATTRIBUTE	leaves: spiky/lobed (holly or oak)	probable
+ATTRIBUTE	tree: acorn-like fruit visible	indeterminate
+ACTION	wind heads blow streams of air at the tree	clear
+ACTION	leaves fall to the ground	clear
+SETTING	hilly landscape	clear
+RECOGNISED	same motif as p009/p015 (tree stripped by two winds)	probable

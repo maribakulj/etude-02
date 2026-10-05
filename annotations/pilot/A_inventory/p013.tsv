@@ -1,0 +1,11 @@
+ENTITY	men ×2 seated	clear
+ENTITY	books ×2 (on ground and on stone)	clear
+ENTITY	tree	clear
+ATTRIBUTE	left man: beardless, short tunic with belt, collar	clear
+ATTRIBUTE	right man: old, long beard, turban/hood, long robe	clear
+ACTION	left man clutches his head with both hands	clear
+ACTION	right man holds hand to face/beard (weeping or pondering)	probable
+RELATION	men: seated facing each other, tree between them	clear
+RELATION	books: lie at the feet of the right man	clear
+SETTING	landscape with rocks and plants	clear
+RECOGNISED	two philosophers contrasting moods may be Heraclitus and Democritus (Alciato 'In vitam humanam'), but neither visibly laughs	indeterminate

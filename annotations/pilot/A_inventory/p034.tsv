@@ -1,0 +1,7 @@
+ENTITY	pots/jars ×2	clear
+ENTITY	town on hill	clear
+ATTRIBUTE	both jars: handles, rounded bellies; look similar in material	probable
+ATTRIBUTE	left jar: small ring/lug on rim besides handle	indeterminate
+ACTION	jars float side by side on the water, tilted	clear
+SETTING	river with waves and reeds; town and hills on far bank	clear
+RECOGNISED	two pots floating together: fable of the two pots (Alciato 'Aemulatio impar'); cf. p021	probable

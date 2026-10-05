@@ -1,0 +1,9 @@
+ENTITY	tree with tufted needle foliage (pine)	clear
+ENTITY	pine cones ×7 approx.	clear
+ENTITY	climbing vine	clear
+ENTITY	gourds ×2	clear
+ACTION	vine twines up the trunk	clear
+RELATION	gourds: hang low on the vine, below the pine cones	clear
+RELATION	pine cones: in the crown of the tree	clear
+SETTING	bare ground, no background	clear
+RECOGNISED	gourd on a pine: Alciato 'In momentaneam felicitatem' (cf. p022, p051)	clear

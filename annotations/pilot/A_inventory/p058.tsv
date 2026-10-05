@@ -1,0 +1,13 @@
+ENTITY	naked young man	clear
+ENTITY	sphere/ball	clear
+ENTITY	razor or blade	probable
+ENTITY	cloak	clear
+ENTITY	town with buildings	clear
+ENTITY	plants/branches at left	clear
+ATTRIBUTE	young man: forelock of hair blowing forward	probable
+ATTRIBUTE	young man: winged foot	probable
+ACTION	young man holds a blade aloft in his right hand	probable
+ACTION	young man holds a cloak billowing behind him	clear
+RELATION	young man: stands with one foot on the sphere	clear
+SETTING	landscape with town, hills, clouds	clear
+RECOGNISED	naked figure on a sphere with razor and forelock: Occasio / Kairos (Alciato 'In occasionem'), here male	probable

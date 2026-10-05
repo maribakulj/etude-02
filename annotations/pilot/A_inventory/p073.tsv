@@ -1,0 +1,11 @@
+ENTITY	woman	clear
+ENTITY	naked child	clear
+ENTITY	tree with hollow in trunk	clear
+ENTITY	small branch/twig near tree	probable
+ENTITY	town in distance	clear
+ATTRIBUTE	woman: long robe, ribbon/veil fluttering from head	clear
+ACTION	woman leans toward the child and points/gestures	clear
+ACTION	child reaches both hands toward the woman	clear
+RELATION	child: between the woman and the tree	clear
+SETTING	landscape with distant towns, clouds	clear
+RECOGNISED	woman instructing a naked child near a tree; not recognised	indeterminate

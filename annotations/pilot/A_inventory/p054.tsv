@@ -1,0 +1,10 @@
+ENTITY	men ×2	clear
+ENTITY	walking sticks/staffs ×2	clear
+ENTITY	wooden peg leg	clear
+ATTRIBUTE	left man: wooden leg, cap	clear
+ATTRIBUTE	right man: broad hat pulled low over eyes, cloak	clear
+ACTION	men walk together, left man's arm over right man's shoulder	probable
+ACTION	each man leans on or holds a staff	clear
+RELATION	men: side by side, linked	clear
+SETTING	bare ground, no background	clear
+RECOGNISED	lame man with blind(?) companion: variant of the blind-and-lame motif (Alciato 'Mutuum auxilium'; cf. p024, p036), though here neither carries the other	probable

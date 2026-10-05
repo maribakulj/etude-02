@@ -1,0 +1,12 @@
+ENTITY	women ×2	clear
+ENTITY	hoop or wheel / curved object held by left woman	indeterminate
+ENTITY	branch	probable
+ENTITY	bridle/strap or ribbon	indeterminate
+ENTITY	ruined buildings, broken columns	clear
+ATTRIBUTE	left woman: head covered or bound, billowing cloth/veil behind	probable
+ATTRIBUTE	right woman: veil blowing back, long dress	clear
+ACTION	left woman kneels/crouches and holds a hoop	probable
+ACTION	right woman raises a branch in one hand and holds a strap in the other	probable
+RELATION	women: face each other across the ruins	clear
+SETTING	ruins of buildings, fallen column drums, stones	clear
+RECOGNISED	two female personifications; possibly Hope and Nemesis (cf. p053) or Fortune; not certain	indeterminate
