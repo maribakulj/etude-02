@@ -128,3 +128,16 @@ frame, dev/confirm split, copy matrix first, blind descriptions, quantified hypo
 point-by-point response in `docs/reviews/R1-response.md`. Fixed a parser bug (page-break link text
 inside epigrams). Fetching A31a for collation. Two new questions for Marcel (coders; one or two
 papers). Next: S6 protocol.
+
+## 2026-10-05 23:50 — S6 started; corrections from Tung
+
+Tung's per-emblem commentaries (copied locally to `data/raw/tung/`, not committed) give for every
+emblem a **TEXT source**, sometimes a **PICTURE source** (Aesop, Physiologus…), and a "PICTURE
+variant" paragraph that describes each cut and states copy relations ("followed in reverse in 34",
+"47/83" = same cut, "reuses the cut of emblem 44"). This is the seed of the copy matrix and an
+expert description layer.
+Corrections to my own S3 readings: **A31b036 — the 1531 ass does carry a shrine** (empty arched
+plaque); my "carries nothing" was wrong, and so was the claim that the alt-text there describes
+something absent (review R1-humanities obj. 1 rested partly on my error). A31b013 — the 1531 cut is
+a **reused block** from another emblem. Method lesson recorded in PROTOCOL: one looker at ≤ 500 px
+is not reliable; blind human descriptions + Tung + Gallica scans are needed.

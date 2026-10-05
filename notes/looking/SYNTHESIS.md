@@ -46,10 +46,15 @@ Medium-specific vs picture-generic limits: **colour** (087) is impossible in bla
 but not in pictures as such; **change over time** is impossible for any single picture. The scheme
 must separate the two.
 
+> **Corrections after reading Tung's commentaries (S6):** 036 — the 1531 ass *does* carry a shrine
+> (an empty arched plaque); 013 — the 1531 cut is a **reused block** from *In simulachrum spei*;
+> 058 — Tung reads the 1531 lion as dead; 053 — Tung reads the 1531 object as a clam. Tung's
+> "PICTURE variant" paragraphs are an expert verbalisation of every cut and will be used as a
+> reference layer.
+
 ## Drift across editions
 
-- **1531 departs from the text's key configuration** in at least 7 of 19: no image of Isis
-  (036), the "Ethiopian" not dark (083), crown on the crow instead of crows on the sceptre (006),
+- **1531 departs from the text's key configuration** in at least 7 of 19: an empty shrine without Isis (036 — corrected, see note), the "Ethiopian" not dark (083), crown on the crow instead of crows on the sceptre (006),
   gourd on its own pole (068), lame and blind walking side by side (023), the refuted Cupid (096),
   ambiguous head/mask (049). This fits Steyner's own description of the cuts as rough signs and
   Hunger's account that cutters worked from descriptions. **The 1531 edition is a special case,
