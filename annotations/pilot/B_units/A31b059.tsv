@@ -1,0 +1,7 @@
+unit	type	key	latin_line	paraphrase	note
+u1	RP	yes	1	a torrent carries off two pots	
+u2	RP	yes	1	one pot is of metal	material: depictable only by convention (handle, hatching, shape)
+u3	RP	yes	2	the other pot is of clay, made by a potter	
+u4	AR-SPEECH	no	3-4	the metal pot asks the clay pot to float close so both resist the water	
+u5	AR-SPEECH+NEG	yes	5-6	the clay pot refuses: your company is no concern of mine, it would bring me harm	
+u6	AR-COND+TIME	yes	7-8	whether the wave throws you against me or me against you, I alone will break	

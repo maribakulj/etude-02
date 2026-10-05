@@ -1,0 +1,8 @@
+unit	type	key	latin_line	paraphrase	note
+u1	RP	yes	1	a gourd grew beside a lofty pine	
+u2	RP	no	2	the gourd is luxuriant with foliage	
+u3	RP	yes	3	the gourd embraces the pine's branches	key configuration (envelopment)
+u4	RP	yes	3	the gourd overtops the pine's summit	
+u5	AR-BELIEF	no	4	the gourd thinks itself superior to other trees	
+u6	AR-SPEECH	yes	5	the pine says the glory is very brief	
+u7	AR-TIME+MODAL	yes	5-6	winter will soon come and destroy the gourd	future; text variant: perdat (P31, P34) / perdet (P50, P21)
