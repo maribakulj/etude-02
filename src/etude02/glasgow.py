@@ -61,7 +61,11 @@ class Fetcher:
             if wait > 0:
                 time.sleep(wait)
             self._last = time.monotonic()
-            r = self.session.get(url, timeout=60)
+            try:
+                r = self.session.get(url, timeout=60)
+            except requests.ConnectionError:
+                time.sleep(60 * (attempt + 1))
+                continue
             if r.status_code == 200:
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(r.content)

@@ -153,3 +153,20 @@ with closed probes, six conditions incl. mismatched text and text-only, ≥ 2 op
 models), workload estimate, analysis plan per hypothesis with power simulation gate,
 preregistration, ethics, threats table. `docs/ANNOTATION_GUIDE.md` v0.1 with examples from the
 development set. Next: S7 pilot (collation, Tung seeds, pilot coding of the dev set).
+
+## 2026-10-05 — S7 pilot, part 1
+
+- **Collation 1531** (`notes/collation_1531.md`): A31a and A31b print every pictura from the same
+  blocks; 98 picturae = 97 blocks (A31b013 reuses A31b078's cut), matching Glasgow's 97; type reset
+  (mottos, 31 epigrams slightly different). Panel keeps A31b.
+- **Copy seeds from Tung** (`src/etude02/tung.py`, `data/copy_seeds.csv`): simple rules resolve
+  only ≈ 20 % of pairs (31→34: 18/104), and some seeds are wrong (A31b009). Pilot finding: the
+  copy matrix needs a human reading of Tung's paragraphs plus the contact sheets; rules can at
+  most pre-fill.
+- **Segmentation pilot** on 4 emblems (`annotations/pilot/B_units/`): issues found — overlapping
+  RP units (ass carries image / objects on its back), material as RP (depictable only by
+  convention), attributes of motion and emotion (slow, proud), irrelevant text variants
+  (perdat/perdet) need a relevance rule; 096 is mostly RP-DENIED units with one affirmed key unit.
+- Fetcher now retries on dropped connections (Glasgow closed one during the A31a fetch).
+- Running: blind-inventory pilot (separate model instance, anonymised pictures); qwen2.5vl:3b
+  download for the probe pipeline test.
