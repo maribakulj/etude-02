@@ -54,7 +54,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
 
 - [x] **S0 — Set-up.** `uv` project (Python ≥ 3.11), `src/etude02/`, `tests/`, `notebooks/`,
   `docs/`, `notes/`, `references.bib`. Minimal lint/test config.
-- [ ] **S1 — Literature, deep pass.** Build on the first pass (see README). Read what is openly
+- [x] **S1 — Literature, deep pass.** Build on the first pass (see README). Read what is openly
   readable: Tung's variorum preface and several of its per-emblem PDFs, Brandhorst 2025, Sato et al.
   2023, Oversteegen & Schilperoord 2014, Worth (find the original reference), Goodman's
   density/articulation, Barthes' anchorage/relay, Jakobson's intersemiotic translation,
