@@ -7,6 +7,7 @@ a difference hash on the pictura (small, robust to scanning); text by normalised
 import csv
 import difflib
 import re
+from collections import Counter
 
 from PIL import Image
 
@@ -16,7 +17,8 @@ from etude02.corpus import ROOT, available, emblem, image_path
 def dhash(path, size=16):
     im = Image.open(path).convert("L").resize((size + 1, size))
     px = list(im.get_flattened_data())
-    return [px[r * (size + 1) + c] > px[r * (size + 1) + c + 1] for r in range(size) for c in range(size)]
+    w = size + 1
+    return [px[r * w + c] > px[r * w + c + 1] for r in range(size) for c in range(size)]
 
 
 def norm(t):
@@ -37,7 +39,8 @@ for i in range(1, 105):
         dist = sum(x != y for x, y in zip(ha, hb, strict=True))
         pic = "same block" if dist <= 40 else f"different? (dhash {dist})"
     else:
-        pic = f"picture: A31a {'yes' if ia.exists() else 'no'}, A31b {'yes' if ib.exists() else 'no'}"
+        has = {True: "yes", False: "no"}
+        pic = f"picture: A31a {has[ia.exists()]}, A31b {has[ib.exists()]}"
     sim = difflib.SequenceMatcher(None, norm(ea.epigram), norm(eb.epigram), autojunk=False).ratio()
     same_motto = norm(ea.motto) == norm(eb.motto)
     rows.append([a, b, pic, f"{sim:.3f}", same_motto])
@@ -47,8 +50,6 @@ with open(out, "w", newline="") as f:
     w = csv.writer(f)
     w.writerow(["A31a", "A31b", "woodcut", "epigram_similarity", "same_motto"])
     w.writerows(rows)
-from collections import Counter
-
 print(Counter(r[2].split(" (")[0] for r in rows))
 print("epigram sim < 0.98:", [(r[1], r[3]) for r in rows if r[3] and float(r[3]) < 0.98])
 print("motto differs:", [r[1] for r in rows if r[4] is False])
