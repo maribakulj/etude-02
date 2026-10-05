@@ -141,3 +141,15 @@ plaque); my "carries nothing" was wrong, and so was the claim that the alt-text 
 something absent (review R1-humanities obj. 1 rested partly on my error). A31b013 — the 1531 cut is
 a **reused block** from another emblem. Method lesson recorded in PROTOCOL: one looker at ≤ 500 px
 is not reliable; blind human descriptions + Tung + Gallica scans are needed.
+
+## 2026-10-06 00:20 — S6 done (v0.1)
+
+`docs/PROTOCOL.md` v0.1: materials and programmes (P31/P34/P50/P21; Tung's "51" vs our A50a to be
+checked), A31a/A31b collation, **copy and source matrix seeded from Tung and checked by two
+humans**, development set (20) vs confirmation set (all 84 other emblems of the 1531 panel),
+double-coded subset (30, fixed seed), stages A (blind inventory) → B (segmentation on the printed
+Latin) → C (relation codes) → D (interpretive labels) → E (catalogue audit) → F (VLM diagnostic
+with closed probes, six conditions incl. mismatched text and text-only, ≥ 2 open-weight pinned
+models), workload estimate, analysis plan per hypothesis with power simulation gate,
+preregistration, ethics, threats table. `docs/ANNOTATION_GUIDE.md` v0.1 with examples from the
+development set. Next: S7 pilot (collation, Tung seeds, pilot coding of the dev set).

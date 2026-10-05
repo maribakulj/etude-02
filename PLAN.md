@@ -78,7 +78,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
   prior work it goes beyond.
 - [x] **S5 — Review 1 of the problem.** Two hostile reviewer subagents (humanities venue; DH /
   computing venue). Log objections verbatim-in-summary; revise.
-- [ ] **S6 — Protocol v0.1.** `docs/PROTOCOL.md` + annotation scheme `docs/ANNOTATION_GUIDE.md`
+- [x] **S6 — Protocol v0.1.** `docs/PROTOCOL.md` + annotation scheme `docs/ANNOTATION_GUIDE.md`
   (categories from S3, definitions, decision rules, examples with links). Model conditions for the
   machine part (image only / + motto / + epigram; which open and API models; prompts fixed in
   advance). How Iconclass "image" vs "text" splits are used. Reliability plan.
