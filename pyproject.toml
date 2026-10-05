@@ -25,7 +25,7 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
-per-file-ignores = { "tests/*" = ["E501"] }
+per-file-ignores = { "tests/*" = ["E501"], "notebooks/*" = ["E501", "E741"] }
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
