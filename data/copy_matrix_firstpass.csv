@@ -1,0 +1,417 @@
+emblem,tung_no,programme,ancestor,relation,confidence,text_source,picture_source
+A31b001,1,34,31,free_copy,high,,"Heraldry, arms of the Visconti, Dukes of Milan"
+A31b001,1,47,34,free_copy,low,,"Heraldry, arms of the Visconti, Dukes of Milan"
+A31b001,1,51,47,free_copy,high,,"Heraldry, arms of the Visconti, Dukes of Milan"
+A31b001,1,21,77,free_copy,high,,"Heraldry, arms of the Visconti, Dukes of Milan"
+A31b002,10,34,31,unclear,low,,
+A31b002,10,47,34,unclear,low,,
+A31b002,10,51,47,free_copy,high,,
+A31b002,10,21,77,free_copy,high,,
+A31b003,11,34,31,reversed_copy,high,"The Greek Anthology, X.98",
+A31b003,11,47,,independent,low,"The Greek Anthology, X.98",
+A31b003,11,51,47,free_copy,low,"The Greek Anthology, X.98",
+A31b003,11,21,77,free_copy,high,"The Greek Anthology, X.98",
+A31b004,29,34,31,free_copy,high,,
+A31b004,29,47,,independent,low,,
+A31b004,29,51,47,free_copy,high,,
+A31b004,29,21,,independent,low,,
+A31b005,30,34,,independent,low,,"Physiologus and Aesopic (Tung, Emblematica 4,2:321)"
+A31b005,30,47,,independent,high,,"Physiologus and Aesopic (Tung, Emblematica 4,2:321)"
+A31b005,30,51,34,reversed_copy,high,,"Physiologus and Aesopic (Tung, Emblematica 4,2:321)"
+A31b005,30,21,77,free_copy,high,,"Physiologus and Aesopic (Tung, Emblematica 4,2:321)"
+A31b006,38,34,,independent,low,,
+A31b006,38,47,34,free_copy,low,,
+A31b006,38,51,47,unclear,low,,
+A31b006,38,21,,unclear,low,,
+A31b007,106,34,31,reversed_copy,high,"The Greek Anthology, IX.221",
+A31b007,106,47,34,free_copy,high,"The Greek Anthology, IX.221",
+A31b007,106,51,47,reversed_copy,high,"The Greek Anthology, IX.221",
+A31b007,106,21,77,free_copy,high,"The Greek Anthology, IX.221",
+A31b008,12,34,31,free_copy,low,,
+A31b008,12,47,34,unclear,low,,
+A31b008,12,51,47,free_copy,low,,
+A31b008,12,21,,independent,high,,
+A31b009,48,34,31,unclear,low,"The Greek Anthology, VII.145-146",
+A31b009,48,47,34,free_copy,low,"The Greek Anthology, VII.145-146",
+A31b009,48,51,47,free_copy,low,"The Greek Anthology, VII.145-146",
+A31b009,48,21,47,free_copy,low,"The Greek Anthology, VII.145-146",
+A31b010,192,34,31,free_copy,high,,
+A31b010,192,47,34,free_copy,low,,
+A31b010,192,51,47,reversed_copy,high,,
+A31b010,192,21,77,free_copy,high,,
+A31b011,90,34,31,free_copy,high,"The Greek Anthology, IX.308 & XVI.276","Aesopic (Tung, Emblematica, 4,2:323)"
+A31b011,90,47,,independent,high,"The Greek Anthology, IX.308 & XVI.276","Aesopic (Tung, Emblematica, 4,2:323)"
+A31b011,90,51,47,free_copy,high,"The Greek Anthology, IX.308 & XVI.276","Aesopic (Tung, Emblematica, 4,2:323)"
+A31b011,90,21,77,free_copy,high,"The Greek Anthology, IX.308 & XVI.276","Aesopic (Tung, Emblematica, 4,2:323)"
+A31b012,160,34,31,free_copy,high,"The Greek Anthology, IX.231",
+A31b012,160,47,31,free_copy,high,"The Greek Anthology, IX.231",
+A31b012,160,51,31,free_copy,high,"The Greek Anthology, IX.231",
+A31b012,160,21,31,free_copy,low,"The Greek Anthology, IX.231",
+A31b013,46,34,,independent,high,"The Greek Anthology, IX.146",
+A31b013,46,47,34,free_copy,low,"The Greek Anthology, IX.146",
+A31b013,46,51,47,free_copy,low,"The Greek Anthology, IX.146",
+A31b013,46,21,77,unclear,low,"The Greek Anthology, IX.146",
+A31b014,27,34,,independent,low,,"The Greek Anthology, XVI.223 (On a statue of Nemesis)"
+A31b014,27,47,34,free_copy,high,,"The Greek Anthology, XVI.223 (On a statue of Nemesis)"
+A31b014,27,51,47,free_copy,high,,"The Greek Anthology, XVI.223 (On a statue of Nemesis)"
+A31b014,27,21,77,free_copy,high,,"The Greek Anthology, XVI.223 (On a statue of Nemesis)"
+A31b015,82,34,,independent,high,,
+A31b015,82,47,,independent,low,,
+A31b015,82,51,47,reversed_copy,high,,
+A31b015,82,21,77,free_copy,high,,
+A31b016,121,34,,independent,low,,
+A31b016,121,47,34,free_copy,low,,
+A31b016,121,51,47,reversed_copy,high,,
+A31b016,121,21,77,free_copy,high,,
+A31b017,122,34,31,unclear,low,"The Greek Anthology, XVI.275 (On a Statue of Time by Lysippus)",
+A31b017,122,47,34,free_copy,high,"The Greek Anthology, XVI.275 (On a Statue of Time by Lysippus)",
+A31b017,122,51,34,free_copy,high,"The Greek Anthology, XVI.275 (On a Statue of Time by Lysippus)",
+A31b017,122,21,,unclear,low,"The Greek Anthology, XVI.275 (On a Statue of Time by Lysippus)",
+A31b018,92,34,31,unclear,low,,
+A31b018,92,47,34,free_copy,low,,
+A31b018,92,51,,independent,low,,
+A31b018,92,21,77,free_copy,high,,
+A31b019,119,34,,independent,low,,
+A31b019,119,47,34,free_copy,high,,
+A31b019,119,51,34,free_copy,high,,
+A31b019,119,21,34,free_copy,high,,
+A31b020,179,34,31,reversed_copy,high,,
+A31b020,179,47,34,reversed_copy,high,,
+A31b020,179,51,47,reversed_copy,high,,
+A31b020,179,21,67,free_copy,low,,
+A31b021,58,34,,independent,high,,
+A31b021,58,47,,independent,low,,
+A31b021,58,51,47,reversed_copy,high,,
+A31b021,58,21,77,free_copy,high,,
+A31b022,144,34,,independent,high,,The printer's device of Aldus Manutius
+A31b022,144,47,34,free_copy,low,,The printer's device of Aldus Manutius
+A31b022,144,51,47,reversed_copy,high,,The printer's device of Aldus Manutius
+A31b022,144,21,77,free_copy,high,,The printer's device of Aldus Manutius
+A31b023,161,34,,independent,high,"The Greek Anthology, IX.12",
+A31b023,161,47,34,reversed_copy,low,"The Greek Anthology, IX.12",
+A31b023,161,51,34,free_copy,low,"The Greek Anthology, IX.12",
+A31b023,161,21,77,free_copy,high,"The Greek Anthology, IX.12",
+A31b024,132,34,31,unclear,low,,
+A31b024,132,47,34,unclear,low,,
+A31b024,132,51,,independent,high,,
+A31b024,132,21,51,free_copy,high,,
+A31b025,36,34,,independent,high,,
+A31b025,36,47,34,reversed_copy,low,,
+A31b025,36,51,47,unclear,low,,
+A31b025,36,21,77,free_copy,high,,
+A31b026,74,34,31,reversed_copy,low,"The Greek Anthology, VI.1",
+A31b026,74,47,34,reversed_copy,low,"The Greek Anthology, VI.1",
+A31b026,74,51,47,free_copy,high,"The Greek Anthology, VI.1",
+A31b026,74,21,31,unclear,low,"The Greek Anthology, VI.1",
+A31b027,93,34,31,free_copy,low,,
+A31b027,93,47,,independent,high,,
+A31b027,93,51,47,free_copy,high,,
+A31b027,93,21,,reused_other_emblem,high,,
+A31b028,39,34,31,free_copy,high,,
+A31b028,39,47,,independent,low,,
+A31b028,39,51,47,reversed_copy,high,,
+A31b028,39,21,77,free_copy,high,,
+A31b029,103,34,,independent,high,,
+A31b029,103,47,,independent,low,,
+A31b029,103,51,47,free_copy,high,,
+A31b029,103,21,77,free_copy,high,,
+A31b030,75,34,31,free_copy,low,,
+A31b030,75,47,,independent,high,,
+A31b030,75,51,34,free_copy,low,,
+A31b030,75,21,77,free_copy,high,,
+A31b031,143,34,,independent,low,,
+A31b031,143,47,34,reversed_copy,low,,
+A31b031,143,51,,independent,low,,
+A31b031,143,21,77,free_copy,high,,
+A31b032,94,34,,independent,low,,
+A31b032,94,47,34,reversed_copy,high,,
+A31b032,94,51,47,reversed_copy,high,,
+A31b032,94,21,77,reversed_copy,low,,
+A31b033,4,34,31,reversed_copy,high,,mythology
+A31b033,4,47,34,free_copy,low,,mythology
+A31b033,4,51,,independent,high,,mythology
+A31b033,4,21,77,free_copy,high,,mythology
+A31b034,78,34,31,reversed_copy,low,,
+A31b034,78,47,34,reversed_copy,high,,
+A31b034,78,51,47,reversed_copy,high,,
+A31b034,78,21,77,free_copy,high,,
+A31b035,43,34,,independent,low,,
+A31b035,43,47,34,free_copy,low,,
+A31b035,43,51,47,reversed_copy,high,,
+A31b035,43,21,77,free_copy,high,,
+A31b036,7,34,31,reversed_copy,high,,"Aesop (Tung, Emblematica 4,2:321)"
+A31b036,7,47,34,free_copy,low,,"Aesop (Tung, Emblematica 4,2:321)"
+A31b036,7,51,34,free_copy,low,,"Aesop (Tung, Emblematica 4,2:321)"
+A31b036,7,21,77,unclear,low,,"Aesop (Tung, Emblematica 4,2:321)"
+A31b037,124,34,31,free_copy,high,,
+A31b037,124,47,,independent,low,,
+A31b037,124,51,47,reversed_copy,high,,
+A31b037,124,21,77,free_copy,high,,
+A31b038,172,34,,independent,high,,
+A31b038,172,47,42,free_copy,low,,
+A31b038,172,51,47,free_copy,high,,
+A31b038,172,21,77,free_copy,high,,
+A31b039,28,34,31,reversed_copy,high,,"The Greek Anthology, IX.115 (On the Shield of Achilles)"
+A31b039,28,47,34,reversed_copy,low,,"The Greek Anthology, IX.115 (On the Shield of Achilles)"
+A31b039,28,51,47,reversed_copy,low,,"The Greek Anthology, IX.115 (On the Shield of Achilles)"
+A31b039,28,21,77,free_copy,high,,"The Greek Anthology, IX.115 (On the Shield of Achilles)"
+A31b040,193,34,,independent,low,"The Greek Anthology, IX.3",
+A31b040,193,47,34,free_copy,low,"The Greek Anthology, IX.3",
+A31b040,193,51,34,free_copy,high,"The Greek Anthology, IX.3",
+A31b040,193,21,77,free_copy,high,"The Greek Anthology, IX.3",
+A31b041,120,34,,independent,low,,
+A31b041,120,47,34,free_copy,low,,
+A31b041,120,51,47,free_copy,high,,
+A31b041,120,21,,independent,high,,
+A31b042,133,34,31,unclear,low,,
+A31b042,133,47,34,free_copy,low,,
+A31b042,133,51,47,free_copy,high,,
+A31b042,133,21,47,free_copy,high,,
+A31b043,22,34,,independent,low,,mythology
+A31b043,22,47,,independent,low,,mythology
+A31b043,22,51,47,free_copy,high,,mythology
+A31b043,22,21,31,free_copy,high,,mythology
+A31b044,162,34,,independent,high,"The Greek Anthology, IX.42",
+A31b044,162,47,34,unclear,low,"The Greek Anthology, IX.42",
+A31b044,162,51,47,free_copy,low,"The Greek Anthology, IX.42",
+A31b044,162,21,77,free_copy,high,"The Greek Anthology, IX.42",
+A31b045,194,34,31,reversed_copy,high,"The Greek Anthology, IX.95",
+A31b045,194,47,,independent,high,"The Greek Anthology, IX.95",
+A31b045,194,51,47,free_copy,high,"The Greek Anthology, IX.95",
+A31b045,194,21,47,free_copy,high,"The Greek Anthology, IX.95",
+A31b046,178,34,31,reversed_copy,high,,
+A31b046,178,47,,independent,low,,
+A31b046,178,51,47,reversed_copy,low,,
+A31b046,178,21,47,reversed_copy,low,,
+A31b047,188,34,31,reversed_copy,high,,
+A31b047,188,47,34,reversed_copy,high,,
+A31b047,188,51,47,reversed_copy,high,,
+A31b047,188,21,,independent,high,,
+A31b048,130,34,,independent,high,"The Greek Anthology, IX.158",
+A31b048,130,47,34,unclear,low,"The Greek Anthology, IX.158",
+A31b048,130,51,34,free_copy,low,"The Greek Anthology, IX.158",
+A31b048,130,21,67,unclear,low,"The Greek Anthology, IX.158",
+A31b049,189,34,31,reversed_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b049,189,47,34,reversed_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b049,189,51,47,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b049,189,21,,independent,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b050,83,34,,independent,low,,
+A31b050,83,47,34,unclear,low,,
+A31b050,83,51,47,unclear,low,,
+A31b050,83,21,77,unclear,low,,
+A31b051,24,34,31,free_copy,high,"The Greek Anthology, IX.130 (The Olive-tree speaks)",
+A31b051,24,47,31,free_copy,high,"The Greek Anthology, IX.130 (The Olive-tree speaks)",
+A31b051,24,51,31,free_copy,high,"The Greek Anthology, IX.130 (The Olive-tree speaks)",
+A31b051,24,21,31,free_copy,low,"The Greek Anthology, IX.130 (The Olive-tree speaks)",
+A31b052,86,34,31,unclear,low,"The Greek Anthology, XI.397","Aesop (Tung, Emblematica, 4,2:323)"
+A31b052,86,47,34,free_copy,high,"The Greek Anthology, XI.397","Aesop (Tung, Emblematica, 4,2:323)"
+A31b052,86,51,47,reversed_copy,high,"The Greek Anthology, XI.397","Aesop (Tung, Emblematica, 4,2:323)"
+A31b052,86,21,77,free_copy,high,"The Greek Anthology, XI.397","Aesop (Tung, Emblematica, 4,2:323)"
+A31b053,20,34,,independent,low,,Physiologus
+A31b053,20,47,34,reversed_copy,high,,Physiologus
+A31b053,20,51,47,free_copy,low,,Physiologus
+A31b053,20,21,77,free_copy,high,,Physiologus
+A31b054,104,34,,independent,high,"The Greek Anthology, XVI.107 (On a Bronze Statue of Icarus)",
+A31b054,104,47,34,unclear,low,"The Greek Anthology, XVI.107 (On a Bronze Statue of Icarus)",
+A31b054,104,51,34,free_copy,low,"The Greek Anthology, XVI.107 (On a Bronze Statue of Icarus)",
+A31b054,104,21,77,free_copy,high,"The Greek Anthology, XVI.107 (On a Bronze Statue of Icarus)",
+A31b055,169,34,31,reversed_copy,low,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b055,169,47,34,reversed_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b055,169,51,47,reversed_copy,low,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b055,169,21,77,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b056,174,34,,independent,low,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b056,174,47,31,unclear,low,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b056,174,51,,independent,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b056,174,21,77,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b057,42,34,31,free_copy,high,"The Greek Anthology, IX.291",
+A31b057,42,47,31,free_copy,high,"The Greek Anthology, IX.291",
+A31b057,42,51,31,free_copy,high,"The Greek Anthology, IX.291",
+A31b057,42,21,31,free_copy,high,"The Greek Anthology, IX.291",
+A31b058,154,34,31,free_copy,low,"The Greek Anthology, XVI.4",
+A31b058,154,47,34,reversed_copy,high,"The Greek Anthology, XVI.4",
+A31b058,154,51,,independent,high,"The Greek Anthology, XVI.4",
+A31b058,154,21,77,free_copy,high,"The Greek Anthology, XVI.4",
+A31b059,166,34,31,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b059,166,47,34,reversed_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b059,166,51,34,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b059,166,21,77,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:327)"
+A31b060,145,34,31,free_copy,high,,
+A31b060,145,47,34,free_copy,low,,
+A31b060,145,51,47,free_copy,high,,
+A31b060,145,21,77,free_copy,high,,
+A31b061,21,34,,independent,low,,
+A31b061,21,47,34,free_copy,high,,
+A31b061,21,51,,independent,low,,
+A31b061,21,21,77,free_copy,high,,
+A31b062,191,34,31,reversed_copy,high,,
+A31b062,191,47,34,free_copy,high,,
+A31b062,191,51,34,free_copy,high,,
+A31b062,191,21,,independent,high,,
+A31b063,148,34,31,reversed_copy,low,,
+A31b063,148,47,34,free_copy,low,,
+A31b063,148,51,47,reversed_copy,high,,
+A31b063,148,21,77,free_copy,high,,
+A31b064,13,34,31,unclear,low,,
+A31b064,13,47,34,free_copy,low,,
+A31b064,13,51,47,unclear,low,,
+A31b064,13,21,,independent,high,,
+A31b065,56,34,,independent,high,,illustrated Ovid
+A31b065,56,47,,independent,low,,illustrated Ovid
+A31b065,56,51,47,free_copy,high,,illustrated Ovid
+A31b065,56,21,77,free_copy,high,,illustrated Ovid
+A31b066,155,34,31,reversed_copy,high,,
+A31b066,155,47,,independent,high,,
+A31b066,155,51,47,reversed_copy,high,,
+A31b066,155,21,51,free_copy,low,,
+A31b067,25,34,,independent,low,"The Greek Anthology, XI.49",
+A31b067,25,47,34,unclear,low,"The Greek Anthology, XI.49",
+A31b067,25,51,47,free_copy,high,"The Greek Anthology, XI.49",
+A31b067,25,21,,independent,high,"The Greek Anthology, XI.49",
+A31b068,125,34,,independent,low,,
+A31b068,125,47,34,free_copy,high,,
+A31b068,125,51,34,free_copy,high,,
+A31b068,125,21,77,free_copy,high,,
+A31b069,195,34,31,free_copy,high,"The Greek Anthology, IX.163",
+A31b069,195,47,34,free_copy,high,"The Greek Anthology, IX.163",
+A31b069,195,51,47,unclear,low,"The Greek Anthology, IX.163",
+A31b069,195,21,47,free_copy,low,"The Greek Anthology, IX.163",
+A31b070,175,34,31,reversed_copy,high,,
+A31b070,175,47,34,free_copy,low,,
+A31b070,175,51,47,unclear,low,,
+A31b070,175,21,77,free_copy,high,,
+A31b071,109,34,,independent,high,"The Greek Anthology, V.234",
+A31b071,109,47,34,free_copy,low,"The Greek Anthology, V.234",
+A31b071,109,51,47,reversed_copy,high,"The Greek Anthology, V.234",
+A31b071,109,21,77,free_copy,low,"The Greek Anthology, V.234",
+A31b072,111,34,,independent,high,"The Greek Anthology, XVI.251 (On Eros and Anteros)",
+A31b072,111,47,34,free_copy,high,"The Greek Anthology, XVI.251 (On Eros and Anteros)",
+A31b072,111,51,47,free_copy,high,"The Greek Anthology, XVI.251 (On Eros and Anteros)",
+A31b072,111,21,77,free_copy,high,"The Greek Anthology, XVI.251 (On Eros and Anteros)",
+A31b073,108,34,31,unclear,low,"The Greek Anthology, XVI.250 (On Love)",
+A31b073,108,47,34,free_copy,high,"The Greek Anthology, XVI.250 (On Love)",
+A31b073,108,51,34,free_copy,high,"The Greek Anthology, XVI.250 (On Love)",
+A31b073,108,21,,unclear,low,"The Greek Anthology, XVI.250 (On Love)",
+A31b074,173,34,31,reversed_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b074,173,47,,independent,low,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b074,173,51,47,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b074,173,21,47,free_copy,high,,"Aesop (Tung, Emblematica, 4,2:328)"
+A31b075,167,34,31,reversed_copy,high,"The Greek Anthology, VII.216","Aesop (Tung, Emblematica, 4,2:327)"
+A31b075,167,47,34,reversed_copy,high,"The Greek Anthology, VII.216","Aesop (Tung, Emblematica, 4,2:327)"
+A31b075,167,51,47,free_copy,high,"The Greek Anthology, VII.216","Aesop (Tung, Emblematica, 4,2:327)"
+A31b075,167,21,77,free_copy,high,"The Greek Anthology, VII.216","Aesop (Tung, Emblematica, 4,2:327)"
+A31b076,107,34,31,free_copy,low,"The Greek Anthology, XVI.207 (On a Statue of Love)",
+A31b076,107,47,34,unclear,low,"The Greek Anthology, XVI.207 (On a Statue of Love)",
+A31b076,107,51,47,free_copy,low,"The Greek Anthology, XVI.207 (On a Statue of Love)",
+A31b076,107,21,77,free_copy,high,"The Greek Anthology, XVI.207 (On a Statue of Love)",
+A31b077,8,34,31,reversed_copy,high,,
+A31b077,8,47,31,unclear,low,,
+A31b077,8,51,34,free_copy,low,,
+A31b077,8,21,,independent,high,,
+A31b078,44,34,,independent,low,,
+A31b078,44,47,34,free_copy,low,,
+A31b078,44,51,47,unclear,low,,
+A31b078,44,21,77,unclear,low,,
+A31b079,177,34,,independent,low,"The Greek Anthology, IX.285",
+A31b079,177,47,34,free_copy,low,"The Greek Anthology, IX.285",
+A31b079,177,51,,independent,low,"The Greek Anthology, IX.285",
+A31b079,177,21,77,free_copy,high,"The Greek Anthology, IX.285",
+A31b080,110,34,,independent,low,"The Greek Anthology, XVI.201 (On Love Garlanded)",
+A31b080,110,47,34,free_copy,high,"The Greek Anthology, XVI.201 (On Love Garlanded)",
+A31b080,110,51,47,unclear,low,"The Greek Anthology, XVI.201 (On Love Garlanded)",
+A31b080,110,21,77,free_copy,high,"The Greek Anthology, XVI.201 (On Love Garlanded)",
+A31b081,33,34,31,unclear,low,,
+A31b081,33,47,,independent,low,,
+A31b081,33,51,34,free_copy,low,,
+A31b081,33,21,77,free_copy,high,,
+A31b082,105,34,31,unclear,low,"The Greek Anthology, VII.172","Aesop (Tung, Emblematica, 4,2: 323-324)"
+A31b082,105,47,,independent,low,"The Greek Anthology, VII.172","Aesop (Tung, Emblematica, 4,2: 323-324)"
+A31b082,105,51,,unclear,low,"The Greek Anthology, VII.172","Aesop (Tung, Emblematica, 4,2: 323-324)"
+A31b082,105,21,77,free_copy,high,"The Greek Anthology, VII.172","Aesop (Tung, Emblematica, 4,2: 323-324)"
+A31b083,59,34,,independent,low,"The Greek Anthology, XI.428","Aesop (Tung, Emblematica, 4,2:322)"
+A31b083,59,47,34,unclear,low,"The Greek Anthology, XI.428","Aesop (Tung, Emblematica, 4,2:322)"
+A31b083,59,51,47,unclear,low,"The Greek Anthology, XI.428","Aesop (Tung, Emblematica, 4,2:322)"
+A31b083,59,21,77,free_copy,high,"The Greek Anthology, XI.428","Aesop (Tung, Emblematica, 4,2:322)"
+A31b084,153,34,31,unclear,low,Physiologus,"Aesop (Tung, Emblematica, 4,2:325)"
+A31b084,153,47,,independent,low,Physiologus,"Aesop (Tung, Emblematica, 4,2:325)"
+A31b084,153,51,47,free_copy,high,Physiologus,"Aesop (Tung, Emblematica, 4,2:325)"
+A31b084,153,21,77,free_copy,high,Physiologus,"Aesop (Tung, Emblematica, 4,2:325)"
+A31b085,95,34,,independent,high,"The Greek Anthology, IX.86","Aesop (Tung, Emblematica, 4,2:323)"
+A31b085,95,47,34,free_copy,low,"The Greek Anthology, IX.86","Aesop (Tung, Emblematica, 4,2:323)"
+A31b085,95,51,47,free_copy,high,"The Greek Anthology, IX.86","Aesop (Tung, Emblematica, 4,2:323)"
+A31b085,95,21,77,free_copy,high,"The Greek Anthology, IX.86","Aesop (Tung, Emblematica, 4,2:323)"
+A31b086,190,34,31,free_copy,high,,
+A31b086,190,47,34,reversed_copy,high,,
+A31b086,190,51,47,reversed_copy,high,,
+A31b086,190,21,77,free_copy,high,,
+A31b087,53,34,,independent,high,,"Physiologus and Aesopic (Tung, Emblematica, 1,2:353 & 4,2:322)"
+A31b087,53,47,34,reversed_copy,high,,"Physiologus and Aesopic (Tung, Emblematica, 1,2:353 & 4,2:322)"
+A31b087,53,51,47,reversed_copy,high,,"Physiologus and Aesopic (Tung, Emblematica, 1,2:353 & 4,2:322)"
+A31b087,53,21,77,free_copy,high,,"Physiologus and Aesopic (Tung, Emblematica, 1,2:353 & 4,2:322)"
+A31b088,112,34,31,reversed_copy,low,"The Greek Anthology, IX.548",
+A31b088,112,47,34,reversed_copy,high,"The Greek Anthology, IX.548",
+A31b088,112,51,,independent,low,"The Greek Anthology, IX.548",
+A31b088,112,21,,reused_other_emblem,high,"The Greek Anthology, IX.548",
+A31b089,113,34,,independent,high,,
+A31b089,113,47,34,reversed_copy,high,,
+A31b089,113,51,47,reversed_copy,high,,
+A31b089,113,21,,reused_other_emblem,high,,
+A31b090,64,34,31,reversed_copy,low,"The Greek Anthology, IX.47 (On a Goat that suckled a Wolf)","Aesopic (Tung, Emblematica 4,2:322)"
+A31b090,64,47,34,reversed_copy,high,"The Greek Anthology, IX.47 (On a Goat that suckled a Wolf)","Aesopic (Tung, Emblematica 4,2:322)"
+A31b090,64,51,47,reversed_copy,low,"The Greek Anthology, IX.47 (On a Goat that suckled a Wolf)","Aesopic (Tung, Emblematica 4,2:322)"
+A31b090,64,21,77,free_copy,high,"The Greek Anthology, IX.47 (On a Goat that suckled a Wolf)","Aesopic (Tung, Emblematica 4,2:322)"
+A31b091,131,34,,independent,high,,
+A31b091,131,47,34,reversed_copy,high,,
+A31b091,131,51,34,reversed_copy,low,,
+A31b091,131,21,77,free_copy,high,,
+A31b092,181,34,,independent,low,,
+A31b092,181,47,34,reversed_copy,high,,
+A31b092,181,51,47,free_copy,high,,
+A31b092,181,21,77,unclear,low,,
+A31b093,52,34,31,unclear,low,,"Ovid, Metamorphoses 3.131ff."
+A31b093,52,47,,independent,low,,"Ovid, Metamorphoses 3.131ff."
+A31b093,52,51,,independent,high,,"Ovid, Metamorphoses 3.131ff."
+A31b093,52,21,77,free_copy,high,,"Ovid, Metamorphoses 3.131ff."
+A31b094,9,34,31,free_copy,high,,
+A31b094,9,47,34,reversed_copy,low,,
+A31b094,9,51,47,free_copy,high,,
+A31b094,9,21,,independent,high,,
+A31b095,152,34,,independent,low,"The Greek Anthology, IX.148",
+A31b095,152,47,34,unclear,low,"The Greek Anthology, IX.148",
+A31b095,152,51,47,reversed_copy,high,"The Greek Anthology, IX.148",
+A31b095,152,21,77,free_copy,low,"The Greek Anthology, IX.148",
+A31b096,114,34,31,unclear,low,,
+A31b096,114,47,34,free_copy,low,,
+A31b096,114,51,34,free_copy,high,,
+A31b096,114,21,77,free_copy,high,,
+A31b097,54,34,,independent,high,"The Greek Anthology, IX.346 & XVI.141",
+A31b097,54,47,34,free_copy,high,"The Greek Anthology, IX.346 & XVI.141",
+A31b097,54,51,34,free_copy,high,"The Greek Anthology, IX.346 & XVI.141",
+A31b097,54,21,77,free_copy,low,"The Greek Anthology, IX.346 & XVI.141",
+A31b098,180,34,,independent,high,"The Greek Anthology, IX.122 (To a swallow)",
+A31b098,180,47,34,free_copy,high,"The Greek Anthology, IX.122 (To a swallow)",
+A31b098,180,51,34,free_copy,high,"The Greek Anthology, IX.122 (To a swallow)",
+A31b098,180,21,34,free_copy,high,"The Greek Anthology, IX.122 (To a swallow)",
+A31b099,196,34,31,free_copy,low,,
+A31b099,196,47,,independent,high,,
+A31b099,196,51,,independent,high,,
+A31b099,196,21,77,unclear,low,,
+A31b100,32,34,,independent,low,,
+A31b100,32,47,34,unclear,low,,
+A31b100,32,51,47,reversed_copy,high,,
+A31b100,32,21,,independent,low,,
+A31b101,14,34,,independent,high,,
+A31b101,14,47,34,free_copy,low,,
+A31b101,14,51,47,reversed_copy,low,,
+A31b101,14,21,77,unclear,low,,
+A31b102,35,34,,independent,high,,
+A31b102,35,47,34,unclear,low,,
+A31b102,35,51,47,free_copy,high,,
+A31b102,35,21,77,free_copy,high,,
+A31b103,134,34,,independent,high,"The Greek Anthology, VII.73 (The Tomb of Themistocles)",
+A31b103,134,47,34,free_copy,high,"The Greek Anthology, VII.73 (The Tomb of Themistocles)",
+A31b103,134,51,34,free_copy,low,"The Greek Anthology, VII.73 (The Tomb of Themistocles)",
+A31b103,134,21,,independent,high,"The Greek Anthology, VII.73 (The Tomb of Themistocles)",
+A31b104,135,34,,independent,high,,
+A31b104,135,47,34,unclear,low,,
+A31b104,135,51,,independent,low,,
+A31b104,135,21,,independent,low,,

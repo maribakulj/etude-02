@@ -1,4 +1,9 @@
-# Annotation guide — v0.2
+# Annotation guide — v0.3
+
+v0.3: `carries the point` code; closed slot list for H4; source labels extended (Greek source
+text, antique artwork, printer/format); base-rate sham pairs.
+
+<!-- v0.2 notes follow -->
 
 v0.2 (after the S7 pilot): batches with one variant per emblem; RECOGNISED first; POSE type;
 entity ids; counting rule; merge rule for units; motion/emotion units; empty frames; granularity;
@@ -120,6 +125,18 @@ Pilot rules:
   `contradicted` (A31b059 P21).
 For each code give the inventory line(s) relied on.
 
+**Carries the point** (one code per design): `yes` if a viewer who knows the motto could reach
+the epigram's point from the picture (the key units, or a substitute that does the same work, are
+there); `no`; `indeterminate`. Period criterion alongside scene fidelity (Hunger 1542: "sensum
+vimque"). A design can miss a key unit and still carry the point (e.g. a substitute that keeps
+the contrast).
+
+**Slots (H4).** For each entity matched across two designs of the same emblem (matching rule: same
+role in the scene — the carrier, the carried, the agent, the patient — written down before
+comparing), fill five slots from the Stage A inventories: `count`, `pose`, `orientation`
+(facing left/right/front), `material cue`, `held attribute`. A slot is *text-specified* if a unit
+of the printed text fixes it, *text-open* otherwise.
+
 **Added**: inventory items that match no unit, excluding SETTING lines. Note them with an
 optional source guess (Stage D).
 
@@ -132,11 +149,13 @@ direction of the composition (left/right). Coded per picture from the inventory.
 
 For every key unit coded absent / substituted / contradicted, and every salient added element:
 
-`other passage of printed text` · `motto` · `commentary` (give passage) · `visual tradition`
-(name: Aesop illustration, Physiologus, Horapollo, stock Cupid, Ripa-type personification…) ·
-`earlier block` (which) · `another emblem's block` (which; e.g. A31b013 P31 reuses the cut of
-*In simulachrum spei*, per Tung) · `misreading` (state the reading) · `medium constraint`
-(colour in a black-line cut) · `indeterminate`.
+`other passage of printed text` · `Greek source text` (Tung's TEXT source; does the picture
+follow the Greek where the Latin differs?) · `motto` · `commentary` (give passage; only for designs
+that post-date it) · `antique artwork or coin type` · `visual tradition` (name: Aesop
+illustration, Physiologus, Horapollo, stock Cupid…) · `earlier block` (which) · `another emblem's
+block` (which; e.g. A31b013 P31 reuses the cut of *In simulachrum spei*, per Tung) ·
+`printer/format` (block reuse for economy, format constraints) · `misreading` (state the reading) ·
+`medium constraint` (colour in a black-line cut) · `indeterminate`.
 
 Always cite the evidence (Tung paragraph, commentary, comparison image). These labels are
 interpretive; they are analysed separately from Stage C.

@@ -1,61 +1,57 @@
-# Protocol — v0.2
+# Protocol — v0.3
 
-v0.2 (after the S7 pilot; see `notes/pilot_S7.md`): 1531 collation done; copy matrix by human
-reading of Tung (rules only pre-fill); Stage A batches with one variant per emblem; `partial`
-code; motion/emotion units excluded from fidelity tests; probe pipeline tested.
+Implements [`PROBLEM.md`](PROBLEM.md) v0.3. Coding rules: [`ANNOTATION_GUIDE.md`](ANNOTATION_GUIDE.md).
+v0.3 (after review 2): panel rebuilt around independent designs (1531, 1534, de Tournes);
+**human calibration gate (§G) before any freeze**; decision tables in PROBLEM §6; directional
+catalogue test; VLM diagnostic moved to a separately preregistered DH companion (§8).
+Nothing in the confirmation set is coded before the freeze.
 
-Implements [`PROBLEM.md`](PROBLEM.md) v0.2. Coding rules are in
-[`ANNOTATION_GUIDE.md`](ANNOTATION_GUIDE.md). Everything marked **[pilot]** is tested in S7 and
-may change before the protocol is frozen; nothing in the confirmation set is coded before the
-freeze.
-
-## 0. Materials and editions
+## 0. Materials, programmes, copy matrix
 
 | Programme | Glasgow id | Place, printer, date | Role |
 |---|---|---|---|
-| P31 | A31b (A31a collated) | Augsburg, Steyner, 1531 | first programme |
-| P34 | A34b | Paris, Wechel, 1534 | first "authorised" programme |
-| P50 | A50a | Lyon, Rouille/Bonhomme, 1550 | Lyon programme (Tung codes the 1551 Lyon edition, "51"; P50 ↔ 51 identity to be checked block by block) |
-| P21 | A21a | Padua, Tozzi, 1621 | late programme with commentaries |
+| P31 | A31b (= A31a blocks) | Augsburg, Steyner, 1531 (Breu workshop) | primary |
+| P34 | A34b (A34a to collate) | Paris, Wechel, 1534 | primary |
+| P47 | A56a? (to check) | Lyon, de Tournes, 1547/1556 (Bernard Salomon) | primary if Glasgow's 1556 carries the 1547 cuts; else Gallica |
+| P50 | A50a | Lyon, Rouille/Bonhomme, 1550 (Tung's "51" to equate) | exploratory (mostly copies) |
+| P21 | A21a | Padua, Tozzi, 1621 | exploratory (≈ 76/104 copies) |
 
-Per emblem and programme we store (locally, `data/corpus.jsonl`, git-ignored): printed motto and
-epigram (Glasgow transcription), English translation, Glasgow notes, alt-text, Iconclass "image"
-and "text" notations, pictura (≤ 500 px). Committed: `data/ids.csv` (ids, concordance, counts).
-Expert reference layer: Tung's *Variorum* commentaries (TEXT source, PICTURE source, PICTURE
-variant paragraphs; local copy in `data/raw/tung/`, not redistributed).
+Stored locally per emblem and programme: printed motto and epigram, translation, notes, alt-text,
+Iconclass image/text, pictura. Expert layer: Tung's *Variorum* (TEXT source, PICTURE source,
+PICTURE variant), local only.
 
-### 0.1 Which 1531
+**1531 collation** — done (`notes/collation_1531.md`): same blocks in A31a/A31b; 97 blocks for
+98 picturae. **1534 collation** (A34a vs A34b; *In astrologos* replaced) and **P50 vs Tung's 51**
+to do before the freeze.
 
-**Done** (`notes/collation_1531.md`): A31a and A31b print all 98 picturae from the same blocks;
-98 picturae = 97 blocks (A31b013 reuses A31b078's cut), matching Glasgow's 97; type was reset
-(mottos, 31 epigrams slightly different). Panel: A31b; A31a variants noted where a unit depends
-on them. Tung's count of 96 remains unexplained.
-
-### 0.2 Copy and source matrix (before any coding of fidelity)
-
-For each emblem and each pair of programmes (P31–P34, P34–P50, P50–P21, P31–P50, P31–P21,
-P34–P21): `same block` / `reversed copy` / `free copy` (same composition, redrawn) /
-`independent design` / `reused block from another emblem` / `indeterminate`.
-
-1. **Seed** from Tung's PICTURE variant paragraphs by rules (`src/etude02/tung.py`,
-   `data/copy_seeds.csv`). Pilot: rules resolve only ≈ 20 % of pairs and mis-assign some; they
-   pre-fill, a human reads every paragraph.
-2. **Check** by two humans on contact sheets (`scripts/contact.py`), blind to each other; κ
-   reported; disagreements resolved by discussion and logged.
-3. **Sources**: Tung's TEXT source (Greek Anthology etc.) and PICTURE source (Aesop, Physiologus,
-   Horapollo…) are recorded as candidate sources for RQ2.
-
-Committed: `data/copy_matrix.csv`.
+**Copy matrix.** First pass done by a model instance reading every Tung paragraph
+(`data/copy_matrix_firstpass.csv`; 175/416 rows low confidence): per emblem × programme, the
+**ancestor** design and relation (same block / reversed copy / free copy / independent /
+reused other emblem / unclear). To be checked by two humans on the contact sheets, blind to each
+other; α reported; disagreements resolved and logged → `data/copy_matrix.csv`. The relation enters
+models as a property of each picture (its ancestor relation), not of a pair.
 
 ## 1. Sets
 
-- **Development set**: the 20 emblems of S3 (`notes/looking/`). Used to write and pilot the guide.
-  Never used in confirmatory tests.
-- **Confirmation set**: all other emblems of the 1531 panel (84 emblems; 78 with a P31 woodcut),
-  in the four programmes. Using the whole remainder avoids sampling choices. Exploratory extension:
-  emblems added in 1534 and later (P34/P50/P21 only).
-- **Double-coded subset**: 30 emblems of the confirmation set, drawn at random with a fixed seed
-  (`numpy.random.default_rng(20261005)`), stratified by whether the 1531 cut is a reused block.
+- **Development set**: the 20 emblems of S3. Used for the guide, the calibration round (§G) and
+  merge/drop decisions. Never in confirmatory tests.
+- **Confirmation set**: the other 84 emblems of the 1531 panel (78 with a P31 woodcut) in P31,
+  P34, P47. Missing pictures (6 without a 1531 cut) are excluded from H1/H2 and counted;
+  `indeterminate` codes excluded with a sensitivity analysis treating them as absent.
+- **Double-coded subset**: 30 confirmation emblems, random with a fixed seed (20261005).
+
+## G. Calibration gate (before the freeze) — requires humans
+
+1. Two describers (Stage A), two segmenters (Stage B, one a Latinist), two coders (Stages C–D)
+   work independently on the development set (20 emblems × 3 primary programmes).
+2. Each task is timed; α with bootstrap 95 % CIs per code family.
+3. Codes below threshold (α < 0.67; < 0.80 for codes entering H1–H4) are merged or dropped
+   **here**, never on the confirmation set.
+4. The checked copy matrix and these real rates feed the power simulation (§9).
+5. Only then: freeze, tag, deposit on OSF or Zenodo (mandatory), and code the confirmation set.
+
+If the people cannot be found, the study is re-scoped to what one coder plus a Latinist can do
+(descriptive RQ1–RQ4 with single-coder caveats), and the reliability claims are dropped.
 
 ## 2. Stages and who does them
 
@@ -63,9 +59,9 @@ Order matters: blind descriptions come before anyone codes a picture against its
 
 | Stage | Task | Coder(s) | Blind to |
 |---|---|---|---|
-| A | **Blind inventory** of each picture (entities, attributes, pose, actions, relations, inscriptions, setting, indeterminate zones) | Four describer batches, **one variant per emblem each** (Latin square over programmes), mixed with unrelated pictures; humans who do not know Alciato; double-described subset | epigram, motto, translation, Glasgow record, Tung, other variants |
-| B | **Segmentation** of each printed epigram + motto into res picta and argumentative units; key units | Latinist + human A | pictures |
-| C | **Relation coding** unit × picture: present / absent / substituted / contradicted / indeterminate; **added** elements (from A's inventory) | Human A; human B on subset | — |
+| A | **Blind inventory** of each picture (entities, attributes, pose, actions, relations, inscriptions, setting, indeterminate zones) | Three describer batches, **one variant per emblem each** (Latin square over the primary programmes), mixed with unrelated pictures; humans who do not know Alciato; double-described subset | epigram, motto, translation, Glasgow record, Tung, other variants |
+| B | **Segmentation** of each printed epigram + motto into res picta and argumentative units; key units | two independent segmenters (one Latinist) on the double-coded subset; the key-unit setter is not the Stage C coder for that emblem | pictures |
+| C | **Relation coding** unit × picture: present / partial / absent / substituted / contradicted / indeterminate; **carries the point** per design; **added** elements (from A's inventory); **slots** (count, pose, orientation, material cue, held attribute) per matched entity | Human A; human B on subset | — |
 | D | **Interpretive labels**: source of each departure (RQ2); pictorial means for argumentative units (RQ3) | Human A; human B on subset | — |
 | E | **Catalogue audit** (RQ4): record inheritance + support of image-layer notations | scripts + human A | — |
 | F | **VLM diagnostic** (H5) | scripts; human validation of scoring | — |
@@ -74,10 +70,11 @@ Machine coding (an LLM applying the guide) may be run **as a separate measured c
 compared with humans; it never replaces a coder and never resolves a disagreement.
 
 **Stage A staffing.** The pilot showed that a describer who sees several variants of one subject
-recognises it and lets recognition shape the description. Four describers (or four sessions
+recognises it and lets recognition shape the description. Three describers (or three sessions
 separated by unrelated material) are therefore needed for Stage A; each describes ≈ 84 pictures.
 
-**Workload estimate.** Confirmation set ≈ 84 emblems × 4 programmes ≈ 330 pictures.
+**Workload estimate (to be replaced by calibration timings).** Confirmation set ≈ 84 emblems × 3
+primary programmes ≈ 250 pictures.
 Stage A ≈ 5 min/picture (≈ 28 h). Stage B ≈ 15 min/emblem (≈ 21 h, Latinist + A). Stage C+D ≈
 8 units × 4 pictures × 0.5 min ≈ 16 min/emblem (≈ 22 h). Double coding adds ≈ 35 %. These
 figures are to be replaced by pilot timings.
@@ -108,76 +105,61 @@ stock-convention properties for H3). Reliability: Krippendorff's α (nominal) pe
 ## 6. Stage D — interpretive labels
 
 - **Source of departure** (RQ2/H2), for each absent/substituted/contradicted key unit and each
-  salient added element: `printed text (other passage)` / `motto` / `commentary` / `visual
-  tradition` (name it) / `earlier block` / `another emblem's block` / `misreading` /
-  `medium constraint` / `indeterminate`. Evidence required: a reference (Tung, a stock image, the
+  salient added element: `printed text (other passage)` / `Greek source text` / `motto` / `commentary` (only for
+  designs that post-date it) / `antique artwork or coin type` / `visual tradition` (name it) /
+  `earlier block` / `another emblem's block` / `printer/format` / `misreading` / `medium
+  constraint` / `indeterminate`. **Base rate (H3):** the same procedure is applied to sham pairs
+  (a departure presented with another emblem's candidate sources), coders blind to which is sham. Evidence required: a reference (Tung, a stock image, the
   commentary passage).
 - **Pictorial means** (RQ3) for each argumentative unit rendered at all: `inscription` /
   `attribute` / `gesture or deixis` / `co-presence of contrasting states` / `scene of the
   comparison's vehicle` / `depiction of the contrary` / `act performed (mood shift)` / `other`.
 
-## 7. Stage E — catalogue audit (RQ4, H4)
+## 7. Stage E — catalogue audit (DH companion, H5)
 
-1. **Inheritance**: for each emblem, pairwise similarity between programmes' alt-texts
-   (normalised token edit similarity) and Iconclass-image sets (Jaccard). Identical and
-   near-identical (≥ 0.9) pairs counted.
-2. **Picture baseline**: pairwise similarity of the blind inventories (Jaccard on normalised items)
-   and the copy-matrix relation.
-3. **Test (H4)**: logistic/beta regression of record similarity on picture similarity and copy
-   relation; inheritance = record similarity in excess of what picture similarity predicts.
-   Threshold: excess significant at α = .05 (Holm) with a median excess ≥ 0.2.
-4. **Support audit** (descriptive): each Iconclass-image notation of the confirmation set checked
-   against the blind inventory: supported / unsupported / indeterminate; rate per programme.
-5. We will ask Alciato at Glasgow (via Marcel, if he agrees) in what order editions were
-   catalogued; until then the direction of inheritance is not claimed.
+1. **Support coding**: each Iconclass-image notation of each picture coded supported /
+   unsupported / indeterminate against that picture's blind inventory.
+2. **Directional test**: within an emblem, a notation unsupported by picture X but supported by
+   picture Y (and present in Y's record) counts as evidence of Y→X propagation; the asymmetry
+   between directions estimates the cataloguing order. Logistic GLMM with emblem random effect;
+   main test on pairs whose pictures differ (independent designs).
+3. Descriptive: identical / near-identical alt-texts and notation sets between programmes
+   (51/312 alt-texts identical to 1531 already observed).
 
-## 8. Stage F — VLM diagnostic (H5)
+## 8. Stage F — VLM diagnostic (DH companion, H6; preregistered separately)
 
-- **Divergence items**: pictures where the blind inventory contradicts or lacks a key res picta
-  unit of the printed text (from Stage C, which itself rests on Stage A).
-- **Probes**: 2–4 closed questions per divergence item written from the blind inventory, answer
-  set `yes / no / cannot tell`, **balanced for polarity** (each probe paired with a reversed twin
-  so that the text-consistent answer is `yes` for half and `no` for half; pilot: a 3B model said
-  `yes` 88/144 times) ("Is anything carried on the animal's back?", "Is the washed man
-  drawn darker than the others?"). Written before any model is run; committed.
-- **Conditions**: (1) image only; (2) image + motto; (3) image + epigram (Latin + translation);
-  (4) image + **mismatched** epigram (another emblem's, matched for length); (5) epigram only, no
-  image (prior knowledge); (6) image mirrored + epigram (perturbation).
-- **Models**: at least two open-weight models with pinned checkpoints run locally (candidates:
-  Qwen2.5-VL-7B-Instruct, a LLaVA-OneVision or InternVL3 of similar size, via MLX on this Mac;
-  heavy runs through `~/outils-seg/lourd.sh`); optionally one API model with the date and model id
-  recorded. Temperature 0; 3 paraphrased prompt templates per condition; answers parsed
-  deterministically (first token among the answer set; anything else = `unparsed`, reported).
-- **Measures**: accuracy against the blind inventory; **text-import rate** = answers that agree
-  with the text and disagree with the picture; difference between conditions 3 and 4 (text-reading
-  vs recall), condition 5 (prior). **[pilot]** thresholds fixed after S7.
-- **Scoring validation**: none needed for closed answers; a human checks 10 % of `unparsed`.
+- **Divergence items** from Stage C (resting on blind inventories); probes written **from blind
+  inventories only** (the pilot's Tung-based probes are discarded).
+- **Probe form**: positive contrastive pairs or two-choice questions (*"Is there a sceptre or a
+  crown?"*), not negated twins (negation is itself a known model weakness); answer set
+  `A / B / cannot tell`; picture-consistent and text-consistent options balanced across positions.
+- **Conditions**: (1) image; (2) image + motto; (3) image + epigram; (4) image + mismatched
+  epigram matched for length and checked for shared motifs; (5) epigram only, asked as "Based on
+  this text, would the picture show A or B?" and scored apart; (6) image mirrored + epigram;
+  (7) **recognition control**: non-Alciato woodcuts of the same subjects (e.g. Aesop editions),
+  image only.
+- **Models**: ≥ 2 open-weight 7–8 B models at 4-bit, run sequentially through `lourd.sh`, pinned by
+  weight digest, quantisation and runtime version; API models optional, with id and date.
+  Temperature 0; 3 prompt templates.
+- **Primary contrast**: text-consistent answers, condition 3 vs 4; probes nested in items;
+  logistic GLMM (item random effect) or a permutation test over items; smallest effect of interest
+  10 percentage points.
 
-## 9. Analysis plan (confirmatory)
+## 9. Analysis plan
 
-- **H1**: logistic GLMM, outcome = key res picta unit present (vs absent/substituted/contradicted;
-  `indeterminate` excluded), fixed effect programme (P31 vs P34), random intercept emblem,
-  covariate copy relation (P34 copies P31 / independent); restricted analysis on independent
-  designs. Tool: R `lme4::glmer` called from a notebook (fallback: Python `statsmodels` GEE with
-  emblem clusters as sensitivity analysis). Decision rule as in PROBLEM §7.
-- **H2**: proportion of departures with a named source agreed by both coders, Wilson 95 % CI;
-  κ on source labels.
-- **H3**: logistic GLMM, outcome = property changes between two independent designs of the same
-  emblem; fixed effect property type (text-specified / text-open / stock convention); random
-  intercept emblem. Decision on the ratio specified/open, relative to stock convention.
-- **H4**: as §7.3.
-- **Multiplicity**: Holm across H1–H4.
-- **Power**: before confirmation, simulate minimum detectable effects from pilot rates (S7) with
-  the actual cluster structure; if H1 cannot detect OR = 0.67 with 80 % power, H1 is
-  re-declared descriptive **before** coding the confirmation set.
-- **Descriptive**: RQ3 means by argumentative category; categories with < 15 units reported as
-  counts and examples only.
+Decision tables in PROBLEM §6 (H1–H4). Programme fixed; random intercepts for emblem and, where
+Stage A enters, describer; ancestor relation as covariate; R `lme4::glmer` from a notebook
+(sensitivity: GEE with emblem clusters). Holm across H1–H4. Primary 1531/1534 comparisons on units
+present in both printed texts; edition-specific units as sensitivity. Power: simulation with the
+calibration round's rates, the checked copy matrix's structure and the actual cluster sizes; a
+hypothesis below 80 % power at its support threshold is declared descriptive before coding the
+confirmation set. RQ4 descriptive; categories < 15 units reported as counts and examples.
 
 ## 10. Preregistration and release
 
 After S7–S8, the frozen PROTOCOL, ANNOTATION_GUIDE, probes and analysis notebooks (on simulated
-data) are tagged in git (`protocol-v1.0`) and, if Marcel agrees, deposited on OSF before the
-confirmation set is coded. Released: scripts, identifiers, copy matrix, our annotations, probes,
+data) are tagged in git (`protocol-v1.0`) and **deposited on OSF or as a timestamped Zenodo release
+(mandatory)** before the confirmation set is coded. The DH companion (§7–8) has its own deposit. Released: scripts, identifiers, copy matrix, our annotations, probes,
 model outputs; not released: Glasgow images and transcriptions (fetched by script).
 
 ## 11. Ethics and sensitive content

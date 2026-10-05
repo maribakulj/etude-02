@@ -209,3 +209,15 @@ artworks are missing sources; (6) **staffing and reliability must be tested with
 development set before any freeze**; (7) scope: humanities article (RQ1–3) + DH paper (RQ4–5).
 Running: a first-pass copy matrix for all 104 emblems from Tung (machine pre-fill, to be
 checked by a human).
+
+## 2026-10-06 — S8 done
+
+First-pass copy matrix from Tung for all 104 emblems (`data/copy_matrix_firstpass.csv`, machine
+pre-fill, 175/416 rows low confidence): 1534 redraws ≈ 48 / copies ≈ 42 / unclear 14; 1547 ≈ 22
+independent; 1551 and 1621 mostly copy. PROBLEM and PROTOCOL rewritten as **v0.3**: panel 1531 /
+1534 / de Tournes 1547 (1550, 1621 exploratory); H1 = does a 1531 departure predict redrawing;
+H2 = realisation on all pairs with ancestor covariate; H3 = sources vs sham base rate; H4 =
+slots; decision tables with equivalence bounds; two period criteria (scene + carries the point);
+Greek and antique sources; directional catalogue test and VLM diagnostic moved to a DH companion
+with their own preregistration; **human calibration gate before any freeze**. Responses in
+`docs/reviews/R2-response.md`. Next: S9.

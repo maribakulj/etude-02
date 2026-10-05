@@ -85,6 +85,6 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
 - [x] **S7 — Pilot.** Apply the scheme to the S3 emblems (all core editions). Record every case the
   guide could not decide. Small model pilot (a few emblems, cheap) only to test the pipeline, not to
   report results. Revise guide and protocol → v0.2. Notebook `notebooks/01_pilot.ipynb`.
-- [ ] **S8 — Review 2** of PROBLEM + PROTOCOL (fresh reviewers, not told about review 1). Revise.
+- [x] **S8 — Review 2** of PROBLEM + PROTOCOL (fresh reviewers, not told about review 1). Revise.
 - [ ] **S9 — Close.** Final journal entry, French summary for Marcel, update README status, push,
   stop the loop.
