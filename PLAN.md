@@ -67,7 +67,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
   notes, Iconclass (image vs text), related emblems, pictura image. Core editions: A31b (1531
   Steyner), A34b (1534 Wechel), A50a (1550 Lyon), A21a (1621 Padua). Local corpus
   `data/corpus.jsonl`; committed: `data/ids.csv` (emblem ids, concordance, no text).
-- [ ] **S3 — Looking.** Pick ~20 emblems with a stated rationale (some whose epigram contains
+- [x] **S3 — Looking.** Pick ~20 emblems with a stated rationale (some whose epigram contains
   negation, time, condition, speech, abstraction; some with strong pictorial drift; some controls).
   For each: read Latin + translation, look at the woodcut in all core editions, write
   `notes/looking/<emblem>.md`: what the text says that the image cannot, what the image fixes that

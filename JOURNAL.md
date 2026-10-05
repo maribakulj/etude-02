@@ -84,3 +84,17 @@ epigram, English translation, Iconclass image and text, Glasgow alt-text. **All 
 1531 have a counterpart in each of the three later core editions** (via "related emblems"), so the
 1531 set is a complete 4-edition panel. `data/ids.csv` committed (ids, counts, concordance; no
 text). Local `data/corpus.jsonl` is git-ignored. Next: S3 with all four editions.
+
+## 2026-10-05 22:00 — S3 done
+
+20 emblems looked at in the four core editions (`notes/looking/`, one file each, links to
+Glasgow); synthesis in `notes/looking/SYNTHESIS.md`. Nine candidate operations emerged from the
+cases (omission; vehicle-not-tenor; state co-presence; contrast + deixis; attribute as condensed
+narrative; naming by inscription or attribute; mood shift; depicting the negated content;
+particularisation/generalisation), plus what images must commit to (number, posture, setting,
+gender, material, species) and a medium-specific vs picture-generic distinction (colour).
+Correction made on the way: appearance-vs-being (mask vs head, 049) *is* depictable with extra
+cues (1621). Key structural findings: 1531 departs from the text's key configuration in ≥ 7/19
+cases (a special edition, not a representative illustrator); later editions often converge
+towards the text; the catalogue's image layer follows the text in some cases and the image in
+others — a measurable variable. Next: S4, write `docs/PROBLEM.md`.
