@@ -1,0 +1,9 @@
+unit	P31 (p014)	P34 (p016)	P50 (p038)	P21 (p043)	note
+u1 ass carries image of Isis	substituted: empty arched plaque on back	present: shrine with statue strapped on	present: shrine with small statue	present: statue of woman on pedestal (with branch and ship: added)	P31 code depends on whether an empty frame counts as "image"; rule needed for empty/partial realisations [pilot]
+u2 ass is slow	indeterminate	indeterminate	indeterminate	indeterminate	motion attributes undecidable in a still picture; propose: code RP-motion units as not applicable
+u3 sacred objects on its curved back	merged with u1	merged	merged	merged	segmentation rule: merge units that name the same depicted object
+u4 passers-by kneel and pray	indeterminate: one figure holds an object toward the ass, kneeling unclear	present: ~7 kneel and pray	present	present	
+u6 ass swells with pride	indeterminate	indeterminate (ass brays/turns head)	indeterminate	indeterminate	emotion attribute: same rule as motion
+u7 driver checks him with whips	present: raises stick/hammer	present: whip, and points	present: stick	present: stick	"whips" vs stick: substitution of instrument judged minor — need a granularity rule
+u8 AR speech+neg "not a god, you carry a god"	—	means: gesture/deixis (points at the ass)	—	—	Stage D
+added	—	—	child, gate, buildings	branch + model ship held by the statue; tower	P21 additions: Isis Pelagia attributes — source: visual/antiquarian tradition (commentary? check Pignoria)
