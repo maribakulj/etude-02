@@ -194,3 +194,18 @@ pulls answers to the text, mismatched does not) **but confounded by a yes-bias**
 6/8 probes had "yes" as text answer) → probes must be polarity-balanced (PROTOCOL §8 updated).
 `notes/pilot_probes.md`, `notes/pilot_S7.md`, `notebooks/01_pilot.ipynb` (executed). Guide and
 protocol at v0.2. Next: S8, second review by fresh reviewers.
+
+## 2026-10-06 — S8 in progress: review 2
+
+Two fresh reviewers (not shown round 1): both **major revision** (`docs/reviews/R2-*.md`). They
+converge: (1) the four programmes are not independent illustrators — build the **complete copy
+matrix first**, count independent designs, then choose programmes (add de Tournes/Salomon 1547);
+(2) restricting H1 to independent re-designs is selection bias and may leave n ≈ 0 — analyse all
+pairs and model "redesigned vs kept" as an outcome; (3) decision rules confuse non-significance
+with refutation; programme must be fixed only; (4) H3 needs closed property slots; H4 needs a
+directional notation-level test; H5 needs its preregistered contrast; (5) the res picta criterion
+is one of two period criteria (scene fidelity / carries the point); Greek Anthology and antique
+artworks are missing sources; (6) **staffing and reliability must be tested with humans on the
+development set before any freeze**; (7) scope: humanities article (RQ1–3) + DH paper (RQ4–5).
+Running: a first-pass copy matrix for all 104 emblems from Tung (machine pre-fill, to be
+checked by a human).
