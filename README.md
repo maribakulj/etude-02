@@ -46,5 +46,16 @@ private storage.
 
 ## Status
 
-Research problem and protocol under construction by an autonomous loop. Steering document:
-[`PLAN.md`](PLAN.md); log: [`JOURNAL.md`](JOURNAL.md).
+Research problem and protocol at **v0.3** after two rounds of adversarial review
+([`docs/PROBLEM.md`](docs/PROBLEM.md), [`docs/PROTOCOL.md`](docs/PROTOCOL.md),
+[`docs/ANNOTATION_GUIDE.md`](docs/ANNOTATION_GUIDE.md), [`docs/reviews/`](docs/reviews/)). Piloted on
+20 development emblems ([`notes/`](notes/), [`annotations/pilot/`](annotations/pilot/),
+[`notebooks/01_pilot.ipynb`](notebooks/01_pilot.ipynb)). Not frozen: the human calibration round
+(PROTOCOL §G) comes first. Log: [`JOURNAL.md`](JOURNAL.md).
+
+The working question has narrowed to: when an emblem's picture was redrawn rather than kept, what
+did the new design change, in the scene and in its point, and from which source; and how are these
+pictures re-described by catalogues and models.
+
+To rebuild the local corpus: `uv sync && uv run python scripts/fetch_core.py` (≈ 1 h, polite
+fetching), then `uv run python scripts/contact.py <id>` for side-by-side sheets.

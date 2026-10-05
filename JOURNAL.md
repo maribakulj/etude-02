@@ -1,5 +1,47 @@
 # JOURNAL
 
+## Résumé pour Marcel (6 octobre 2026, fin de la boucle)
+
+**Où on en est.** La boucle s'arrête comme prévu : la problématique et le début du protocole
+sont écrits (version 0.3), ont passé deux tours de relecture hostile (quatre relecteurs simulés,
+deux « humanités », deux « méthodes »), et ont été testés sur 20 emblèmes. Rien de l'annotation
+complète ni de l'article n'a été commencé.
+
+**La question, telle qu'elle est devenue.** Ta question de départ (ce que l'image garde ou perd
+par rapport au texte) devient : *quand un emblème d'Alciat a été redessiné plutôt que recopié,
+qu'est-ce que le nouveau dessin a changé — dans la scène décrite et dans le sens — et d'où viennent
+ces changements ; et comment ces images sont-elles ensuite remises en mots par les catalogues et
+par les modèles d'IA ?* Le « ce qui se perd » brut a été abandonné : les relecteurs ont montré que
+c'était vrai par construction et étranger à l'époque.
+
+**Ce que le travail a établi en chemin.**
+- Corpus complet en local : 640 emblèmes, 4 éditions (1531, 1534, 1550, 1621), textes, traductions,
+  Iconclass, gravures ; rien de Glasgow n'est sur GitHub.
+- Les deux éditions de 1531 utilisent les mêmes bois ; 98 gravures pour 97 bois (un réemploi).
+- Carte des copies (première version, à vérifier) : en 1534, environ la moitié des gravures de
+  1531 est redessinée, l'autre copiée ; 1550 et 1621 copient surtout. Les vrais dessinateurs
+  indépendants sont 1531, 1534 et Lyon 1547 (Bernard Salomon).
+- Les descriptions du catalogue de Glasgow se recopient souvent d'une édition à l'autre (51 sur
+  312 identiques).
+- Un essai avec un petit modèle d'IA montre que le circuit de test marche, et a révélé un biais
+  (le modèle dit trop souvent « oui ») que le protocole corrige.
+- J'ai fait des erreurs de lecture des gravures (l'âne de 1531 porte bien un reliquaire) : elles
+  sont corrigées et ont servi à durcir le protocole.
+
+**Ce qui ne peut pas avancer sans toi** (détails ci-dessous, « Questions for Marcel ») :
+1. lire 4–5 articles payants qui pourraient déjà avoir fait ce travail (surtout Cummings 2007) ;
+2. trouver des humains : 2 descripteurs qui ne connaissent pas Alciat, un latiniste, 2 codeurs,
+   pour un tour d'étalonnage sur les 20 emblèmes de développement (PROTOCOL §G) — sans eux, pas de
+   protocole figé ni de mesure de fiabilité ;
+3. décider : un article ou deux (je recommande un article d'histoire de l'art/sémiotique et un
+   article « humanités numériques » séparé) ;
+4. faire vérifier la carte des copies par un humain.
+
+**Fichiers à lire en premier** : `docs/PROBLEM.md` (la problématique), `docs/PROTOCOL.md` (§G),
+`notes/looking/SYNTHESIS.md` (ce que montrent les 20 emblèmes), `docs/reviews/` (les critiques).
+
+---
+
 One entry per wake-up, newest last: date/time, step, what was done, what was found, next.
 
 ## Questions for Marcel
@@ -221,3 +263,9 @@ slots; decision tables with equivalence bounds; two period criteria (scene + car
 Greek and antique sources; directional catalogue test and VLM diagnostic moved to a DH companion
 with their own preregistration; **human calibration gate before any freeze**. Responses in
 `docs/reviews/R2-response.md`. Next: S9.
+
+## 2026-10-06 — S9 done, loop stopped
+
+French summary for Marcel written at the top of this file; README status updated. The loop
+stops here as planned (no full annotation, no article). Blocking next steps are human: library
+access, calibration round with people, copy-matrix check, publication shape.
