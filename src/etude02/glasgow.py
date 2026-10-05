@@ -103,7 +103,7 @@ def _latin_and_translation(block: Tag | None) -> tuple[str, str]:
     if block is None:
         return "", ""
     block = BeautifulSoup(str(block), "html.parser")
-    for ref in block.select("span.ref"):
+    for ref in block.select("span.ref, span.pb"):
         ref.decompose()
     translation = " ".join(_text(p) for p in block.select("p.translation"))
     for p in block.select("p.translation"):

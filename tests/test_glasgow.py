@@ -9,7 +9,7 @@ PAGE = """
 <div class="pictura"><p><a href="picturae.php?id=Z99a001">
 <img src="images/pic_m/Z99a001.jpg" alt="A man and a tree" /></a></p></div>
 <div class="T2"><span class="la"><p class="linegroup">First verse,<br />
-<span class="indent">second <span class="name" title="X">verse<span class="ref">
+<span class="pb"><a href="facsimile.php?id=XX_A1v">Link to an image of this page [A1v]</a></span><span class="indent">second <span class="name" title="X">verse<span class="ref">
 <a class="ref" href="#n">[1]</a></span></span>.</span><br /></p>
 <p class="translation">First, second.</p></span></div>
 <div class="notes"><b>Notes</b>:<br /><p class="note"><b>1.</b> A note.</p></div>
