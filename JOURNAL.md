@@ -75,3 +75,12 @@ Key points for the problem:
   that Glasgow's Iconclass "image" layer is text-dependent; the image/text split has never been
   analysed;
 - biggest originality risk: Cummings 2007 (unread). Added to Questions for Marcel.
+
+## 2026-10-05 21:00 — S2 done
+
+Core fetch complete: 640 emblem pages (A31b 104, A34b 113, A50a 211, A21a 212), 634 picturae
+(1531 has 6 emblems without a woodcut: A31b087, 089, 101–104). Fields present for nearly all:
+epigram, English translation, Iconclass image and text, Glasgow alt-text. **All 104 emblems of
+1531 have a counterpart in each of the three later core editions** (via "related emblems"), so the
+1531 set is a complete 4-edition panel. `data/ids.csv` committed (ids, counts, concordance; no
+text). Local `data/corpus.jsonl` is git-ignored. Next: S3 with all four editions.

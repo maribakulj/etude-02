@@ -62,7 +62,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
   rules for the impresa. Search open tables of contents of *Emblematica* and *Word & Image* for
   any typological study of Alciato's illustrations. Output: `notes/literature.md` (one entry per
   work: claim, method, what it leaves open for us) and `references.bib`.
-- [ ] **S2 — Corpus core.** Scraper `src/etude02/glasgow.py` (tested on saved HTML fixtures we write
+- [x] **S2 — Corpus core.** Scraper `src/etude02/glasgow.py` (tested on saved HTML fixtures we write
   ourselves, not on Glasgow files): edition contents → emblem pages → motto, epigram, translation,
   notes, Iconclass (image vs text), related emblems, pictura image. Core editions: A31b (1531
   Steyner), A34b (1534 Wechel), A50a (1550 Lyon), A21a (1621 Padua). Local corpus
