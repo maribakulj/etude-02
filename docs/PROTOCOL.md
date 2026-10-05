@@ -1,4 +1,8 @@
-# Protocol — v0.1
+# Protocol — v0.2
+
+v0.2 (after the S7 pilot; see `notes/pilot_S7.md`): 1531 collation done; copy matrix by human
+reading of Tung (rules only pre-fill); Stage A batches with one variant per emblem; `partial`
+code; motion/emotion units excluded from fidelity tests; probe pipeline tested.
 
 Implements [`PROBLEM.md`](PROBLEM.md) v0.2. Coding rules are in
 [`ANNOTATION_GUIDE.md`](ANNOTATION_GUIDE.md). Everything marked **[pilot]** is tested in S7 and
@@ -22,11 +26,10 @@ variant paragraphs; local copy in `data/raw/tung/`, not redistributed).
 
 ### 0.1 Which 1531
 
-A31a (28 Feb. 1531) and A31b (6 Apr. 1531) are collated woodcut by woodcut (image hash + visual
-check) and text by text. Output `data/derived/collation_1531.csv`: same block / different block /
-missing. The panel uses A31b unless the collation shows A31a to be more complete; the woodcut count
-is reconciled with Glasgow (97) and Tung (96) and every discrepancy explained in
-`notes/collation_1531.md`.
+**Done** (`notes/collation_1531.md`): A31a and A31b print all 98 picturae from the same blocks;
+98 picturae = 97 blocks (A31b013 reuses A31b078's cut), matching Glasgow's 97; type was reset
+(mottos, 31 epigrams slightly different). Panel: A31b; A31a variants noted where a unit depends
+on them. Tung's count of 96 remains unexplained.
 
 ### 0.2 Copy and source matrix (before any coding of fidelity)
 
@@ -34,9 +37,9 @@ For each emblem and each pair of programmes (P31–P34, P34–P50, P50–P21, P3
 P34–P21): `same block` / `reversed copy` / `free copy` (same composition, redrawn) /
 `independent design` / `reused block from another emblem` / `indeterminate`.
 
-1. **Seed** from Tung's PICTURE variant paragraphs, parsed by rules ("follows 31 in reverse" →
-   reversed copy; "47/83" → same block; "reuses the cut of emblem N" → reused block; "new design" →
-   independent) — script `src/etude02/tung.py`, every seed shown with its sentence.
+1. **Seed** from Tung's PICTURE variant paragraphs by rules (`src/etude02/tung.py`,
+   `data/copy_seeds.csv`). Pilot: rules resolve only ≈ 20 % of pairs and mis-assign some; they
+   pre-fill, a human reads every paragraph.
 2. **Check** by two humans on contact sheets (`scripts/contact.py`), blind to each other; κ
    reported; disagreements resolved by discussion and logged.
 3. **Sources**: Tung's TEXT source (Greek Anthology etc.) and PICTURE source (Aesop, Physiologus,
@@ -60,7 +63,7 @@ Order matters: blind descriptions come before anyone codes a picture against its
 
 | Stage | Task | Coder(s) | Blind to |
 |---|---|---|---|
-| A | **Blind inventory** of each picture (entities, attributes, actions, relations, inscriptions, setting, indeterminate zones) | Human B (has not read the emblems); second human on the double-coded subset | epigram, motto, translation, Glasgow record, Tung |
+| A | **Blind inventory** of each picture (entities, attributes, pose, actions, relations, inscriptions, setting, indeterminate zones) | Four describer batches, **one variant per emblem each** (Latin square over programmes), mixed with unrelated pictures; humans who do not know Alciato; double-described subset | epigram, motto, translation, Glasgow record, Tung, other variants |
 | B | **Segmentation** of each printed epigram + motto into res picta and argumentative units; key units | Latinist + human A | pictures |
 | C | **Relation coding** unit × picture: present / absent / substituted / contradicted / indeterminate; **added** elements (from A's inventory) | Human A; human B on subset | — |
 | D | **Interpretive labels**: source of each departure (RQ2); pictorial means for argumentative units (RQ3) | Human A; human B on subset | — |
@@ -70,7 +73,11 @@ Order matters: blind descriptions come before anyone codes a picture against its
 Machine coding (an LLM applying the guide) may be run **as a separate measured condition** and
 compared with humans; it never replaces a coder and never resolves a disagreement.
 
-**Workload estimate [pilot].** Confirmation set ≈ 84 emblems × 4 programmes ≈ 330 pictures.
+**Stage A staffing.** The pilot showed that a describer who sees several variants of one subject
+recognises it and lets recognition shape the description. Four describers (or four sessions
+separated by unrelated material) are therefore needed for Stage A; each describes ≈ 84 pictures.
+
+**Workload estimate.** Confirmation set ≈ 84 emblems × 4 programmes ≈ 330 pictures.
 Stage A ≈ 5 min/picture (≈ 28 h). Stage B ≈ 15 min/emblem (≈ 21 h, Latinist + A). Stage C+D ≈
 8 units × 4 pictures × 0.5 min ≈ 16 min/emblem (≈ 22 h). Double coding adds ≈ 35 %. These
 figures are to be replaced by pilot timings.

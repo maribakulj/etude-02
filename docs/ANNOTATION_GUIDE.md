@@ -1,4 +1,8 @@
-# Annotation guide — v0.1
+# Annotation guide — v0.2
+
+v0.2 (after the S7 pilot): batches with one variant per emblem; RECOGNISED first; POSE type;
+entity ids; counting rule; merge rule for units; motion/emotion units; empty frames; granularity;
+shared-cue rule for material contrasts.
 
 For [`PROTOCOL.md`](PROTOCOL.md) stages A–D. Examples are from the development set only; links go
 to Alciato at Glasgow. **[pilot]** = to be revised after S7.
@@ -14,7 +18,12 @@ You see one picture and nothing else. List what is drawn, one item per line:
 | ACTION | what an entity is doing | `ACTION  man: raises a stick over the ass` |
 | RELATION | spatial or physical relation between entities | `RELATION  arched plaque: rests on the ass's back` |
 | INSCRIPTION | letters in the picture, transcribed | `INSCRIPTION  on pedestal: SPES` |
+| POSE | body position of a figure (stands, sits, lies, kneels) | `POSE  E2: kneels` |
 | SETTING | interior / landscape / city / sea; frame; background elements | `SETTING  landscape with mountains` |
+
+**Entity ids.** Give each ENTITY an id (E1, E2…) and refer to it in the other lines
+(`ATTRIBUTE  E1: wings`). **Counting.** Exact count up to 5; above that `several` (6–12) or `many`.
+**Zoom.** Use the zoom view for details under ~20 px before writing `indeterminate`.
 
 Rules.
 1. **Describe, do not identify.** Write "winged naked boy with arrows", not "Cupid", unless the
@@ -26,7 +35,12 @@ Rules.
 3. **Absences are not listed** unless something is visibly incomplete (an empty frame, a figure
    with no hands).
 4. Do not read the emblem, its motto or any catalogue record before finishing all your pictures.
-   After finishing, say whether you recognised any emblem.
+5. **Recognition first.** Before describing a picture, write one `RECOGNISED` line (or
+   `RECOGNISED  none`). After describing it, add `RECOGNITION-EFFECT  yes/no`: did knowing the
+   subject change what you wrote?
+6. **Batches.** You receive **one variant per emblem** (one of the four programmes), mixed with
+   pictures from other emblems, in random order. In the pilot, a describer who saw 3–7 variants of
+   each subject recognised 78/79 pictures and the recognition spread across variants.
 
 ## 2. Stage B — segmenting the text
 
@@ -56,7 +70,17 @@ Two kinds:
   - [A31b068](https://www.emblems.arts.gla.ac.uk/alciato/emblem.php?id=A31b068) "winter will soon
     come and destroy you": AR-TIME + SPEECH.
 
-**Borderline [pilot]**: a speech *act* (someone speaking, gesturing) is RP if the text describes
+**Merge rule.** Units that name the same depicted object are merged (A31b036: "image of Isis"
+and "sacred objects on its back" → one unit).
+
+**Motion and emotion.** Attributes that a still picture can show only through pose or expression
+(slow, proud, angry) are coded `RP-STATE`; they are reported but excluded from fidelity tests,
+since the pilot coded them `indeterminate` in every programme.
+
+**Text variants.** A variant matters only if it changes a unit (e.g. a different noun); spelling
+and tense of the verb in an argumentative unit (perdat/perdet) do not.
+
+**Borderline**: a speech *act* (someone speaking, gesturing) is RP if the text describes
 the gesture (*digito … silentia signet*, A31b003 → RP finger on lips); the *content* of speech is AR.
 A personification's identity is RP when the text names a figure that stands in the scene (Virtue
 at Ajax's tomb, A31b009); the concept it stands for is AR-ABSTR.
@@ -84,6 +108,16 @@ text affirms (pomegranate on a black shield) is plain RP.
 | `indeterminate` | resolution or damage prevents a decision; check the Gallica scan first | — |
 
 Decision order: indeterminate? → present? → contradicted? → substituted? → absent.
+
+Pilot rules:
+- **Empty or partial realisation.** If the container or frame of a unit is drawn but its content is
+  not (A31b036 P31: an empty arched plaque on the ass's back where the text says "image of Isis"),
+  code `partial` — a new code; it counts as not-present in fidelity tests and is reported apart.
+- **Granularity.** A change of instrument or species within the same function (whip → stick) is
+  `present` unless the text makes the specific kind matter to the point.
+- **Shared cues for contrasts.** When the text contrasts two objects by a property (metal vs clay)
+  and the picture gives both objects the same cues, code the property `absent` for both, not
+  `contradicted` (A31b059 P21).
 For each code give the inventory line(s) relied on.
 
 **Added**: inventory items that match no unit, excluding SETTING lines. Note them with an
@@ -122,10 +156,12 @@ Only when the AR unit is rendered at all:
 | `act performed` | the jussive "let him press his lips" drawn as done, A31b003 |
 | `other` | describe |
 
-## 5. Things the pilot must settle [pilot]
+## 5. Things the pilot raised (status)
 
-- Is RP vs AR decidable for speech gestures, personifications and similes with ≥ 0.67 agreement?
-- Is `substituted` vs `contradicted` reliably distinguishable?
-- How many units per emblem (time budget)?
-- Can Stage A coders stay blind (they may recognise famous emblems)?
-- Can P50 be equated with Tung's "51" block by block?
+- RP vs AR for speech gestures, personifications, similes — rules written; agreement untested
+  (needs two humans).
+- `substituted` vs `contradicted` vs `partial` — rules written; agreement untested.
+- Units per emblem in the pilot: 6–9 (A31b036: 8 before merging, 6 after; A31b059: 6; A31b068: 7;
+  A31b096: 9). Budget in PROTOCOL uses 7.
+- Blindness: fails with several variants per describer → batch rule (§1.6).
+- P50 vs Tung's "51": open.
