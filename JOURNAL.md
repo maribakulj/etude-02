@@ -21,3 +21,12 @@ concordance; HTML only). Next: S0.
 uv project (`src/etude02`, `tests`, `notebooks`, `docs`, `notes/looking`), ruff + pytest green.
 S1 (literature) delegated to a background subagent that writes only `notes/literature.md` and
 `references.bib`; meanwhile the loop itself does S2 (scraper). Next: S2.
+
+## 2026-10-05 evening — S2 in progress
+
+`src/etude02/glasgow.py` (cached polite fetcher, mixed Latin-1/UTF-8 decoding, parser for motto,
+epigram, translations, notes, Iconclass image/text, related emblems, pictura) with hand-written
+fixture tests. Note: each pictura also carries a short **Glasgow alt-text description** ("A scholar
+with a finger to his lips in a small room") — a further verbalisation layer of the image, kept in
+the corpus. Core fetch (A31b, A34b, A50a, A21a) running in background → `logs/fetch_core.log`.
+Next: when the fetch ends, check counts, commit `data/ids.csv`, start S3.
