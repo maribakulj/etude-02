@@ -73,7 +73,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
   `notes/looking/<emblem>.md`: what the text says that the image cannot, what the image fixes that
   the text left open, what changed between editions, what Iconclass "image" vs "text" kept.
   No categories decided in advance; let them come from the cases.
-- [ ] **S4 — Problem.** Write `docs/PROBLEM.md` from S1 + S3. Sharpen the question until each
+- [x] **S4 — Problem.** Write `docs/PROBLEM.md` from S1 + S3. Sharpen the question until each
   hypothesis is testable on this corpus. State the contribution per discipline and the nearest
   prior work it goes beyond.
 - [ ] **S5 — Review 1 of the problem.** Two hostile reviewer subagents (humanities venue; DH /

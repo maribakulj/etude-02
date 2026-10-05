@@ -98,3 +98,13 @@ cues (1621). Key structural findings: 1531 departs from the text's key configura
 cases (a special edition, not a representative illustrator); later editions often converge
 towards the text; the catalogue's image layer follows the text in some cases and the image in
 others — a measurable variable. Next: S4, write `docs/PROBLEM.md`.
+
+## 2026-10-05 22:30 — S4 done (v0.1)
+
+`docs/PROBLEM.md` v0.1: sharpened RQ with four sub-questions (losses and operations;
+commitments/over-specification; drift; re-verbalisation), gap with nearest works, design evidence
+from S3, hypotheses H1–H4 with refutation conditions (+ H5 exploratory), contributions per
+discipline, scope limits (1531 panel confirmatory; copying; Latin; intermediaries; resolution; model
+contamination; sensitive content). Central design idea made explicit: **divergence items** (picture
+and text disagree) separate reading the picture from importing the text. Next: S5, two hostile
+reviews.
