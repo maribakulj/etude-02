@@ -1,172 +1,177 @@
-# Research problem — v0.1
+# Research problem — v0.2
 
-*What the woodcut cannot say: text-to-image translation in Alciato's* Emblemata *(1531–1621),
-and what cataloguers and machines do with it.*
+*What the pictura is made from: sources, copying and re-verbalisation in the illustration of
+Alciato's* Emblemata *(1531–1621).*
 
-Status: draft for review 1 (S5). Sources: [`notes/literature.md`](../notes/literature.md) (S1),
-[`notes/looking/`](../notes/looking/) (S3). Keys in brackets refer to sections of the literature
-notes (e.g. [D1]).
+Status: v0.2, revised after review 1 ([`reviews/R1-humanities.md`](reviews/R1-humanities.md),
+[`reviews/R1-dh-computing.md`](reviews/R1-dh-computing.md)); the response to each objection is in
+[`reviews/R1-response.md`](reviews/R1-response.md). Sources: [`notes/literature.md`](../notes/literature.md)
+(S1, sections cited in brackets), [`notes/looking/`](../notes/looking/) (S3).
 
 ## 1. Starting question and why it must be narrowed
 
 Marcel's starting question: *what can a visual representation keep or express that verbalisation
-loses, and the reverse?* Asked in general it has a long theoretical literature — Lessing [C1],
-Goodman [C2], Barthes [C3], Jakobson [C4], Panofsky [C5], Worth [D1], formal pictorial semantics
-[D6–D9] — and no way to settle it empirically, because in ordinary material we never know the
-verbal content a picture was made from, nor what other pictures could have been made from the same
-words.
+loses, and the reverse?* In general it is a theoretical question with a long literature (Lessing,
+Goodman, Barthes, Jakobson, Panofsky, Worth; formal pictorial semantics [C, D]). It becomes
+empirical only where we know **what verbal material a picture was made from, what other pictures
+were made from the same material, and how the picture was put back into words afterwards.**
 
-## 2. The case that makes it answerable
+## 2. The case, stated without the "fixed text" simplification
 
-Alciato's epigrams were written first as texts, "descriptions of signifying things" [A4]. Pictures
-were added by the printer in 1531 as "rough little signs of the author's intention" (Steyner) and
-redrawn by successive illustrators, sometimes from a prose paraphrase made "for an unlettered
-painter" (Hunger 1542) [A4]. Alciato at Glasgow gives, for each emblem and edition, the Latin text,
-an English translation, the woodcut, a short descriptive alt-text and Iconclass notations split into
-"relating to the image" and "relating to the text" [A3, E6]. We have fetched four complete
-illustration programmes for the 104 emblems of 1531 (Augsburg 1531, Paris 1534, Lyon 1550,
-Padua 1621; 98 emblems with a 1531 woodcut, all 104 present in the three later editions).
+Alciato's epigrams are texts first, "descriptions of signifying things" [A4]; the 1531 Augsburg
+pictures were added by the printer as *notulae rudiores*, rough signs of the author's intention for
+the less learned (Steyner) [A4]. For the period, the pictura realises the *res picta* that the text
+describes; the meaning (*animus*, Mignault) belongs to the text [B6, B10]. We therefore do **not**
+measure whether woodcuts "fail" to depict conditionals or modality — no one expected them to — but
+**what the picture is made from and how faithfully it realises the res picta**, the criterion the
+period itself applied (Alciato's complaints of 1532 about errors; Hunger's brief of 1542) [A4].
 
-This gives three properties that no other material offers together:
+Each illustration programme had **several possible sources**, not one fixed text:
 
-1. **The verbal source of each picture is known** (the epigram, fixed across editions apart from
-   small revisions).
-2. **The same text was rendered by several illustrators**, so each text has a small set of
-   independent-or-documented-as-copied pictures: a natural replication.
-3. **The chain continues after the picture**: modern cataloguers verbalised the picture again
-   (alt-text, Iconclass "image"), with the text in view [E1], and vision-language models can be
-   asked to do so with or without the text [F1, F10].
+- the epigram **as printed in that edition** (the 1531 text is corrupt and was revised in 1534; in
+  our corpus 67 of 312 later/1531 epigram pairs differ by more than 10 % of tokens);
+- the **lemma/motto** alone (a cutter may illustrate the title: a stock Cupid for *In statuam
+  Amoris*);
+- the **commentary** printed with it (1621 Padua prints Mignault, Sánchez and Pignoria [A5]);
+- the **visual tradition** (stock iconography of Cupid, Occasio, Isis; Horapollo; existing blocks);
+- an **earlier woodcut** (copying, reversed copying, re-cutting) [A1, B4];
+- an intermediary **prose description**, documented for Paris 1542 (Hunger) [A4], not for 1531.
 
-## 3. Research question (sharpened)
+After the picture, the chain continues: Glasgow's cataloguers wrote an alt-text and Iconclass
+notations "relating to the image" and "to the text" for every emblem in every edition [A3, E6], and
+vision-language models can be asked to describe the same pictures.
 
-> **RQ.** When a fixed text is turned into pictures by several illustrators, which kinds of content
-> survive, by which operations, and how consistently; and when those pictures are verbalised again
-> — by cataloguers and by vision-language models — is the recovered content read from the picture
-> or imported from the text?
+## 3. Research questions
 
-Sub-questions:
+> **RQ.** For each element of the *res picta* an Alciato epigram describes, which source does each
+> illustration programme follow — the text it printed, the motto, the commentary, the visual
+> tradition or an earlier block — and when the pictures are put back into words, by cataloguers and
+> by models, does the description follow the picture, the text, or an earlier description?
 
-- **RQ1 (losses and operations).** For each category of textual content (object, action, property,
-  spatial relation, number, identity/proper name, negation, condition, tense/aspect, modality,
-  speech/address, comparison/analogy, abstraction, colour and other medium-bound properties), how
-  often is it rendered, and by which operation (§5)?
-- **RQ2 (commitments).** What does each picture fix that the text left open (number, posture,
-  setting, gender, material, species…), and do the dimensions that vary across illustrators of the
-  same text coincide with what the text leaves open?
-- **RQ3 (drift).** Across 1531 → 1534 → 1550 → 1621, does fidelity to the text's key configuration
-  increase, and does it do so through new interpretation or through copying?
-- **RQ4 (re-verbalisation).** On items where picture and text disagree, do the catalogue's image
-  layer and VLM descriptions report what the picture shows or what the text says, and how does
-  this change when the model is given the motto or the epigram?
+- **RQ1 — Realisation of the res picta.** For each *res picta* unit of the printed text (§5), is it
+  present, absent, substituted, contradicted, or accompanied by added elements, in each programme?
+  How does this differ between programmes, controlling for copying?
+- **RQ2 — Sources of departures.** When a picture departs from its printed text, which alternative
+  source explains it best (motto, commentary, stock iconography, earlier block, misreading,
+  indeterminate)?
+- **RQ3 — Beyond the res picta.** For the argumentative content of the epigram (negation,
+  condition, time, speech, comparison, abstraction), which pictorial means do re-designs use when
+  they render it at all (inscription, attribute, gesture, co-presence of states, scene substitution),
+  and how stable are these means across independent re-designs? This is where Worth's list and
+  formal pictorial semantics become testable — as a **descriptive** question, not as a hypothesis
+  that the answer is "less than concrete content", which is true by construction.
+- **RQ4 — Re-verbalisation.** How much of Glasgow's image-layer description is inherited from the
+  record of another edition rather than written from the picture; and, on items where the picture
+  demonstrably differs from the text (established blind, §6), do catalogue records and VLM
+  descriptions report the picture, the text, or prior knowledge?
 
-## 4. Gap and nearest prior work
+## 4. Gap and positioning (narrowed)
 
-As far as open sources show [H]:
+Not claimed: "the first typology" — inscriptions for personifications, attributes as condensed
+narrative and stock substitution are known to emblem studies [B]. Claimed:
 
-- **No reliability-checked typology** of how Alciato's woodcuts render (or fail to render) the
-  epigrams. Nearest: Tung's *Variorum* — per-emblem genealogy of pictorial variants, about a dozen
-  ad hoc fidelity remarks in 212 commentaries, no categories [A1]; Andenmatten 2018 — qualitative,
-  75 animal emblems [B1]; Ureña Bracero 2001 — scattered observations [B2]; Manning 1989 —
-  bibliographical [B4]. **Unread and highest risk: Cummings 2007, "Alciato's Illustrated Epigrams"**
-  [B5, I].
-- **No test of Worth's list** ("pictures cannot depict conditionals, counterfactuals, negatives, or
-  past-future tenses… nor ask questions") on a corpus where each picture's verbal source is known
-  [D1]. Experimental work on visual negation uses ads, photos and manga with no source text
-  [D2–D5]; comprehension studies (Kaup, Orenes) concern readers, not makers [D12].
-- **No analysis of the image/text split** in emblem cataloguing, although Brandhorst states that
-  the text "quite literally tells us what we are looking at" [E1].
-- **No controlled VLM study on emblems** (image only / + motto / + epigram, against human
-  judgement). Nearest: Brandhorst 2025, ~11 emblems, one model, no conditions [F1]; Thomas 2025,
-  crop vs full page on Bible woodcuts with caption-derived ground truth [F10]. VLM negation
-  benchmarks test negation in the query, not negation depicted [F2, F12].
+1. **A reliability-checked, copy-controlled coding** of res picta realisation across four
+   programmes of one emblem book, with explicit source attribution for every departure. Nearest:
+   Tung's *Variorum* (genealogy, ad hoc fidelity remarks, no coding) [A1]; Andenmatten 2018
+   (qualitative, animal emblems) [B1]; Manning 1989 (bibliographical) [B4]. **Must be read before
+   the claim is frozen:** Cummings 2007, Tung 2012/2013, Scholz 1984/1991, Manning 1989, Adams
+   1990, Balavoine 1982, Klecker 2007 [I].
+2. **A measured arbitration** of a disagreement in the literature: 1531 "unfaithful" (Glasgow,
+   Tung) vs 1534 "as bad or worse" (Andenmatten) [A1, B1].
+3. **A production-side, descriptive test of what pictures do with argumentative content** where the
+   verbal source is known (Worth 1975; Greenberg; Abusch & Rooth) [D1, D6, D7].
+4. **A provenance audit of a major emblem catalogue's image layer** (record inheritance across
+   editions; how often image-layer notations are unsupported by the picture) — no analysis exists
+   [E1, E6].
+5. **A small, contamination-aware diagnostic of VLMs** on divergence items with closed probes [F1,
+   F2, F10] — offered as a diagnostic and a released probe set, not a benchmark.
 
-## 5. What the first twenty emblems already show (design evidence, not results)
+## 5. Units and observable relations (definitions; detailed in PROTOCOL)
 
-From [`notes/looking/SYNTHESIS.md`](../notes/looking/SYNTHESIS.md): content the picture cannot
-state is not simply dropped; it is **converted** by recurrent operations — omission; depicting the
-comparison's vehicle and dropping its tenor; showing two contrasting states side by side
-(force + persistence, dead + living); contrast of two terms plus deixis; an attribute that
-condenses a narrative; naming by inscription or attribute; turning an imperative into the act
-performed; depicting the very content the text denies; particularising or generalising beyond the
-text. The 1531 woodcuts depart from the text's key configuration in at least 7 of 19 cases; later
-editions often converge towards the text and its sources but can lose a text-relevant distinction.
-The catalogue's image layer sometimes follows the text against the woodcut (A31b036, A31b083,
-A31b003) and sometimes the woodcut against the text (A31b053).
+- **Res picta unit**: an entity, attribute, action or spatial relation that the printed epigram (or
+  motto) asserts of the depicted scene (e.g. *ass carries image of Isis*). Segmented on the Latin,
+  by a written grammar (one predicate + arguments per unit), with the translation as an aid only.
+- **Argumentative unit**: content the epigram asserts that is not a property of the depicted scene
+  (moral, condition, negation of a belief, speech, comparison's tenor, temporal sequence).
+- **Key units**: fixed *a priori* as the res picta units the motto or the final distich depends on.
+- **Observable relation** per unit × picture: present / absent / substituted / contradicted /
+  indeterminate (≤ 500 px; checked on Gallica scans where needed), plus **added** elements.
+- **Interpretive labels** (operation, source) are coded **separately** and marked interpretive.
 
-## 6. Hypotheses (each with what would refute it)
+## 6. Design commitments (from review 1)
 
-Hypotheses are stated at the level of the 1531 panel (104 emblems × 4 programmes). Confirmatory
-tests are fixed in the protocol (S6) before full annotation; everything else is exploratory.
+- **Development vs confirmation.** The 20 emblems of S3 are the development set. The coding
+  scheme is frozen on them; confirmatory analyses use a fresh stratified random sample of the
+  remaining 1531 emblems.
+- **Copy and source matrix first.** For each emblem × programme pair: same block / reversed copy /
+  free copy / independent re-design / indeterminate, from Tung's *Variorum* and inspection. Tests
+  of convergence use independent re-designs, and copy relation enters models as a covariate.
+- **Which 1531.** A31a (28 Feb. 1531) and A31b (6 Apr. 1531) are collated; the panel uses the
+  edition whose blocks are complete, and the count of woodcuts is reconciled with Glasgow and Tung.
+- **Blind image-only descriptions** of every picture in the confirmation sample are written by a
+  coder who has not read the epigram, *before* text-informed coding. Divergence items are defined
+  from them, not from text-informed judgement.
+- **Two independent human coders** for a double-coded subset, with a Latinist for segmentation;
+  machine coding, if used, is a measured condition, never a coder.
+- **Each hypothesis has a named test, effect-size threshold and multiplicity correction** (below),
+  with minimum detectable effects simulated from pilot rates before confirmation.
 
-- **H1 — Conversion, not a wall.** Content in Worth's categories (negation, condition,
-  tense/aspect, modality, question) is rendered directly less often than concrete content of the
-  same emblems, but is converted by a small set of operations whose choice depends on the category.
-  *Refuted if* (a) the direct-rendering rate of Worth categories is not lower than that of concrete
-  content within emblems, or (b) operation type is independent of content category, or (c) the
-  operation codes cannot be applied reliably (agreement below the threshold set in S6).
-- **H2 — Pictures over-specify where texts are open** (Greenberg's target/over-specificity [D6];
-  Abusch & Rooth's compatibility, not entailment [D7]). Across illustrators of the same emblem,
-  depicted dimensions the text leaves open vary more than dimensions the text specifies.
-  *Refuted if* text-specified dimensions vary as often as unspecified ones.
-- **H3 — Convergence over time.** Fidelity to the text's key configuration is lowest in 1531 and
-  higher in later programmes, and the gain is not explained by copying alone. This arbitrates
-  between Glasgow/Tung ("1531 unfaithful") and Andenmatten ("1534 as bad or worse") [A1, B1].
-  *Refuted if* 1534 fidelity is not higher than 1531 on paired emblems, or if all gains sit in
-  emblems whose later cuts copy an earlier faithful one.
-- **H4 — Re-verbalisers read the text.** On *divergence items* (picture and text disagree), the
-  catalogue's image layer and VLM descriptions report the text's content more often than the
-  picture's; for VLMs the rate rises from image-only to + motto to + epigram, and negated content
-  in the text tends to be reported as depicted (affirmation bias [F2]; Brandhorst's *Ne quid
-  nimis* [F1]). *Refuted if* on divergence items the picture's content is reported at least as
-  often as the text's, or if adding the text does not increase text-content reports.
-- **H5 (exploratory) — Draw the alternative.** For negated binary predicates illustrators depict
-  the contrary state more often than for multi-valued predicates (Kaup, Orenes [D12]; Schier via
-  Grzankowski [D11]). Likely too few items for a confirmatory test.
+## 7. Hypotheses
 
-## 7. Claimed contributions
+Confirmatory on the 1531 panel's fresh sample; models are mixed-effects logistic regressions with
+random intercepts for emblem and programme and a copy-relation covariate; Holm correction across
+H1–H4; categories with fewer than 15 units are reported descriptively only.
 
-- **Emblem studies / art history.** The first systematic, reliability-checked account of how one
-  emblem book's texts were rendered by four illustration programmes: what each programme does with
-  undepictable content, how often it departs from the text, and whether later programmes correct
-  or copy. It turns scattered remarks (Tung, Andenmatten, Ureña) into a measured description and
-  settles a disagreement in the literature (H3).
-- **Semiotics / philosophy of depiction.** The first production-side test of Worth's list and of
-  formal pictorial semantics' predictions (over-specification, compatibility, iconic content
-  projecting out of logical operators [D6–D9]) on historical material where the source text is
-  known; and a typology of conversion operations that extends Worth's list (speech, identity,
-  analogy, medium-bound properties).
-- **Information science / computing.** A measure of how far catalogue "image" descriptions depend
-  on the text; a controlled evaluation of VLMs with divergence probes that separates reading the
-  picture from importing the text; and a released resource (identifiers, our annotations, scripts,
-  notebooks) usable as a benchmark of "what the picture shows vs what the text says".
+- **H1 — 1531 is less faithful than 1534.** The probability that a key res picta unit is present
+  is lower in 1531 than in 1534 (odds ratio ≤ 0.67, one-sided α = .05 after Holm), restricted to
+  pairs coded as independent re-designs. *Refuted* if the odds ratio's upper 95 % bound exceeds 1;
+  *inconclusive* in between. This arbitrates Glasgow/Tung vs Andenmatten.
+- **H2 — Departures have identifiable non-textual sources.** Among departures from the printed text
+  in all programmes, at least half are attributed by both coders to a named alternative source
+  (motto, commentary, stock iconography, earlier block), with κ ≥ 0.67 on the source label.
+  *Refuted* if attributable departures are < 50 % or the source label is not reliable (then RQ2 is
+  reported as indeterminate).
+- **H3 — Re-designs commit where the text is open, and keep what it specifies.** Across
+  independent re-designs of the same emblem, a text-specified depicted property (number, posture,
+  material, species, spatial relation named in the text) changes value less often than a property
+  the text leaves open, *relative to the baseline rate of change of stock-convention properties*
+  (frame, landscape, architecture). *Refuted* if specified and unspecified properties change at
+  rates whose ratio's 95 % interval includes 1.
+- **H4 — Catalogue image layers propagate across editions.** For a picture whose content differs
+  from the picture of another edition (blind descriptions), the catalogue's image-layer record
+  matches the *other edition's* record more often than the differences between the pictures
+  warrant (string and notation-set overlap compared with a baseline of record overlap for pictures
+  judged the same). *Refuted* if record overlap does not exceed the picture-similarity baseline.
+  Observed already (descriptive, not a test): 51 of 312 later-edition alt-texts are identical to
+  the 1531 alt-text, 9 Iconclass-image sets identical.
+- **H5 — VLMs on divergence items (diagnostic).** On closed probes written from blind descriptions,
+  accuracy about the picture falls when the matching epigram is added and does not fall (or falls
+  less) when a mismatched epigram is added; text-only answers measure prior knowledge. Thresholds
+  fixed in PROTOCOL after the pilot; reported as a diagnostic.
 
-The three parts share **one coding scheme** applied to the text, the woodcut, the catalogue record
-and the model output — the measurement that no prior work provides [H6].
+RQ3 (argumentative content) is descriptive: frequencies and examples of pictorial means, with
+reliability, and the specific predictions of Worth, Kaup/Orenes (draw the alternative for binary
+predicates) and Abusch (stative content, no implicature from absence) checked where items allow.
 
-## 8. Scope and limits (stated now)
+## 8. Scope and limits
 
-- **Corpus**: the 104 emblems of 1531 in four Latin programmes is the confirmatory panel; the 1534
-  additions and the 1550/1621 enlarged books (≈ 212 emblems, three programmes) are exploratory.
-- **Independence**: programmes are not independent where blocks were copied; copy relations are
-  coded from Tung's *Variorum* and by inspection, and analyses are run with and without copies.
-- **Language**: the epigrams are Latin; Glasgow's English translations (declared non-authoritative)
-  are a working aid. Content units are segmented on the Latin with the translation alongside; a
-  Latinist check of a sample is needed.
-- **Intermediaries**: illustrators may have worked from a paraphrase, not the Latin [A4]; a
-  "loss" may have happened before the woodcut. The article states this as a limit on causal claims
-  about individual illustrators.
-- **Image quality**: picturae are ≤ 500 px; fine details (hatching for skin colour or material)
-  may need Gallica's higher-resolution scans for disputed cases.
-- **Model contamination**: Alciato's emblems and Glasgow's pages are online; a model may recognise
-  the emblem and recall its text. Divergence items and an explicit recognition check are the
-  safeguards (S6).
-- **Sensitive content**: some emblems rest on racialised proverbs (A31b083) and the catalogue uses
-  dated terms; the article addresses this explicitly.
-- **Not claimed**: anything about emblem books in general, about readers' reception, or about
-  pictures in general beyond this corpus.
+- **Corpus**: the 1531 panel in four Latin programmes is confirmatory; the enlarged books
+  (≈ 212 emblems, three programmes) and other editions are exploratory.
+- **Format and workshop** (oblong 1531, square later, dense 1550) are recorded as covariates.
+- **Intermediaries**: Hunger's prose brief is evidence for Paris 1542 only; for 1531 the possible
+  sources are the manuscript text and lemmata (Peutinger circle) — stated, not assumed.
+- **Resolution**: ≤ 500 px; Gallica scans for every divergence item and disputed case.
+- **Model contamination**: Glasgow pairs these images with texts online; mitigation by mismatched
+  text, text-only, perturbed images, open-weight pinned models, several prompts, deterministic
+  probe scoring (PROTOCOL).
+- **Sensitive content**: racialised proverbs and dated catalogue terms (A31b083) addressed
+  explicitly.
+- **Publication shape**: one article with three linked parts, or a humanities article (RQ1–RQ3)
+  plus a DH companion (RQ4) — a decision for Marcel (JOURNAL). The protocol is modular so that
+  either is possible.
 
 ## 9. Open risks to originality
 
-Cummings 2007; Tung 2012 and 2013; Adams 1990 and 1992; Manning 1989; Scholz 1984; Oversteegen &
-Schilperoord 2014 and Sato et al. 2023 in full [I]. Access requested from Marcel (JOURNAL,
-"Questions for Marcel").
+Cummings 2007; Tung 2012, 2013; Scholz 1984, 1991; Manning 1989; Adams 1990, 1992; Balavoine 1982;
+Klecker 2007; Oversteegen & Schilperoord 2014 and Sato et al. 2023 in full [I]. Access requested
+from Marcel.

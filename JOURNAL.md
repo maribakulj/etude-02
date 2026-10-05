@@ -11,6 +11,13 @@ One entry per wake-up, newest last: date/time, step, what was done, what was fou
    *Emblematica* 20 (2013); John Manning, "A bibliographical approach…", in Daly (ed.), *Andrea
    Alciato and the Emblem Tradition* (1989). Until then the loop writes the problem with these as
    explicit open risks.
+2. **Second human coder and a Latinist.** Both reviewers say a reliability claim needs a second
+   independent human coder (≈ 30 emblems × 4 editions double-coded) and a Latinist for segmenting
+   the epigrams. Do you know someone (colleague, student, emblem specialist)? Could you be one of
+   the coders yourself (estimated load in PROTOCOL)?
+3. **One article or two?** The humanities reviewer advises a humanities article (sources and
+   fidelity of the pictures, copying) and a separate DH article (catalogue propagation and AI
+   models). You asked for one article; the protocol is written so that either works. Your call.
 
 ---
 
@@ -108,3 +115,16 @@ discipline, scope limits (1531 panel confirmatory; copying; Latin; intermediarie
 contamination; sensitive content). Central design idea made explicit: **divergence items** (picture
 and text disagree) separate reading the picture from importing the text. Next: S5, two hostile
 reviews.
+
+## 2026-10-05 23:30 — S5 done
+
+Two hostile reviews (`docs/reviews/R1-*.md`): both **major revision**. Main lessons: the text is
+not fixed (verified: 67/312 epigram pairs differ > 10 % of tokens); the catalogue "leakage" I
+reported in S3 is largely **record inheritance** between editions (verified: 51/312 alt-texts
+identical) — my S3 claim was wrong as stated; "loss" of conditionals is true by construction, the
+period criterion is the *res picta*; operations were derived from the set they would be tested on;
+no reliability without a second human. PROBLEM rewritten as v0.2 (multi-source model, res picta
+frame, dev/confirm split, copy matrix first, blind descriptions, quantified hypotheses H1–H5),
+point-by-point response in `docs/reviews/R1-response.md`. Fixed a parser bug (page-break link text
+inside epigrams). Fetching A31a for collation. Two new questions for Marcel (coders; one or two
+papers). Next: S6 protocol.

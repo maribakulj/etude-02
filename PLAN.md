@@ -76,7 +76,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
 - [x] **S4 — Problem.** Write `docs/PROBLEM.md` from S1 + S3. Sharpen the question until each
   hypothesis is testable on this corpus. State the contribution per discipline and the nearest
   prior work it goes beyond.
-- [ ] **S5 — Review 1 of the problem.** Two hostile reviewer subagents (humanities venue; DH /
+- [x] **S5 — Review 1 of the problem.** Two hostile reviewer subagents (humanities venue; DH /
   computing venue). Log objections verbatim-in-summary; revise.
 - [ ] **S6 — Protocol v0.1.** `docs/PROTOCOL.md` + annotation scheme `docs/ANNOTATION_GUIDE.md`
   (categories from S3, definitions, decision rules, examples with links). Model conditions for the

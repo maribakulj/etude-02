@@ -60,6 +60,10 @@ must separate the two.
 
 ## The verbal layers of the catalogue
 
+> **Correction after review 1 (S5):** the cases below are better explained by **record
+> inheritance** between editions (A31b036's alt-text is A34b035's with the plural removed; 51/312
+> later alt-texts are identical to 1531) than by cataloguers reading the text. See PROBLEM v0.2, H4.
+
 - Glasgow's alt-text and Iconclass "image" notations for 1531 sometimes describe **the text, not
   the woodcut** (036 Isis; 083 skin colour; 003 Harpocrates).
 - But not always: in 053 the alt-text follows the image ("a slug") against the text
