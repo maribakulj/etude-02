@@ -82,7 +82,7 @@ at the top of `JOURNAL.md`, stop the loop, and do **not** start the full annotat
   (categories from S3, definitions, decision rules, examples with links). Model conditions for the
   machine part (image only / + motto / + epigram; which open and API models; prompts fixed in
   advance). How Iconclass "image" vs "text" splits are used. Reliability plan.
-- [ ] **S7 — Pilot.** Apply the scheme to the S3 emblems (all core editions). Record every case the
+- [x] **S7 — Pilot.** Apply the scheme to the S3 emblems (all core editions). Record every case the
   guide could not decide. Small model pilot (a few emblems, cheap) only to test the pipeline, not to
   report results. Revise guide and protocol → v0.2. Notebook `notebooks/01_pilot.ipynb`.
 - [ ] **S8 — Review 2** of PROBLEM + PROTOCOL (fresh reviewers, not told about review 1). Revise.

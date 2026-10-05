@@ -136,7 +136,9 @@ stock-convention properties for H3). Reliability: Krippendorff's α (nominal) pe
 - **Divergence items**: pictures where the blind inventory contradicts or lacks a key res picta
   unit of the printed text (from Stage C, which itself rests on Stage A).
 - **Probes**: 2–4 closed questions per divergence item written from the blind inventory, answer
-  set `yes / no / cannot tell` ("Is anything carried on the animal's back?", "Is the washed man
+  set `yes / no / cannot tell`, **balanced for polarity** (each probe paired with a reversed twin
+  so that the text-consistent answer is `yes` for half and `no` for half; pilot: a 3B model said
+  `yes` 88/144 times) ("Is anything carried on the animal's back?", "Is the washed man
   drawn darker than the others?"). Written before any model is run; committed.
 - **Conditions**: (1) image only; (2) image + motto; (3) image + epigram (Latin + translation);
   (4) image + **mismatched** epigram (another emblem's, matched for length); (5) epigram only, no

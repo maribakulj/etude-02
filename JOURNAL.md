@@ -185,3 +185,12 @@ The blind inventory form was piloted by a separate model instance on 79 anonymis
    Latin-square), mixed with unrelated pictures, RECOGNISED collected first with a "did it change
    your description?" flag. Also: POSE type, entity ids, counting rule, zoom.
 These go into ANNOTATION_GUIDE / PROTOCOL v0.2 at the end of S7.
+
+## 2026-10-06 — S7 done
+
+Probe pipeline tested on qwen2.5vl:3b (after waiting in the heavy-computation queue behind axel
+and impressions jobs): 144/144 answers parsed; pattern in the direction of H5 (matching epigram
+pulls answers to the text, mismatched does not) **but confounded by a yes-bias** (88/144 "yes",
+6/8 probes had "yes" as text answer) → probes must be polarity-balanced (PROTOCOL §8 updated).
+`notes/pilot_probes.md`, `notes/pilot_S7.md`, `notebooks/01_pilot.ipynb` (executed). Guide and
+protocol at v0.2. Next: S8, second review by fresh reviewers.
