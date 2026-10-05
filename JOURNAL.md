@@ -35,7 +35,7 @@ uv project (`src/etude02`, `tests`, `notebooks`, `docs`, `notes/looking`), ruff 
 S1 (literature) delegated to a background subagent that writes only `notes/literature.md` and
 `references.bib`; meanwhile the loop itself does S2 (scraper). Next: S2.
 
-## 2026-10-05 evening — S2 in progress
+## 2026-10-05 — S2 in progress
 
 `src/etude02/glasgow.py` (cached polite fetcher, mixed Latin-1/UTF-8 decoding, parser for motto,
 epigram, translations, notes, Iconclass image/text, related emblems, pictura) with hand-written
@@ -44,7 +44,7 @@ with a finger to his lips in a small room") — a further verbalisation layer of
 the corpus. Core fetch (A31b, A34b, A50a, A21a) running in background → `logs/fetch_core.log`.
 Next: when the fetch ends, check counts, commit `data/ids.csv`, start S3.
 
-## 2026-10-05 20:05 — S3 started while S2 fetch runs
+## 2026-10-05 — S3 started while S2 fetch runs
 
 Fetch at A50a (≈ 30 min left, A21a after). Started looking with three editions: notes for
 A31b036, 083, 013, 017, 058, 049, 057 in `notes/looking/`. Recurrent observations so far (to be
@@ -63,7 +63,7 @@ tested, not yet categories):
 independent of the text; the protocol will need an image-only description made blind to the text.
 Next: finish S2 checks, complete S3 to ~20 emblems with all four editions.
 
-## 2026-10-05 20:50 — S1 done
+## 2026-10-05 — S1 done
 
 `notes/literature.md` (≈ 120 works, sections A–J, gap statement, threats to originality) and
 `references.bib` (184 entries, 20 marked `[unverified]`) written by a background subagent; spot
@@ -83,7 +83,7 @@ Key points for the problem:
   analysed;
 - biggest originality risk: Cummings 2007 (unread). Added to Questions for Marcel.
 
-## 2026-10-05 21:00 — S2 done
+## 2026-10-05 — S2 done
 
 Core fetch complete: 640 emblem pages (A31b 104, A34b 113, A50a 211, A21a 212), 634 picturae
 (1531 has 6 emblems without a woodcut: A31b087, 089, 101–104). Fields present for nearly all:
@@ -92,7 +92,7 @@ epigram, English translation, Iconclass image and text, Glasgow alt-text. **All 
 1531 set is a complete 4-edition panel. `data/ids.csv` committed (ids, counts, concordance; no
 text). Local `data/corpus.jsonl` is git-ignored. Next: S3 with all four editions.
 
-## 2026-10-05 22:00 — S3 done
+## 2026-10-05 — S3 done
 
 20 emblems looked at in the four core editions (`notes/looking/`, one file each, links to
 Glasgow); synthesis in `notes/looking/SYNTHESIS.md`. Nine candidate operations emerged from the
@@ -106,7 +106,7 @@ cases (a special edition, not a representative illustrator); later editions ofte
 towards the text; the catalogue's image layer follows the text in some cases and the image in
 others — a measurable variable. Next: S4, write `docs/PROBLEM.md`.
 
-## 2026-10-05 22:30 — S4 done (v0.1)
+## 2026-10-05 — S4 done (v0.1)
 
 `docs/PROBLEM.md` v0.1: sharpened RQ with four sub-questions (losses and operations;
 commitments/over-specification; drift; re-verbalisation), gap with nearest works, design evidence
@@ -116,7 +116,7 @@ contamination; sensitive content). Central design idea made explicit: **divergen
 and text disagree) separate reading the picture from importing the text. Next: S5, two hostile
 reviews.
 
-## 2026-10-05 23:30 — S5 done
+## 2026-10-05 — S5 done
 
 Two hostile reviews (`docs/reviews/R1-*.md`): both **major revision**. Main lessons: the text is
 not fixed (verified: 67/312 epigram pairs differ > 10 % of tokens); the catalogue "leakage" I
@@ -129,7 +129,7 @@ point-by-point response in `docs/reviews/R1-response.md`. Fixed a parser bug (pa
 inside epigrams). Fetching A31a for collation. Two new questions for Marcel (coders; one or two
 papers). Next: S6 protocol.
 
-## 2026-10-05 23:50 — S6 started; corrections from Tung
+## 2026-10-05 — S6 started; corrections from Tung
 
 Tung's per-emblem commentaries (copied locally to `data/raw/tung/`, not committed) give for every
 emblem a **TEXT source**, sometimes a **PICTURE source** (Aesop, Physiologus…), and a "PICTURE
@@ -142,7 +142,7 @@ something absent (review R1-humanities obj. 1 rested partly on my error). A31b01
 a **reused block** from another emblem. Method lesson recorded in PROTOCOL: one looker at ≤ 500 px
 is not reliable; blind human descriptions + Tung + Gallica scans are needed.
 
-## 2026-10-06 00:20 — S6 done (v0.1)
+## 2026-10-05 — S6 done (v0.1)
 
 `docs/PROTOCOL.md` v0.1: materials and programmes (P31/P34/P50/P21; Tung's "51" vs our A50a to be
 checked), A31a/A31b collation, **copy and source matrix seeded from Tung and checked by two
