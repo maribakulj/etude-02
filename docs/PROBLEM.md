@@ -133,6 +133,27 @@ annotation.
 - workshop practice quantified: how often copies are reversed (transfer), and what is simplified
   or dropped.
 
+## 6b. Scale-up (planned after the pilot)
+
+The pilot only decides whether the computational part holds. The study is meant to scale.
+
+| Stage | Corpus | Role |
+|---|---|---|
+| 1. Pilot | 20 development emblems, about 60 adjudicated edges | go / no-go |
+| 2. Full Alciato | 212 emblems × Tung's programmes with a Glasgow witness (about 1,500 cuts); then all 22 Glasgow editions (about 3,600 pictures) | the evaluated benchmark (paper A) |
+| 3. Large unlabelled corpora | Emblematica Online (about 33,000 emblems); Lyon16ci (about 10,000 Lyon illustrations, 1480–1600); Salomon's Aesop, Ovid and Bible cuts and their European copies; Whitney 1586 (after Plantin); Gallica | **discovery**: unreported copies, reuse chains, the rate of reversed copying at scale; a human-checked sample measures precision |
+
+Why both are needed:
+- **Massive processing alone** gives similarity clusters that nobody can verify. That already
+  exists (Visual Contagions, Lyon16ci search).
+- **A small benchmark alone** is an analysis paper.
+
+The contribution is the combination: a method whose behaviour is **measured against an expert
+ground truth** (stage 2), applied at a scale where it **finds what experts have not recorded**
+(stage 3), with the error rate carried over from stage 2.
+
+Compute: stage 3 needs Colab or a larger machine; the Mac is enough only for stages 1–2.
+
 ## 7. Risks
 
 - **Prior art**:
