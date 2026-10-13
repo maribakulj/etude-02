@@ -1,148 +1,164 @@
-# Research problem — v0.4 (draft, 2026-10-13)
+# Research problem — v0.5 (draft, 2026-10-13)
 
-*Through the picture or through the text? Recovering and explaining the copying history of
-Alciato's emblem woodcuts with visual correspondence methods (1531–1621).*
+*Copied, reversed or redrawn: testing visual correspondence methods against the documented
+relations between the illustrated editions of Alciato's* Emblemata *(1531–1621).*
 
-Status: **draft, not frozen, not reviewed.** It replaces v0.3 (in git history, commit `0ce6270`),
-for the reasons given in §1. State of the art for this version:
-[`notes/sota_2026-10.md`](../notes/sota_2026-10.md). The v0.3 work remains usable: corpus, 20
-development emblems, the corrections recorded outside the repository with Codex
-(`~/etude-02-collaboration/`).
+Status: **draft, not frozen.** v0.5 answers review round 4 ([`reviews/R4-v0.4.md`](reviews/R4-v0.4.md)).
+State of the art: [`notes/sota_2026-10.md`](../notes/sota_2026-10.md). Earlier versions are in git
+history: v0.3 (manual coding of text–image fit), v0.4 (first visual reframing).
 
-## 1. Why the problem changes
+## 1. Why
 
-v0.3 had become a manual coding protocol: 6 to 9 human annotators, one modest descriptive
-question (does 1534 render the key units of the text more often than 1531?), and a marginal
-computational part. Two things were missed:
+- **The material.** Mason Tung's *Variorum* comments on the cuts of 212 emblems in 9 illustration
+  programmes and says, in prose, which design follows which, in which direction, and which designs
+  are new. An expert account of transmission over a long series of printed editions is rare.
+- **The methods.** Recent visual correspondence methods have not been tested against such an
+  account: dense features (DINOv3), co-segmentation (SegSwap), print-reuse search (VISE, used by
+  Lyon16ci), unified correspondence (MATCHA).
+- **What is not done yet** (state of the art):
+  - typing the relation between two cuts;
+  - inferring the direction of a copy (reversed or same-direction);
+  - evaluating against an expert ground truth.
 
-1. **The strongest material of the project is not the text–image fit but the copying history.**
-   Mason Tung's *Variorum* documents, for 212 emblems in 9 illustration programmes, which cut
-   follows which, in which direction, and which designs are new. Expert ground truth on
-   transmission across a long series of printed editions is rare.
-2. **Visual correspondence methods have changed what can be measured**:
-   - near-duplicate and co-segmentation search: ArtMiner, SegSwap;
-   - dense features: DINOv3, DIFT;
-   - segmentation: SAM 3;
-   - pose estimation on art: ViTPose trained on Human-Art.
+  Lyon16ci (Lyon illustrations 1480–1600) finds reuse of identical cuts but does none of these.
+  Kaoua et al. 2021 match illustrations across manuscripts without typing. Chung et al. 2014
+  separate same block from copy on ballads (150 pairs).
 
-   None of them has been tested against such a documented history.
+## 2. What Tung is, and what he is not
 
-## 2. Question
+Tung is **not a coded stemma** (review R4):
+- his vocabulary is graded and inconsistent: "follows", "in reverse", "copied", "models after",
+  "same cut";
+- "47/83" can mean a re-engraved, near-identical cut;
+- he describes from reproductions: 1547 shown through the 1556 edition, 1577 through Leiden 1591;
+- he is selective: an unstated relation is not an absent one;
+- he names sources outside the 9 programmes: Wechel 1542, Lyon 1548/49, de Tournes' *Aesopi
+  Phrygis Fabulae*, Reusner 1581, Gesner and Belon, Ovid.
 
-> **RQ.** Can visual correspondence methods recover a documented copying history between the
-> illustration programmes of one text (same block, reversed copy, same-direction copy, free copy,
-> new design)? And when a picture is redrawn, does it stay closer to the previous picture or to the
-> text it illustrates?
+Hence:
 
-Marcel's starting question — what a picture keeps that words lose, and the reverse — comes back in
-a measurable form. The epigram is fixed across editions, so each new design can be placed between
-two sources: **the previous image and the words**.
+- **Ground truth = "relations between documented witnesses"**, not "the copying history".
+- **Nodes** are dated witnesses (programme × edition held by Glasgow or Gallica). Edges whose
+  witness postdates the copying event are flagged.
+- **Edges** are built bottom-up from Tung's phrases. The phrase inventory is published with counts.
+  A phrase is mapped to a label only where it decides it. Three separate fields:
+  - `dependency`: yes / no / Tung-unspecified;
+  - `orientation`: same / reversed / NA;
+  - `fidelity`: close / free / NA.
+- **Block identity** (same block vs recut) is decided on physical evidence, never from Tung's
+  wording: cracks, frame breaks, measured size, on scans.
+- **Unstated pairs are never scored as negatives.**
+- Edges where Tung names an outside source are tagged; results are reported with and without them.
+- **Reliability**: two independent extractions (at least one human) plus human adjudication on ≥ 100
+  edges, κ per field. Headline numbers use adjudicated edges; the rest is a sensitivity analysis.
+  Tung's omissions are estimated on a sample of about 50 unstated pairs checked by eye.
 
-Sub-questions:
+## 3. Questions
 
-- **RQ1 — Recovery.** How well do off-the-shelf methods rank and classify the documented relations?
-  Methods: global embeddings, dense correspondence with and without mirroring, co-segmentation,
-  pose. Breakdown by relation type and by pair of programmes.
-- **RQ2 — Mirror.** Reversed copies are frequent in this corpus. Does explicit mirror handling
-  change recovery, and can the direction of a copy be inferred?
-- **RQ3 — What persists.** Across a copy and across a new design, which components are kept? Figure
-  poses (keypoints), main objects (segments), composition (spatial layout of matched regions),
-  setting.
-- **RQ4 — Picture or text.** For new designs, is the new picture closer to the previous picture or
-  to the text? Two independent measures:
-  - (a) visual: correspondence with the previous cut, against a baseline of unrelated cuts;
-  - (b) textual: realisation of the epigram's depicted entities and relations (detection and
-    segmentation by name, checked by humans on a sample), with Tung's notes on which part of the
-    text a design illustrates as a reference.
-- **RQ5 (descriptive, kept from v0.3).** What do catalogue verbalisations (Glasgow alt-text,
-  Iconclass "image", Tung's descriptions) keep of what the pictures show?
+- **RQ1 — Ancestor attribution.** Given a cut, can methods identify its documented model among the
+  earlier witnesses of the **same emblem** (chance 1/k reported)? A harder setting retrieves it from
+  the whole corpus, with independent designs of the same emblem as hard negatives.
+- **RQ2 — Direction.** Given a dependent pair, can methods tell a reversed copy from a
+  same-direction one? Flipping the query makes retrieval mirror-invariant; it does not solve
+  direction. Flip-augmented global features may fail here (cf. *Telling Left from Right*, CVPR
+  2024), while asymmetric dense matching may succeed. Balanced accuracy.
+- **RQ3 — What persists (a small correspondence benchmark).** On about 40 dependent pairs, scans
+  annotated by hand with 5–10 corresponding points on figures and objects. Two uses:
+  - measure how well dense methods follow parts through redrawing (PCK);
+  - describe which parts are kept, displaced or lost.
 
-## 3. Material
+  Copies under redrawing are a hard and unbenchmarked correspondence regime.
+- **Exploratory, not part of paper A — attribution of departures.** For each element added or
+  removed against the previous cut, is it licensed by:
+  - the epigram printed in that edition;
+  - a commentary or translation printed in that edition;
+  - an outside visual source;
+  - none of these?
 
-| Tung code | Programme | Glasgow witness | Status |
-|---|---|---|---|
-| 31 | Augsburg 1531 | A31b (A31a, A34a: same Steyner chain) | local |
-| 34 | Paris 1534 | A34b | local |
-| 46 | Venice, Aldus 1546 | none found | gap |
-| 47 | Lyon, de Tournes 1547 (Salomon); Tung's plates come from the 1556 edition | A56a (1556) | block identity to check |
-| 51 | Lyon 1551 | A51a (A50a closely similar) | A50a local; A51a to fetch |
-| 67 | Frankfurt 1567 | A67a | to fetch |
-| 77 | Antwerp 1577; Tung's plates come from Leiden 1591 | A91a | to fetch |
-| 83 | Paris 1583 | FALc (Paris 1584)? | identity to check |
-| 21 | Padua 1621 | A21a | local |
+  Coded by hand. Tung already gives cases ("21 adds the cubit-ruler mentioned in the text for the
+  first time"). This replaces the false choice "previous picture or text" of v0.4. It is where
+  Marcel's starting question (what pictures keep and words lose) returns, with historical sources.
 
-Up to 8 of Tung's 9 programmes have a Glasgow witness. Images are ≤ 500 px; Gallica scans are to
-be checked where detail matters.
+Dropped from this study: catalogue verbalisations (former RQ5).
 
-**Ground truth.** Tung's prose relations are extracted into a typed graph, with an evidence
-sentence for each edge. A model-made first pass exists for 104 emblems and 4 programmes
-(`data/copy_matrix_firstpass.csv`, 175/416 rows low confidence). Its reliability is measured
-against an independent second extraction and a human check of a sample. The graph keeps
-uncertainty (`unclear`) instead of forcing a class.
+## 4. Controls and baselines
 
-## 4. Claimed contribution (to be confirmed by the reading list)
+- **Leakage**:
+  - witnesses that print the same blocks are merged into one node;
+  - a query never retrieves its own programme;
+  - a **style-only control** (a classifier that predicts the programme) is tested as a predictor of
+    dependency.
+- **Methods, kept to four plus controls**:
+  1. SIFT/VISE + RANSAC ± flip (the Lyon16ci tool; Chung et al. 2014 features as a reference);
+  2. DINOv3 global ± flip;
+  3. DINOv3 dense mutual nearest neighbours ± flip;
+  4. SegSwap with released weights.
 
-1. **A benchmark**: an expert-documented, typed copying graph over up to 8 printed programmes,
-   mirror relations included, with an evaluation protocol. Released as identifiers, relations and
-   scripts; no Glasgow images.
-2. **A measured answer** to how far current visual correspondence methods recover typed print
-   transmission, mirror included. The nearest works are Kaoua et al. 2021 (manuscript illustration
-   matching, no relation types, no mirror) and Chung et al. 2014 (same block vs copy, 150 pairs).
-3. **A decomposition of what persists** under copying and redesign (pose, objects, layout).
-4. **A first computational test** of whether redesigned illustrations follow the previous picture
-   or the text.
+  Controls: edge chamfer, CLIP, style-only, chance. Pose models only after a figure-detection check
+  on woodcuts, and not in the first paper.
+- **Statistics**: bootstrap over emblems (not pairs). With 100–200 pairs per label, intervals of
+  about ± 7 points are expected and will be stated.
 
-## 4b. Methods to compare (all with public code unless noted)
+## 5. Material and witnesses
 
-| Purpose | Methods | Why |
+| Tung code | Glasgow witness | Status |
 |---|---|---|
-| Same block / copy retrieval | VISE (local keypoints + RANSAC, used by Lyon16ci), ArtMiner, SegSwap | the established print-reuse tools; mirror handled by flipping the query |
-| Dense correspondence between a free copy and its model | DINOv2 / DINOv3 dense features, MATCHA (CVPR 2025), MARCO (CVPR 2026), DIFT, Diffusion Hyperfeatures | what is kept at the level of parts |
-| Mirror and left–right | flipped queries; *Telling Left from Right* (CVPR 2024) shows foundation features confuse left and right | reversed copies are a known trap for these features |
-| Line drawings | SketchFusion (CVPR 2025) | features tuned to sketches, possibly better suited to woodcut line work |
-| Figures and objects | Grounded SAM 2 + SAHI (small objects), SAM 3 | isolate figures and named objects |
-| Pose | ViTPose trained on Human-Art; SDPose (diffusion-based, out-of-domain) | figure pose persistence; neither tested on woodcuts |
+| 31 | A31b (A31a, A34a same chain) | local |
+| 34 | A34b | local |
+| 46 | — | missing |
+| 47 | A56a (1556) | to fetch; block identity with Tung's plates to check |
+| 51 | A51a (A50a close; 1548/49 Lyon origin to locate) | A50a local; A51a to fetch |
+| 67 | A67a | to fetch |
+| 77 | A91a (Tung's own source, Leiden 1591) | to fetch; needed for 21's ancestors |
+| 83 | FALc (Paris 1584)? | identity to check |
+| 21 | A21a | local |
+| outside | Wechel 1542 (A42a/b at Glasgow), Lyon 1548/49 (A49a, FALb), Aesop editions | to fetch where held |
 
-Motif-Match (DH2025) is cited as a model of multi-criteria similarity (pose, objects, colour) for
-art historians; no code found.
+Images are ≤ 500 px at Glasgow; Gallica scans are needed for block identity and correspondence
+annotation.
 
-## 5. What is not claimed
+## 6. Contributions and papers
 
-- No claim of historical transmission from similarity alone: similarity proposes, the documented
-  history decides.
-- No general theory of what pictures or words can express.
-- Not a study of Warburg's *Pathosformel*. Pose is one component among others.
+- **Paper A** (DSH, ICDAR or VISART):
+  - the adjudicated typed graph of relations between witnesses, released with evidence sentences;
+  - ancestor attribution and direction inference results;
+  - the correspondence set for redrawn copies.
+- **Paper B** (*Emblematica* or *Word & Image*), later: attribution of departures. It also uses
+  machine–Tung disagreements as a check on Tung, and searches for unreported copies in the Aesop,
+  Ovid and Reusner corpora.
 
-## 6. Risks and limits
+**What humanists gain from A:**
+- a systematic check of Tung, with disagreements adjudicated by hand;
+- an estimate of what he omits;
+- workshop practice quantified: how often copies are reversed (transfer), and what is simplified
+  or dropped.
+
+## 7. Risks
 
 - **Prior art**:
-  - **Lyon16ci** (Tramelli & Dutta, VGG): about 10,000 Lyon illustrations 1480–1600, VISE search
-    for reuse of identical cuts. Same city and century, possibly the Lyon Alciato editions. It has
-    no copy typology, no mirror handling, no expert ground truth and no quantitative evaluation;
-    the article must cite it and position against it. To check: query its demo with a Lyon
-    Alciato cut, upright and mirrored;
-  - Aubry's group (VHS, AIKON, EIDA) works on illustration similarity in printed scientific books;
-  - the Oxford "1516" follow-up to 15cILLUSTRATION;
-  - still unread from v0.3: Cummings 2007, Tung 2012 and 2013 (library).
-- **Ground-truth quality**: Tung's prose is not a code. Extraction error is measured, and
-  low-confidence edges are excluded from headline numbers.
-- **Detection bottleneck**: on Human-Art, ViTPose with detected boxes is far below ViTPose with
-  ground-truth boxes (0.468 vs 0.800 AP for ViTPose-H). On small woodcuts, figure detection must be
-  measured first. There is no pose benchmark for woodcuts.
-- **Resolution and witnesses**: ≤ 500 px; block identity between Tung's plates and Glasgow
-  witnesses (47/A56a, 83/FALc) must be checked.
-- **Compute**: the Mac has 16 GB and the disk is nearly full. Small models run locally through the
-  shared queue (`~/outils-seg/lourd.sh`); larger ones (DIFT, SegSwap training) on Colab.
-- **RQ4 text side**: detecting the epigram's entities in a woodcut is itself error-prone. It needs
-  a human-checked sample before any conclusion.
+  - Lyon16ci likely covers the Lyon witnesses (47, 51). Run its demo with Alciato cuts, upright
+    and mirrored, before claiming;
+  - Aubry's group (VHS, AIKON);
+  - still unread: Cummings 2007; Tung 1989 (*Emblematica* 4.2), 2012 and 2013; Green 1872;
+    Saunders 1988; Adams, Rawles & Saunders; Sharratt 2005.
+- **Labels**: if a field has fewer than about 30 adjudicated edges for a value, that value is merged
+  or reported descriptively.
+- **Resolution**: 500 px is enough for attribution, maybe not for block identity.
+- **Compute**: DINOv3-B, CLIP and SIFT run on the Mac; SegSwap, DIFT and MATCHA run on Colab.
 
-## 7. Next steps (no code until Marcel asks)
+## 8. Minimal pilot (about 2 days, no training; needs Marcel's go-ahead to code)
 
-1. Review of this draft (adversarial, humanities + computer vision).
-2. Library: Cummings 2007, Tung 2012 and 2013, plus the full text of AIKON (IJDAR 2026).
-3. When coding is allowed:
-   - fix the extraction (cahier L5, outside the repository);
-   - fetch the missing witnesses (A51a, A56a, A67a, A91a);
-   - extract Tung's graph;
-   - run a pilot on the 20 development emblems: DINOv3 global and dense features with and
-     without mirror, against Tung.
+1. Inventory Tung's relation phrases. Adjudicate by hand the relations of the 20 development
+   emblems across 31 / 34 / 50 / 21: about 60 edges, the three fields, an evidence sentence each.
+2. Within-emblem ancestor attribution and direction, with:
+   - SIFT + RANSAC ± flip;
+   - DINOv3 global ± flip;
+   - DINOv3 dense mutual nearest neighbours ± flip;
+   - the style-only control.
+3. Click 5 corresponding points on 10 dependent pairs; DINOv3 PCK.
+
+**Go / no-go.**
+- If dense features do not beat SIFT-flip and the style control on attribution by more than the
+  interval, the attribution framing is weak.
+- If direction accuracy is near 50 % for flip-augmented features but clearly higher for asymmetric
+  matching, that is the core result of paper A.

@@ -281,3 +281,24 @@ rewritten as **v0.4 draft**: recover Tung's copying graph with visual correspond
 measure what persists (pose, objects, layout), and test whether redesigns follow the previous
 picture or the text. v0.3 stays in git history. PROTOCOL and GUIDE (v0.3) are now out of date.
 No code written (Marcel's rule).
+
+## 2026-10-13 — v0.5 after review round 4
+
+Marcel chose to keep the emblems (option A) and integrate the verified recent tools. Two
+adversarial reviews of v0.4 (`docs/reviews/R4-v0.4.md`, computer vision + humanities) converge:
+- Tung is not a coded stemma;
+- the 5-class typology is not in the labels;
+- "previous picture or text" was a false choice;
+- mirror retrieval is trivial, but direction inference is not;
+- the copy graph is open (1542, 1548/49, Aesop editions…).
+
+`docs/PROBLEM.md` v0.5:
+- ground truth = relations between documented, dated witnesses, built bottom-up from Tung's
+  phrases, with three fields (dependency / orientation / fidelity) and human adjudication;
+  unstated pairs are never negatives;
+- RQ1 within-emblem ancestor attribution; RQ2 direction inference; RQ3 a small hand-annotated
+  correspondence benchmark;
+- attribution of departures becomes exploratory, for a later humanities paper B;
+- four methods plus controls; minimal 2-day pilot with go/no-go.
+
+No code written: waiting for Marcel's go-ahead.
