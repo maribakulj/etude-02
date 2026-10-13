@@ -302,3 +302,16 @@ adversarial reviews of v0.4 (`docs/reviews/R4-v0.4.md`, computer vision + humani
 - four methods plus controls; minimal 2-day pilot with go/no-go.
 
 No code written: waiting for Marcel's go-ahead.
+
+## 2026-10-13 — pilot v0.5
+
+Marcel gave the go-ahead to code. Fetched the 1551, 1556 and 1591 witnesses for the 20 development
+emblems. Adjudicated 100 Tung edges by hand from his prose (by the loop; human check pending).
+Ran `scripts/pilot_v05.py` (`notes/pilot_v05.md`):
+- **attribution**: DINOv2 global ≈ the chronological prior (0.77 vs 0.74); SIFT below chance
+  (redrawn copies); the style control is near chance;
+- **direction**: dense mutual-NN + RANSAC reaches a balanced accuracy of **0.84 [0.72, 0.94]**,
+  against 0.61 for global features (biased to "same") and 0.52 for SIFT, on 29 pairs.
+
+Go for the direction question; attribution as framed is weak. Next: human check of the
+orientation labels, full fetch for 212 emblems, DINOv3 (gated) and Colab.
