@@ -269,3 +269,15 @@ with their own preregistration; **human calibration gate before any freeze**. Re
 French summary for Marcel written at the top of this file; README status updated. The loop
 stops here as planned (no full annotation, no article). Blocking next steps are human: library
 access, calibration round with people, copy-matrix check, publication shape.
+
+## 2026-10-13 — v0.4 reframing (draft)
+
+Marcel judged that v0.3 was heading the wrong way and ignored recent visual correspondence methods
+(SegSwap, DINOv3, DIFT, SAM 3, ViTPose/Human-Art). Targeted state of the art
+(`notes/sota_2026-10.md`): no work evaluates visual matching against an expert-documented, typed
+copying history across the editions of a printed book, with mirror handling; nearest are Kaoua et
+al. 2021 (manuscripts) and Chung et al. 2014 (ballads, same block vs copy). `docs/PROBLEM.md`
+rewritten as **v0.4 draft**: recover Tung's copying graph with visual correspondence methods,
+measure what persists (pose, objects, layout), and test whether redesigns follow the previous
+picture or the text. v0.3 stays in git history. PROTOCOL and GUIDE (v0.3) are now out of date.
+No code written (Marcel's rule).

@@ -1,130 +1,129 @@
-# Research problem — v0.3
+# Research problem — v0.4 (draft, 2026-10-13)
 
-*Redrawing or keeping: how Alciato's* Emblemata *were pictured, copied and re-described
-(1531–1621).*
+*Through the picture or through the text? Recovering and explaining the copying history of
+Alciato's emblem woodcuts with visual correspondence methods (1531–1621).*
 
-Status: v0.3, after two review rounds ([`reviews/`](reviews/)); responses in
-[`reviews/R1-response.md`](reviews/R1-response.md) and [`reviews/R2-response.md`](reviews/R2-response.md).
-Not frozen: the human calibration round (PROTOCOL §G) must happen first. Sources:
-[`notes/literature.md`](../notes/literature.md) (sections in brackets), [`notes/looking/`](../notes/looking/),
-first-pass copy matrix [`data/copy_matrix_firstpass.csv`](../data/copy_matrix_firstpass.csv).
+Status: **draft, not frozen, not reviewed.** It replaces v0.3 (in git history, commit `0ce6270`),
+for the reasons given in §1. State of the art for this version:
+[`notes/sota_2026-10.md`](../notes/sota_2026-10.md). The v0.3 work remains usable: corpus, 20
+development emblems, the corrections recorded outside the repository with Codex
+(`~/etude-02-collaboration/`).
 
-## 1. From the starting question to a testable one
+## 1. Why the problem changes
 
-Marcel's starting question — *what can a visual representation keep or express that verbalisation
-loses, and the reverse?* — becomes empirical only where we know what verbal material a picture
-was made from, what other pictures were made from the same material, and how the picture was put
-back into words afterwards. Alciato's *Emblemata* provide all three: texts written first, pictures
-added and redrawn by successive printers, and modern catalogue descriptions of every picture.
+v0.3 had become a manual coding protocol: 6 to 9 human annotators, one modest descriptive
+question (does 1534 render the key units of the text more often than 1531?), and a marginal
+computational part. Two things were missed:
 
-## 2. The case
+1. **The strongest material of the project is not the text–image fit but the copying history.**
+   Mason Tung's *Variorum* documents, for 212 emblems in 9 illustration programmes, which cut
+   follows which, in which direction, and which designs are new. Expert ground truth on
+   transmission across a long series of printed editions is rare.
+2. **Visual correspondence methods have changed what can be measured**:
+   - near-duplicate and co-segmentation search: ArtMiner, SegSwap;
+   - dense features: DINOv3, DIFT;
+   - segmentation: SAM 3;
+   - pose estimation on art: ViTPose trained on Human-Art.
 
-- **Texts first.** Many epigrams render Greek epigrams (Planudean Anthology), several of them
-  ekphraseis of real artworks (Lysippus' *Kairos* behind *In occasionem*) [A1, A4]; the Latin was
-  revised between editions (67 of 312 later/1531 pairs differ by > 10 % of tokens).
-- **Pictures added and redrawn.** Augsburg 1531 (Steyner; Breu workshop) added cuts described by
-  the printer as *notulae rudiores* signifying the author's *intentio* [A4]; Paris 1534 (Wechel)
-  redrew or copied them; Lyon de Tournes 1547/1556 (Bernard Salomon), Lyon Rouille/Bonhomme
-  1548–51, Padua 1621 (Tozzi) followed. Blocks were capital: reused (1531 *Illicitum non
-  sperandum* prints the cut of *In simulachrum spei*), carried over, copied, reversed.
-- **What the period asked of a picture.** Two criteria, both attested: that it show the thing the
-  text describes without error (Alciato's complaints of 1532 about the 1531 cuts) and that it
-  express "the sense and force of the Latin poem" (Hunger's brief, Paris 1542) [A4]. The later
-  *corpus/animus* doctrine (Giovio 1555, Mignault 1577) is impresa theory and is **not** applied
-  to 1531–34.
-- **First-pass copy matrix (machine pre-fill from Tung, 175/416 rows low confidence; to be checked
-  by a human).** For the 104 emblems of 1531: Paris 1534 redraws ≈ 48 designs independently and
-  copies ≈ 42 (14 unclear); de Tournes 1547 adds ≈ 22 independent designs; Lyon 1551 and Padua
-  1621 mostly copy (≈ 82 and ≈ 76 copies). **Padua 1621 is therefore not an independent
-  programme**; the independent pictorial decisions are concentrated in 1531, 1534 and 1547.
-- **Re-description.** Glasgow's catalogue gives, for every emblem in every edition, an alt-text and
-  Iconclass notations "relating to the image" and "to the text" [A3, E6]; 51 of 312 later-edition
-  alt-texts are identical to the 1531 one.
+   None of them has been tested against such a documented history.
 
-## 3. Research questions
+## 2. Question
 
-> **RQ.** When an emblem's picture was redrawn rather than kept, what did the new design change —
-> in the scene the text describes and in its point — and from which source; and how are these
-> pictures put back into words by catalogues and by models?
+> **RQ.** Can visual correspondence methods recover a documented copying history between the
+> illustration programmes of one text (same block, reversed copy, same-direction copy, free copy,
+> new design)? And when a picture is redrawn, does it stay closer to the previous picture or to the
+> text it illustrates?
 
-- **RQ1 — Redraw or keep.** Which 1531 designs did Paris 1534 redraw, which did it copy, and does
-  a 1531 departure from the text predict redrawing? (Same question for 1547 against its models.)
-- **RQ2 — What changes.** For each key unit of the scene, is it present, partial, absent,
-  substituted or contradicted in each design; and does the design **carry the point** of the
-  epigram? Compared between 1531 and 1534 on all pairs, copy relation as covariate.
-- **RQ3 — Sources.** Which source explains each departure or addition: the Latin printed, the
-  Greek source epigram, the motto, an antique artwork or coin type, stock iconography, an earlier
-  block, another emblem's block, printer/format, misreading — with a base rate (§6, H3).
-- **RQ4 — Argumentative content (descriptive).** For negation, condition, time, speech,
-  comparison and abstraction, which pictorial means (inscription, attribute, gesture, co-presence
-  of states, vehicle scene, act performed) appear in independent designs; a production-side check
-  of Worth's list and formal pictorial semantics [D1, D6, D7], without the trivial claim that such
-  content is rendered less often.
-- **RQ5 — Re-description (DH companion).** Catalogue record propagation between editions, and a
-  contamination-aware diagnostic of vision-language models on pictures that diverge from their text.
+Marcel's starting question — what a picture keeps that words lose, and the reverse — comes back in
+a measurable form. The epigram is fixed across editions, so each new design can be placed between
+two sources: **the previous image and the words**.
 
-## 4. Positioning (narrow claims)
+Sub-questions:
 
-Not claimed: the first typology of emblem illustration devices (inscriptions, attributes, stock
-substitution are known [B]). Claimed, subject to reading Cummings 2007, Tung 2006/2012/2013,
-Scholz 1984/1991, Andenmatten 2018 in full [I]:
+- **RQ1 — Recovery.** How well do off-the-shelf methods rank and classify the documented relations?
+  Methods: global embeddings, dense correspondence with and without mirroring, co-segmentation,
+  pose. Breakdown by relation type and by pair of programmes.
+- **RQ2 — Mirror.** Reversed copies are frequent in this corpus. Does explicit mirror handling
+  change recovery, and can the direction of a copy be inferred?
+- **RQ3 — What persists.** Across a copy and across a new design, which components are kept? Figure
+  poses (keypoints), main objects (segments), composition (spatial layout of matched regions),
+  setting.
+- **RQ4 — Picture or text.** For new designs, is the new picture closer to the previous picture or
+  to the text? Two independent measures:
+  - (a) visual: correspondence with the previous cut, against a baseline of unrelated cuts;
+  - (b) textual: realisation of the epigram's depicted entities and relations (detection and
+    segmentation by name, checked by humans on a sample), with Tung's notes on which part of the
+    text a design illustrates as a reference.
+- **RQ5 (descriptive, kept from v0.3).** What do catalogue verbalisations (Glasgow alt-text,
+  Iconclass "image", Tung's descriptions) keep of what the pictures show?
 
-1. a copy-controlled, reliability-checked account of **which designs were redrawn and why**,
-   arbitrating "1531 unfaithful" (Glasgow, Tung) vs "1534 as bad or worse" (Andenmatten) [A1, B1];
-2. **source attribution with a base rate**, including the Greek source texts and antique
-   artworks behind the epigrams (Bässler's "reversal of ekphrasis") [A7];
-3. a **production-side test** of what pictures do with argumentative content where the verbal
-   source is known [D];
-4. (DH companion) a **directional audit of catalogue record propagation** and a small,
-   preregistered **VLM diagnostic** [E, F].
+## 3. Material
 
-## 5. Units and codes (summary; ANNOTATION_GUIDE)
+| Tung code | Programme | Glasgow witness | Status |
+|---|---|---|---|
+| 31 | Augsburg 1531 | A31b (A31a, A34a: same Steyner chain) | local |
+| 34 | Paris 1534 | A34b | local |
+| 46 | Venice, Aldus 1546 | none found | gap |
+| 47 | Lyon, de Tournes 1547 (Salomon); Tung's plates come from the 1556 edition | A56a (1556) | block identity to check |
+| 51 | Lyon 1551 | A51a (A50a closely similar) | A50a local; A51a to fetch |
+| 67 | Frankfurt 1567 | A67a | to fetch |
+| 77 | Antwerp 1577; Tung's plates come from Leiden 1591 | A91a | to fetch |
+| 83 | Paris 1583 | FALc (Paris 1584)? | identity to check |
+| 21 | Padua 1621 | A21a | local |
 
-Res picta (RP) units and argumentative (AR) units segmented on the printed Latin; key units fixed
-a priori from the motto or final distich; codes present / partial / absent / substituted /
-contradicted / indeterminate; `carries the point` yes / no / indeterminate per design;
-interpretive labels (source, pictorial means) coded separately. **Primary units for 1531–1534
-comparisons are those present in both printed texts.**
+Up to 8 of Tung's 9 programmes have a Glasgow witness. Images are ≤ 500 px; Gallica scans are to
+be checked where detail matters.
 
-## 6. Hypotheses and decision rules
+**Ground truth.** Tung's prose relations are extracted into a typed graph, with an evidence
+sentence for each edge. A model-made first pass exists for 104 emblems and 4 programmes
+(`data/copy_matrix_firstpass.csv`, 175/416 rows low confidence). Its reliability is measured
+against an independent second extraction and a human check of a sample. The graph keeps
+uncertainty (`unclear`) instead of forcing a class.
 
-All models: programme as a **fixed** effect; random intercept for emblem (and describer where
-Stage A data enter); copy relation coded per picture as its **ancestor relation** (independent /
-free copy / reversed copy / same block). Holm correction across H1–H4. For each hypothesis:
-**support**, **refute** or **inconclusive** by interval rules fixed below; non-significance is
-never refutation.
+## 4. Claimed contribution (to be confirmed by the reading list)
 
-| | Hypothesis | Test | Support | Refute | Otherwise |
-|---|---|---|---|---|---|
-| H1 | A 1531 departure from the text predicts that 1534 redrew the design | logistic GLMM: redrawn (independent) vs copied ~ 1531 key-unit departure | OR > 1, 95 % CI above 1.5 | 95 % CI within [0.67, 1.5] (equivalence) | inconclusive |
-| H2 | On all 1531/1534 pairs, key units are realised more often in 1534 | logistic GLMM: present ~ programme + ancestor relation | OR(1534 vs 1531) CI above 1.5 | CI within [0.67, 1.5] | inconclusive |
-| H3 | Departures have identifiable non-textual sources more often than chance | proportion of departures attributed by both coders, vs the same procedure on **sham pairs** (a departure matched with another emblem's candidate sources) | difference > 0.2, 95 % CI above 0.1 | CI within [−0.1, 0.1] | inconclusive |
-| H4 | Independent re-designs vary text-open figural slots more than text-specified slots | GLMM on slot changes between independent designs (closed slot list: count, pose, orientation, material cue, held attribute) ~ specified × slot; random emblem and slot | OR(open vs specified) CI above 1.5 | CI within [0.67, 1.5] | inconclusive |
+1. **A benchmark**: an expert-documented, typed copying graph over up to 8 printed programmes,
+   mirror relations included, with an evaluation protocol. Released as identifiers, relations and
+   scripts; no Glasgow images.
+2. **A measured answer** to how far current visual correspondence methods recover typed print
+   transmission, mirror included. The nearest works are Kaoua et al. 2021 (manuscript illustration
+   matching, no relation types, no mirror) and Chung et al. 2014 (same block vs copy, 150 pairs).
+3. **A decomposition of what persists** under copying and redesign (pose, objects, layout).
+4. **A first computational test** of whether redesigned illustrations follow the previous picture
+   or the text.
 
-Power is simulated (PROTOCOL §9) from the calibration round's real rates and the checked copy
-matrix; any hypothesis that cannot reach 80 % power at its support threshold is declared
-descriptive **before** the confirmation set is coded.
+## 5. What is not claimed
 
-DH companion (RQ5), preregistered separately: **H5** — catalogue inheritance is directional
-(an Iconclass-image notation unsupported by picture X but supported by picture Y of the same
-emblem is evidence of Y→X propagation); **H6** — on divergence items, VLM answers agree with the
-text more when the matching epigram is given than when a mismatched one is (primary contrast:
-condition 3 vs 4; probes nested in items; logistic GLMM; smallest effect of interest: 10
-percentage points).
+- No claim of historical transmission from similarity alone: similarity proposes, the documented
+  history decides.
+- No general theory of what pictures or words can express.
+- Not a study of Warburg's *Pathosformel*. Pose is one component among others.
 
-## 7. Scope and limits
+## 6. Risks and limits
 
-- **Panel.** Primary: 1531 (A31b, same blocks as A31a), 1534 (A34b; A34a collation pending) and
-  de Tournes (Salomon) for the 104 emblems of 1531. Lyon 1550/51 and Padua 1621 are exploratory
-  (copy chains). Whether Glasgow's de Tournes 1556 (A56a) carries the 1547 Salomon cuts is to be
-  checked.
-- **Commentary** as a source is tested only for designs that post-date the commentary.
-- **Staffing.** The design needs humans (describers who do not know Alciato, a Latinist, two
-  coders); the calibration round (PROTOCOL §G) times the tasks and decides what is feasible.
-- **Resolution.** Gallica scans are the default for Stage A where available, Glasgow ≤ 500 px
-  otherwise.
-- **Close readings.** The humanities article pairs counts with close readings of exemplary cases
-  (036, 006, 096, 013).
-- **Publication shape.** Recommended: a humanities article (RQ1–RQ4) and a DH companion (RQ5);
-  Marcel decides.
-- **Sensitive content.** Racialised proverbs and dated catalogue terms handled explicitly.
+- **Prior art**:
+  - Aubry's group (VHS, AIKON, EIDA) works on illustration similarity in printed scientific books;
+  - the Oxford "1516" follow-up to 15cILLUSTRATION;
+  - still unread from v0.3: Cummings 2007, Tung 2012 and 2013 (library).
+- **Ground-truth quality**: Tung's prose is not a code. Extraction error is measured, and
+  low-confidence edges are excluded from headline numbers.
+- **Detection bottleneck**: on Human-Art, ViTPose with detected boxes is far below ViTPose with
+  ground-truth boxes (0.468 vs 0.800 AP for ViTPose-H). On small woodcuts, figure detection must be
+  measured first. There is no pose benchmark for woodcuts.
+- **Resolution and witnesses**: ≤ 500 px; block identity between Tung's plates and Glasgow
+  witnesses (47/A56a, 83/FALc) must be checked.
+- **Compute**: the Mac has 16 GB and the disk is nearly full. Small models run locally through the
+  shared queue (`~/outils-seg/lourd.sh`); larger ones (DIFT, SegSwap training) on Colab.
+- **RQ4 text side**: detecting the epigram's entities in a woodcut is itself error-prone. It needs
+  a human-checked sample before any conclusion.
+
+## 7. Next steps (no code until Marcel asks)
+
+1. Review of this draft (adversarial, humanities + computer vision).
+2. Library: Cummings 2007, Tung 2012 and 2013, plus the full text of AIKON (IJDAR 2026).
+3. When coding is allowed:
+   - fix the extraction (cahier L5, outside the repository);
+   - fetch the missing witnesses (A51a, A56a, A67a, A91a);
+   - extract Tung's graph;
+   - run a pilot on the 20 development emblems: DINOv3 global and dense features with and
+     without mirror, against Tung.
