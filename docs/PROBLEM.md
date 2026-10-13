@@ -92,6 +92,20 @@ uncertainty (`unclear`) instead of forcing a class.
 4. **A first computational test** of whether redesigned illustrations follow the previous picture
    or the text.
 
+## 4b. Methods to compare (all with public code unless noted)
+
+| Purpose | Methods | Why |
+|---|---|---|
+| Same block / copy retrieval | VISE (local keypoints + RANSAC, used by Lyon16ci), ArtMiner, SegSwap | the established print-reuse tools; mirror handled by flipping the query |
+| Dense correspondence between a free copy and its model | DINOv2 / DINOv3 dense features, MATCHA (CVPR 2025), MARCO (CVPR 2026), DIFT, Diffusion Hyperfeatures | what is kept at the level of parts |
+| Mirror and left–right | flipped queries; *Telling Left from Right* (CVPR 2024) shows foundation features confuse left and right | reversed copies are a known trap for these features |
+| Line drawings | SketchFusion (CVPR 2025) | features tuned to sketches, possibly better suited to woodcut line work |
+| Figures and objects | Grounded SAM 2 + SAHI (small objects), SAM 3 | isolate figures and named objects |
+| Pose | ViTPose trained on Human-Art; SDPose (diffusion-based, out-of-domain) | figure pose persistence; neither tested on woodcuts |
+
+Motif-Match (DH2025) is cited as a model of multi-criteria similarity (pose, objects, colour) for
+art historians; no code found.
+
 ## 5. What is not claimed
 
 - No claim of historical transmission from similarity alone: similarity proposes, the documented
@@ -102,6 +116,11 @@ uncertainty (`unclear`) instead of forcing a class.
 ## 6. Risks and limits
 
 - **Prior art**:
+  - **Lyon16ci** (Tramelli & Dutta, VGG): about 10,000 Lyon illustrations 1480–1600, VISE search
+    for reuse of identical cuts. Same city and century, possibly the Lyon Alciato editions. It has
+    no copy typology, no mirror handling, no expert ground truth and no quantitative evaluation;
+    the article must cite it and position against it. To check: query its demo with a Lyon
+    Alciato cut, upright and mirrored;
   - Aubry's group (VHS, AIKON, EIDA) works on illustration similarity in printed scientific books;
   - the Oxford "1516" follow-up to 15cILLUSTRATION;
   - still unread from v0.3: Cummings 2007, Tung 2012 and 2013 (library).
