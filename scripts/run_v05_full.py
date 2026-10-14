@@ -55,7 +55,9 @@ def main() -> None:
             continue
         tung, prog, anc = int(r["tung"]), r["prog"], r["ancestor"]
         why = None
-        if anc not in ORDER:
+        if any(k in r["flags"] for k in ("partial", "hedged")):
+            why = "partial or hedged"
+        elif anc not in ORDER:
             why = "ancestor outside panel"
         elif prog not in ORDER or ORDER.index(anc) >= ORDER.index(prog):
             why = "bad order"
