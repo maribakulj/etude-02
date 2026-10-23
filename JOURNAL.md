@@ -315,3 +315,16 @@ Ran `scripts/pilot_v05.py` (`notes/pilot_v05.md`):
 
 Go for the direction question; attribution as framed is weak. Next: human check of the
 orientation labels, full fetch for 212 emblems, DINOv3 (gated) and Colab.
+
+## 2026-10-14 — full run v0.5 (212 emblems)
+
+Fetched the four missing editions in full (A56a, A51a, A67a, A91a; 833 pages). Tung's relations
+for all 212 emblems were read by three subagents and harmonised (509 dependent edges). Ran
+`scripts/run_v05_full.py` (`notes/v05_full.md`):
+- **attribution** (475 queries, chance 0.40): DINOv2 global 0.66 vs chronological prior 0.60;
+  the gain is in Leiden 1591 (0.54 vs 0.18); SIFT and the style control at chance. Still weak;
+- **direction** (235 pairs): dense mutual-NN + RANSAC **0.84 [0.79, 0.88]**, 0.82 on the 142
+  explicit pairs; global 0.63, SIFT 0.53. The pilot result holds at eight times the size.
+
+Caveat: most "same" pairs are implied (21 after 77); labels are not yet checked by a human.
+Next: human check of orientation labels, the dense method's misses, DINOv3.
