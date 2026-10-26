@@ -1,0 +1,105 @@
+A31a,A31b,woodcut,epigram_similarity,same_motto
+A31a001,A31b001,different? (dhash 55),1.000,False
+A31a002,A31b002,same block,0.994,True
+A31a003,A31b003,same block,0.923,True
+A31a004,A31b004,different? (dhash 58),1.000,True
+A31a005,A31b005,same block,0.973,True
+A31a006,A31b006,same block,1.000,True
+A31a007,A31b007,same block,1.000,True
+A31a008,A31b008,same block,1.000,False
+A31a009,A31b009,different? (dhash 49),1.000,True
+A31a010,A31b010,different? (dhash 45),1.000,False
+A31a011,A31b011,same block,1.000,True
+A31a012,A31b012,different? (dhash 48),1.000,False
+A31a013,A31b013,same block,1.000,True
+A31a014,A31b014,same block,0.980,True
+A31a015,A31b015,different? (dhash 52),0.962,True
+A31a016,A31b016,same block,1.000,True
+A31a017,A31b017,different? (dhash 51),0.977,True
+A31a018,A31b018,same block,1.000,True
+A31a019,A31b019,same block,1.000,True
+A31a020,A31b020,different? (dhash 51),0.973,True
+A31a021,A31b021,same block,1.000,True
+A31a022,A31b022,same block,1.000,False
+A31a023,A31b023,same block,1.000,True
+A31a024,A31b024,same block,0.973,True
+A31a025,A31b025,same block,0.974,True
+A31a026,A31b026,different? (dhash 55),0.991,True
+A31a027,A31b027,different? (dhash 42),1.000,True
+A31a028,A31b028,same block,0.974,True
+A31a029,A31b029,same block,0.971,False
+A31a030,A31b030,different? (dhash 44),1.000,True
+A31a031,A31b031,same block,1.000,True
+A31a032,A31b032,same block,1.000,True
+A31a033,A31b033,different? (dhash 41),1.000,True
+A31a034,A31b034,different? (dhash 44),0.969,False
+A31a035,A31b035,same block,1.000,True
+A31a036,A31b036,same block,0.967,True
+A31a037,A31b037,same block,0.978,True
+A31a038,A31b038,same block,0.935,True
+A31a039,A31b039,different? (dhash 42),0.933,False
+A31a040,A31b040,same block,1.000,True
+A31a041,A31b041,same block,1.000,True
+A31a042,A31b042,same block,0.985,True
+A31a043,A31b043,different? (dhash 44),1.000,False
+A31a044,A31b044,same block,0.958,True
+A31a045,A31b045,same block,0.949,True
+A31a046,A31b046,different? (dhash 56),0.940,True
+A31a047,A31b047,same block,0.985,False
+A31a048,A31b048,same block,0.981,True
+A31a049,A31b049,different? (dhash 44),0.971,True
+A31a050,A31b050,same block,1.000,True
+A31a051,A31b051,same block,1.000,False
+A31a052,A31b052,different? (dhash 46),1.000,True
+A31a053,A31b053,same block,1.000,True
+A31a054,A31b054,same block,0.949,True
+A31a055,A31b055,different? (dhash 42),1.000,True
+A31a056,A31b056,different? (dhash 41),1.000,True
+A31a057,A31b057,same block,0.971,True
+A31a058,A31b058,different? (dhash 52),0.944,False
+A31a059,A31b059,same block,1.000,True
+A31a060,A31b060,same block,0.984,True
+A31a061,A31b061,different? (dhash 44),1.000,True
+A31a062,A31b062,same block,0.989,True
+A31a063,A31b063,same block,0.962,True
+A31a064,A31b064,different? (dhash 43),1.000,False
+A31a065,A31b065,same block,0.969,True
+A31a066,A31b066,different? (dhash 42),0.987,True
+A31a067,A31b067,same block,0.994,True
+A31a068,A31b068,same block,0.986,True
+A31a069,A31b069,different? (dhash 41),1.000,True
+A31a070,A31b070,same block,0.958,True
+A31a071,A31b071,same block,1.000,False
+A31a072,A31b072,same block,0.988,True
+A31a073,A31b073,same block,1.000,True
+A31a074,A31b074,same block,1.000,True
+A31a075,A31b075,different? (dhash 42),1.000,True
+A31a076,A31b076,same block,1.000,True
+A31a077,A31b077,same block,1.000,True
+A31a078,A31b078,same block,1.000,False
+A31a079,A31b079,same block,1.000,True
+A31a080,A31b080,same block,1.000,True
+A31a081,A31b081,same block,1.000,True
+A31a082,A31b082,same block,0.964,False
+A31a083,A31b083,different? (dhash 42),1.000,True
+A31a084,A31b084,different? (dhash 42),1.000,False
+A31a085,A31b085,different? (dhash 55),1.000,True
+A31a086,A31b086,same block,1.000,True
+A31a087,A31b087,"picture: A31a no, A31b no",1.000,True
+A31a088,A31b088,different? (dhash 45),0.977,True
+A31a089,A31b089,"picture: A31a no, A31b no",0.955,True
+A31a090,A31b090,different? (dhash 41),1.000,True
+A31a091,A31b091,same block,0.979,True
+A31a092,A31b092,same block,0.977,True
+A31a093,A31b093,same block,1.000,True
+A31a094,A31b094,same block,1.000,True
+A31a095,A31b095,different? (dhash 45),1.000,True
+A31a096,A31b096,different? (dhash 53),1.000,True
+A31a097,A31b097,same block,1.000,True
+A31a098,A31b098,same block,1.000,True
+A31a099,A31b099,same block,1.000,True
+A31a100,A31b100,same block,0.942,True
+A31a101,A31b101,"picture: A31a no, A31b no",0.944,True
+A31a102,A31b102,"picture: A31a no, A31b no",1.000,True
+A31a103,A31b103,"picture: A31a no, A31b no",1.000,False
+A31a104,A31b104,"picture: A31a no, A31b no",1.000,True

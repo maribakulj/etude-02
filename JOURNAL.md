@@ -1,5 +1,9 @@
 # JOURNAL
 
+> Current entry point: [README](README.md), [research problem v0.5](docs/PROBLEM.md) and
+> [full-run report](notes/v05_full.md). The summary immediately below records the end of the
+> original October 6 loop; it predates the October 13–14 reframing and experiments.
+
 ## Résumé pour Marcel (6 octobre 2026, fin de la boucle)
 
 **Où on en est.** La boucle s'arrête comme prévu : la problématique et le début du protocole
@@ -328,3 +332,16 @@ for all 212 emblems were read by three subagents and harmonised (509 dependent e
 
 Caveat: most "same" pairs are implied (21 after 77); labels are not yet checked by a human.
 Next: human check of orientation labels, the dense method's misses, DINOv3.
+
+## 2026-10-26 — repository preparation for public access
+
+Expanded the README with the emblem form, the text–image research motivation, an Opportunity
+example, the v0.5 visual study and the distinction between preliminary results and validated
+labels. Marked the v0.3 protocol and guide as historical. Added source attribution, a data and
+reproduction guide, a SHA-256 inventory of the local raw cache, the pilot's anonymisation map,
+the computed 1531 collation table and execution logs without the local user path.
+
+Publication preparation preserves the research history and brings the work onto `main`.
+Downloaded images, transcriptions, full Tung commentaries and image derivatives remain local
+under the redistribution policy. No blanket open-source or open-data licence has been selected.
+The repository visibility is not changed by this preparation.

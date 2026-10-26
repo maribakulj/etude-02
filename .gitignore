@@ -1,4 +1,4 @@
-# Images et pages téléchargées : propriété de l'Université de Glasgow, non redistribuables
+# Sources téléchargées et reproductions : conservées localement, voir docs/DATA.md
 data/raw/
 data/images/
 .venv/
@@ -6,5 +6,12 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 data/corpus.jsonl
-logs/
+/logs/
 data/derived/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

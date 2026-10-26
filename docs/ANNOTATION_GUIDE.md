@@ -1,5 +1,9 @@
 # Annotation guide — v0.3
 
+> Historical guide for the v0.3 study. The current [research problem](PROBLEM.md) is v0.5;
+> the visual-matching experiments are documented in the [full-run report](../notes/v05_full.md).
+> This guide has not yet been revised for that design.
+
 v0.3: `carries the point` code; closed slot list for H4; source labels extended (Greek source
 text, antique artwork, printer/format); base-rate sham pairs.
 
