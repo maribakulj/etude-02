@@ -1,5 +1,4 @@
-# étude 02 — ce qui ne se dessine pas
-
+# étude 02
 Article de recherche et dépôt d'accompagnement.
 
 ## Question
