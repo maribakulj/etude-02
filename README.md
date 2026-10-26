@@ -1,6 +1,6 @@
-# étude 02 — what cannot be drawn
+# étude 02 
 
-A research article and its companion repository (code, notebooks, annotations).
+A research and its companion repository (code, notebooks, annotations).
 
 ## Question
 
