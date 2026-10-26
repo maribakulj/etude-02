@@ -1,0 +1,9 @@
+ENTITY	tall tree with drooping tufted foliage (pine or palm)	probable
+ENTITY	pole/stake or thin trunk	clear
+ENTITY	climbing plant with large leaves	clear
+ATTRIBUTE	left tree: short branch stubs along the trunk	clear
+ATTRIBUTE	climbing plant: broad leaves, possibly gourd; no fruit clearly visible	indeterminate
+ACTION	plant twines up the pole	clear
+RELATION	pole with plant: stands beside the tree, right	clear
+SETTING	ground with grass tufts, blank background	clear
+RECOGNISED	possibly a crude version of the gourd-and-pine emblem (cf. p022, p056), but the gourd climbs a separate pole here	indeterminate

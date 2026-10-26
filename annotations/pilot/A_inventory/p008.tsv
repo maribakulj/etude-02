@@ -1,0 +1,12 @@
+ENTITY	men ×2	clear
+ENTITY	table	clear
+ENTITY	quill pen and inkwell	clear
+ENTITY	sheet of paper / document	clear
+ATTRIBUTE	left man: cap, rests head on hand, seated at table	clear
+ATTRIBUTE	right man: larger, stout, long coat, cap with knob	clear
+ACTION	right man gestures with open hand while speaking	clear
+ACTION	left man listens, leaning head on hand	probable
+RELATION	paper and inkwell: on the table in front of left man	clear
+RELATION	men: face each other	clear
+INSCRIPTION	marks on paper resembling letters, possibly 'Vi...'	indeterminate
+SETTING	interior, plank or tiled floor; plain background	probable

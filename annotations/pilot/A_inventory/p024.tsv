@@ -1,0 +1,12 @@
+ENTITY	men ×2	clear
+ENTITY	walking staff	clear
+ENTITY	castle on rock	clear
+ENTITY	birds ×4 approx.	probable
+ATTRIBUTE	carried man: older, bearded, hat	probable
+ATTRIBUTE	carrying man: eyes closed or downcast	indeterminate
+ACTION	younger man carries the older man on his back	clear
+ACTION	carrier walks with a staff	clear
+ACTION	carried man reaches forward/points the way	probable
+RELATION	older man: rides piggyback on the younger man's shoulders	clear
+SETTING	rocky landscape, castle on hilltop, distant town and water	clear
+RECOGNISED	man carried on another's back, the carrier with a staff: blind man carrying the lame (Alciato 'Mutuum auxilium')	probable

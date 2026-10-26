@@ -1,0 +1,14 @@
+ENTITY	ass/donkey	clear
+ENTITY	tall gothic shrine/tabernacle with small statue inside	clear
+ENTITY	man with whip	clear
+ENTITY	group of people kneeling ×7 approx.	probable
+ATTRIBUTE	ass: harness, ears pricked, mouth open	clear
+ATTRIBUTE	shrine: pinnacles, standing figure inside	clear
+ATTRIBUTE	front kneeling figure: hood/cowl, hands joined	probable
+ACTION	man raises whip and points at the ass	clear
+ACTION	people kneel and pray toward the ass/shrine	clear
+ACTION	ass brays or turns its head toward the kneeling people	probable
+RELATION	shrine: strapped on the ass's back	clear
+RELATION	whip-man behind ass; worshippers in front	clear
+SETTING	open ground, plain sky	clear
+RECOGNISED	ass carrying a sacred image, worshipped by people and beaten by its driver: Alciato 'Non tibi sed religioni'	clear

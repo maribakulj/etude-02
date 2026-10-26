@@ -1,0 +1,12 @@
+ENTITY	men ×3 (one lying, one bearded, one youth)	clear
+ENTITY	bed or table/bench	clear
+ENTITY	small cup or flask	probable
+ENTITY	basin/bowl	probable
+ATTRIBUTE	lying man: naked or nearly so, eyes closed	probable
+ATTRIBUTE	bearded man: flat cap, sash	clear
+ACTION	bearded man holds a cup over the lying man and pours or anoints	probable
+ACTION	youth holds a basin/bowl at the head of the bed	probable
+ACTION	man lies on his back on the bed	clear
+RELATION	bearded man: kneels/sits on or beside the bed	probable
+SETTING	interior, plain	probable
+RECOGNISED	treatment, anointing or washing of a lying man (sick or dead); not recognised	indeterminate

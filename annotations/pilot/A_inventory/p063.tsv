@@ -1,0 +1,16 @@
+ENTITY	naked woman	clear
+ENTITY	naked winged boy	clear
+ENTITY	beehive (round straw hive)	probable
+ENTITY	bees/insects ×15 approx.	probable
+ENTITY	buildings, trees	clear
+ENTITY	barrels/casks ×2	probable
+ATTRIBUTE	boy: wings	clear
+ATTRIBUTE	woman: long flowing hair	clear
+ACTION	bees swarm around the boy	probable
+ACTION	boy recoils / runs, holding something toward the woman	probable
+ACTION	woman reaches toward the boy	probable
+RELATION	hive: in the tree/air behind the woman	probable
+RELATION	woman and boy: face each other	clear
+SETTING	countryside near a house or farm	clear
+ATTRIBUTE	bottom strip of another image (clouds) visible below a border: frame incomplete / two cuts in one image	clear
+RECOGNISED	winged boy stung by bees complaining to a naked woman: Cupid and Venus, Cupid stung by bees (Alciato 'Ex maximis minima' / sweet things turn bitter)	probable

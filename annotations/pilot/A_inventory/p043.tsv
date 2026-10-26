@@ -1,0 +1,14 @@
+ENTITY	ass	clear
+ENTITY	statue of a woman on a pedestal	clear
+ENTITY	branch	clear
+ENTITY	model ship	clear
+ENTITY	man with stick	clear
+ENTITY	kneeling people ×4 approx.	probable
+ENTITY	buildings and tower	clear
+ATTRIBUTE	woman: plumed/feathered headdress, long robe	clear
+ACTION	woman (statue) holds a branch in her right hand and a ship in her left	clear
+ACTION	man raises a stick to strike the ass	clear
+ACTION	people kneel and pray toward the statue	clear
+RELATION	statue on pedestal: rests on the ass's back	clear
+SETTING	town with buildings, tower, distant fort	clear
+RECOGNISED	ass carrying a goddess image with ship (Isis), worshipped by people: Alciato 'Non tibi sed religioni'	clear

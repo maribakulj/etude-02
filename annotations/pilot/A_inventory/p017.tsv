@@ -1,0 +1,13 @@
+ENTITY	naked woman	clear
+ENTITY	wheel	clear
+ENTITY	razor or curved blade	probable
+ENTITY	long cloth/scarf	clear
+ENTITY	ship	clear
+ENTITY	town on shore	clear
+ENTITY	birds ×4 approx.	probable
+ATTRIBUTE	woman: long hair blown forward	probable
+ACTION	woman holds blade aloft in right hand	clear
+ACTION	woman holds end of billowing cloth in left hand	clear
+RELATION	woman: stands on a wheel on the waves	clear
+SETTING	stormy sea, rocks, coast with town, clouds	clear
+RECOGNISED	naked woman with razor on a wheel at sea: Occasio / Opportunity (Alciato 'In occasionem'), same subject as p004	probable

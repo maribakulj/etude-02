@@ -1,0 +1,12 @@
+ENTITY	large round drum-shaped basin/tomb/altar on stepped base	clear
+ENTITY	baluster column with flame or fleur-de-lis finial	clear
+ENTITY	birds ×4	clear
+ENTITY	buildings ×2 (left and right)	clear
+ATTRIBUTE	drum: rim moulding, draped cloth swag tied at sides with tassels	clear
+ATTRIBUTE	perched birds: wings raised, long necks, hooked beaks	probable
+ACTION	two birds fly above	clear
+ACTION	two birds perch on the rim facing the column	clear
+RELATION	column: stands in the centre of the drum	clear
+RELATION	perched birds: on opposite rim edges, symmetrical	clear
+SETTING	town buildings either side; sky with horizontal clouds	clear
+RECOGNISED	same composition as p001 (birds at a tomb with central spire) in a different cut; likely same emblem in another edition	probable

@@ -1,0 +1,11 @@
+ENTITY	long-bodied creature (dragon, serpent or animal)	probable
+ENTITY	flames	clear
+ENTITY	ruined buildings on hill	clear
+ENTITY	birds in sky ×5 approx.	probable
+ENTITY	rocks / cliffs	clear
+ATTRIBUTE	creature: head at lower right, open mouth with teeth	probable
+ATTRIBUTE	creature: limbs or body coiled among rocks; shape hard to read	indeterminate
+ACTION	creature lies in or emerges from flames	probable
+RELATION	flames: rise around the creature's head and forepart	probable
+SETTING	rocky mountainous landscape with ruins on a hill	clear
+RECOGNISED	creature in fire could be a salamander, but the body is unclear	indeterminate

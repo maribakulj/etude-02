@@ -1,0 +1,8 @@
+ENTITY	arrow, large, vertical, point downward	clear
+ENTITY	eel-like fish	clear
+ENTITY	town with domed buildings, palm tree	clear
+ATTRIBUTE	fish: head at lower right, open mouth	clear
+ACTION	fish coils around the arrow shaft	clear
+RELATION	arrow: centred, fletching at top, point near the ground	clear
+SETTING	town and hills, cloudy sky	clear
+RECOGNISED	arrow with remora: Alciato 'Maturandum' (cf. p006, p007)	probable

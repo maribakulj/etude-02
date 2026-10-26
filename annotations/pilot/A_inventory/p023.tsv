@@ -1,0 +1,10 @@
+ENTITY	naked boy (no wings)	clear
+ENTITY	oval shield	clear
+ENTITY	pomegranate (on shield)	probable
+ATTRIBUTE	boy: curly hair	clear
+ATTRIBUTE	shield: device of a pomegranate on a stem	probable
+ACTION	boy rests left hand on the shield's rim; right hand open, extended	clear
+ACTION	boy walks/stands on rocky ground	clear
+RELATION	shield: stands on the ground beside the boy	clear
+SETTING	landscape with distant town at right, rocks, clouds	clear
+RECOGNISED	boy with a shield bearing a pomegranate: emblematic device, I cannot identify the emblem	indeterminate

@@ -1,0 +1,7 @@
+ENTITY	arrow, flying horizontally	clear
+ENTITY	oval object (stone, loaf or fish?)	indeterminate
+ENTITY	cloud	clear
+ATTRIBUTE	arrow: fletched, pointing right	clear
+RELATION	oval object: lies on top of the arrow shaft near the fletching	clear
+SETTING	empty landscape, low hill, sky	clear
+RECOGNISED	arrow bearing an object could be a variant of the remora-and-arrow emblem (p006/p007), but the object is not clearly a fish	indeterminate

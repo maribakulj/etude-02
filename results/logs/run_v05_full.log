@@ -1,0 +1,26 @@
+
+Loading weights:   0%|          | 0/223 [00:00<?, ?it/s]
+Loading weights:  19%|█▉        | 43/223 [00:00<00:00, 185.05it/s]
+Loading weights: 100%|██████████| 223/223 [00:00<00:00, 861.86it/s]
+skipped dependent edges: {'ancestor outside panel': 21, 'partial or hedged': 12, 'no ancestor witness': 1}
+ATTRIBUTION: 475 queries over 172 emblems; chance top-1 = 0.40
+  [all] n = 475
+    prior  top-1 0.60 [0.56, 0.64]
+    sift   top-1 0.39 [0.34, 0.43]
+    dglob  top-1 0.66 [0.61, 0.71]
+    ddense top-1 0.64 [0.60, 0.69]
+    style  top-1 0.41 [0.37, 0.45]
+  [specific] n = 407
+    prior  top-1 0.65 [0.61, 0.69]
+    sift   top-1 0.39 [0.34, 0.44]
+    dglob  top-1 0.70 [0.66, 0.75]
+    ddense top-1 0.68 [0.63, 0.73]
+    style  top-1 0.42 [0.38, 0.47]
+DIRECTION [all]: 235 pairs (123 reversed, 112 same)
+    sift   balanced acc 0.53 [0.47, 0.59]
+    dglob  balanced acc 0.63 [0.57, 0.69]
+    ddense balanced acc 0.84 [0.79, 0.88]
+DIRECTION [explicit only]: 142 pairs (121 reversed, 21 same)
+    sift   balanced acc 0.51 [0.41, 0.61]
+    dglob  balanced acc 0.63 [0.51, 0.74]
+    ddense balanced acc 0.82 [0.75, 0.89]

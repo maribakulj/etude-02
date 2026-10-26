@@ -1,0 +1,10 @@
+ENTITY	man	clear
+ENTITY	table	clear
+ENTITY	inkwell	probable
+ENTITY	book or box on table	probable
+ENTITY	bench along wall	clear
+ATTRIBUTE	man: cap, long gown with striped facing	clear
+ACTION	man stands with a finger to his lips	clear
+RELATION	table with inkwell: behind the man at right	clear
+SETTING	interior, plank walls and floor, window	clear
+RECOGNISED	man with finger on lips: Silence (Alciato 'Silentium'; cf. p027, p050)	probable

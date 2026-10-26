@@ -1,0 +1,8 @@
+ENTITY	fox or wolf	clear
+ENTITY	human head (or mask)	clear
+ATTRIBUTE	animal: pointed ears, long whiskers, bristly back	clear
+ATTRIBUTE	head: bald/close-cropped, no body visible	clear
+ACTION	animal sits and holds the head with its forepaws	clear
+RELATION	head: held at the animal's chest, facing right	clear
+SETTING	bare mound, no background	clear
+RECOGNISED	fox holding a hollow head/mask: Aesop's fox and the mask (Alciato 'Mentem non formam plus pollere'; cf. p045)	probable

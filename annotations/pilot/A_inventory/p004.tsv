@@ -1,0 +1,14 @@
+ENTITY	naked woman	clear
+ENTITY	wind head in clouds (puffing face)	clear
+ENTITY	razor or knife	probable
+ENTITY	long cloth / sail-like drapery	clear
+ENTITY	small figure on shore with raised arms	probable
+ATTRIBUTE	woman: hair blown forward over face/forehead	probable
+ATTRIBUTE	woman: drapery around hips	clear
+ATTRIBUTE	object under feet: winged (winged ball or wheel)	probable
+ACTION	woman holds blade aloft in right hand	clear
+ACTION	woman holds billowing drapery in left hand	clear
+ACTION	wind head blows toward the woman	clear
+RELATION	woman: stands on a winged object on the water	probable
+SETTING	sea with distant shoreline and hills	clear
+RECOGNISED	naked woman with razor, forelock and winged support at sea: Occasio / Opportunity (Alciato 'In occasionem'); possibly Fortuna with sail	probable

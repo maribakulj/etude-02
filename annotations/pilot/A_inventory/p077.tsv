@@ -1,0 +1,11 @@
+ENTITY	fox	clear
+ENTITY	human head or mask	clear
+ENTITY	domed pavilion/building with columns	clear
+ENTITY	bench/table under the pavilion	probable
+ENTITY	wattle fence	clear
+ENTITY	plants	clear
+ATTRIBUTE	fox: long whiskers, pointed ears, bushy tail	clear
+ATTRIBUTE	head: curly hair, human face	clear
+ACTION	fox sits and holds the head in its forepaws, looking down at it	clear
+SETTING	garden or yard with fence and pavilion	clear
+RECOGNISED	fox and the mask (Aesop; Alciato 'Mentem non formam plus pollere'; cf. p045, p068)	clear

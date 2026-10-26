@@ -1,0 +1,10 @@
+ENTITY	massive stone monument/tomb (moulded block)	clear
+ENTITY	round shield with central boss	probable
+ENTITY	ship	clear
+ENTITY	small boat or bird in sky/sea at left	indeterminate
+ENTITY	coastal cliffs with town	clear
+ATTRIBUTE	monument: blank top panel, ornamental mouldings	clear
+RELATION	shield: lies in the waves next to the monument	clear
+RELATION	monument: on the shore, partly broken at base	probable
+SETTING	sea with ships, coast with town, clouds	clear
+RECOGNISED	shield washed up beside a tomb on the shore: Achilles' arms carried by the sea to Ajax's tomb (Alciato; cf. p044 inscribed AIACIS); this also explains p018 and p028	probable

@@ -1,0 +1,9 @@
+ENTITY	scaly four-legged creature	clear
+ENTITY	tall thin tree	clear
+ENTITY	rocks / cliff	clear
+ATTRIBUTE	creature: overlapping scales over body, pig- or boar-like snout, open mouth with teeth	clear
+ATTRIBUTE	creature: bird-like clawed feet	clear
+ATTRIBUTE	creature: segmented tail	clear
+ACTION	creature walks to the right	clear
+SETTING	rocky hilly landscape, mountains, cloud	clear
+RECOGNISED	fantastic scaly beast; cannot identify the species or emblem	indeterminate

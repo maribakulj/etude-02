@@ -1,0 +1,385 @@
+tung,prog,dependency,ancestor,tung_orientation,fidelity,flags,evidence
+143,34,unspecified,,not_stated,unspecified,,34 draws the tree at left and a naked child holding a plate of peaches
+143,47,unspecified,,not_stated,unspecified,,47/83 puts the tree on the right and a man walking to the left
+143,51,unspecified,,not_stated,unspecified,,51 places the tree on the left again
+143,67,unspecified,,not_stated,unspecified,,67 has a man with the basket on his head and a woman
+143,77,yes,47,reversed,free,,77 /21 follows 47/83 in reverse
+143,21,yes,77,stated_same,close,77/21;implied,77 /21 follows 47/83 in reverse
+144,34,yes,Aldus device,not_stated,free,outside-source(Aldus Manutius device);hedged-perhaps,"34, perhaps following the device of the Aldine press"
+144,47,unspecified,,not_stated,unspecified,origin of design followed in rest,"47/83 puts the device on a sea shore, a design followed in the rest of the editions"
+144,51,yes,47,reversed,free,,51 follows it in reverse but adds one more turn to the dolphin's tail
+144,67,yes,47,reversed,free,background from 51 in reverse,67 reverses 47 but uses the background scene of 51 in reverse
+144,77,yes,47,not_stated,free,background reversed,77/21 follows 47 but also reverses its background scene
+144,21,yes,77,stated_same,close,77/21;implied,77/21 follows 47 but also reverses its background scene
+145,34,unspecified,,not_stated,unspecified,adds-to(31),34 adds another handless judge on each side
+145,47,unspecified,,not_stated,unspecified,,"47/83 has three judges on each side, a pattern followed by subsequent editions"
+145,51,yes,47,not_stated,free,generic,a pattern followed by subsequent editions
+145,67,yes,47,not_stated,free,generic;except-clause-detail(supplicant);ambiguous,except in 67 the king and judges give audience to a supplicant
+145,77,yes,47,not_stated,free,generic;except-clause-detail(hands back),in 77 the judges (against the text) have their hands back
+145,21,yes,77,not_stated,free,hands chopped off again,which 21 chops off again although following 77 in the main
+146,34,NA,,NA,NA,,(nonexistent)
+146,47,NA,,NA,NA,,(nonexistent)
+146,51,unspecified,,not_stated,unspecified,,In 51 Chiron standing at right with a switch in his right hand
+146,67,NA,,NA,NA,,(nonexistent)
+146,77,unspecified,,not_stated,unspecified,,77/21 shows three students
+146,21,yes,77,stated_same,close,77/21;implied,77/21 shows three students
+147,34,NA,,NA,NA,,(nonexistent)
+147,47,NA,,NA,NA,,(nonexistent)
+147,51,unspecified,,not_stated,unspecified,first illustrated in Spanish 1549,51 portrays in the right lower foreground an emaciated woman in rags
+147,67,NA,,NA,NA,,(nonexistent)
+147,77,unspecified,,not_stated,unspecified,,In 77 the scene is in a city street
+147,21,unspecified,,not_stated,unspecified,detail-as-in(77),21 uses an indoor setting
+148,34,unspecified,,not_stated,unspecified,contrasted-with(31),34 makes the king facing left and holding the sponge in his right hand
+148,47,yes,34,not_stated,free,same posture as 34,striking the same posture as that in 34
+148,51,yes,47,reversed,free,,This design is followed in reverse by 51
+148,67,yes,47,not_stated,free,balustrade perhaps from 51,67 models after 47/83 (but perhaps borrowing the balustrade from 51)
+148,77,yes,51,not_stated,free,,"77/21 after 51, except the king holds the scepter in front of him"
+148,21,yes,77,stated_same,close,77/21;implied;missing scepter in 21,77/21 after 51
+149,34,NA,,NA,NA,,(nonexistent)
+149,47,NA,,NA,NA,,(nonexistent)
+149,51,unspecified,,not_stated,unspecified,first illustrated in Spanish 1549,51 portrays the beehive next to a large tree in a farm scene
+149,67,unspecified,,not_stated,unspecified,,67 places a king sitting on his regal chair
+149,77,yes,51,not_stated,free,,"77/83, following 51 with minor modification in the background"
+149,21,unspecified,,not_stated,unspecified,,21 shows the platform and the hive in an abstract and geometrical fashion
+150,34,NA,,NA,NA,,(nonexistent)
+150,47,NA,,NA,NA,,(nonexistent)
+150,51,unspecified,,not_stated,unspecified,,"In 51 the altar is at left, on top is the coiled snake"
+150,67,NA,,NA,NA,,(nonexistent)
+150,77,unspecified,,not_stated,unspecified,,In 77 a large coiled snake is at the left
+150,21,unspecified,,not_stated,unspecified,,21 has the coiled snake atop the altar on the left
+151,34,NA,,NA,NA,,(nonexistent)
+151,47,NA,,NA,NA,,(nonexistent)
+151,51,yes,numismatics,not_stated,unspecified,outside-source(numismatics);generic,source: numismatics in the rest of the editions
+151,67,NA,,NA,NA,,(nonexistent)
+151,77,yes,numismatics,not_stated,unspecified,outside-source(numismatics);generic,source: numismatics in the rest of the editions
+151,21,yes,numismatics,not_stated,unspecified,outside-source(numismatics);generic,source: numismatics in the rest of the editions
+153,34,unspecified,,not_stated,unspecified,,"In 34 three dogs at left, foraging for food?"
+153,47,unspecified,,not_stated,unspecified,aesop-same-cut,The same cut is used in de Tournes's Aesopi Phrygis Fabulae
+153,51,yes,47,not_stated,free,,"This design is copied in 51, except the hunter is not blowing the horn"
+153,67,yes,47,reversed,free,,It is reverse copied in 67
+153,77,yes,51,reversed,free,hedged-may-be;also as in 67,It may be accurate to say that 77/21 models after 51 in reverse
+153,21,yes,77,stated_same,close,77/21;implied,77/21 models after 51 in reverse
+155,34,yes,31,reversed,free,,34 follows this design in reverse
+155,47,unspecified,,not_stated,unspecified,,In 47 winged Cupid and a winged Death are flying in the air
+155,51,yes,47,reversed,free,,51 follows this design in reverse but reduces older men to two
+155,67,yes,47,reversed,free,,67 also follows 47 in reverse but removes Death's wings
+155,77,no,,NA,NA,swapped-cuts;reused_other_emblem(156),77 switches the woodcut with that of the next emblem
+155,21,yes,51,not_stated,free,also follows 67 (wingless Death);switches back,21 switches it back in which the design further simplifies that of 51
+156,34,unspecified,,not_stated,unspecified,enlargement of background of emblem 155 in 34,seems to be but an enlargement of the background scene in the previous emblem
+156,47,unspecified,,not_stated,unspecified,,"that in 47, where Cupid is no longer sleeping but is awake"
+156,51,unspecified,,not_stated,unspecified,adds-to(47 scene),Adding a beautiful girl's corpse to the scene in 51 and 67
+156,67,unspecified,,not_stated,unspecified,adds-to(47 scene),Adding a beautiful girl's corpse to the scene in 51 and 67
+156,77,no,,NA,NA,swapped-cuts;reused_other_emblem(155),The switching of the cuts of these two emblems in 77 and 83
+156,21,unspecified,,not_stated,unspecified,returns to sleeping-Cupid motif (34);ambiguous,21 returns to the motif of a sleeping Cupid
+157,34,unspecified,,not_stated,unspecified,,34 draws on top of a tomb two dolphins
+157,47,yes,34,not_stated,free,retains,"In 47 / 83 the tails are twisted together, the rest remains unchanged"
+157,51,yes,47,not_stated,free,,"This design is followed in 51, 77, and 83"
+157,67,unspecified,,not_stated,unspecified,,(not described)
+157,77,yes,47,not_stated,free,,"This design is followed in 51, 77, and 83"
+157,21,unspecified,,NA,NA,harmonised-from-no,In 21 only a skull is placed on the near edge
+158,34,NA,,NA,NA,,(nonexistent)
+158,47,NA,,NA,NA,,(nonexistent)
+158,51,unspecified,,not_stated,unspecified,,In 51 Terminus' half figure is nude
+158,67,NA,,NA,NA,,(nonexistent)
+158,77,unspecified,,not_stated,unspecified,,In 77/83 Terminus' nude bust is on top of a half column
+158,21,yes,77,reversed,free,,This design is reverse copied in 21
+159,34,NA,,NA,NA,,(nonexistent)
+159,47,NA,,NA,NA,,(nonexistent)
+159,51,unspecified,,not_stated,unspecified,,In 51 at left foreground the Grecians are carrying off Patroclus' body
+159,67,NA,,NA,NA,,(nonexistent)
+159,77,unspecified,,not_stated,unspecified,,"In 77/21, reverse copied in 83, shows in the foreground a rich man's nude corpse"
+159,21,yes,77,stated_same,close,77/21;implied,"In 77/21, reverse copied in 83"
+162,34,unspecified,,not_stated,unspecified,,In 34 soldiers with spears standing on a river bank
+162,47,unspecified,,not_stated,unspecified,,In 47/83 on the upper bank are encampment and soldiers
+162,51,yes,47,not_stated,free,landing point to the right,"This design is followed in 51, 67, and 77/21, except the landing point is to the right"
+162,67,yes,47,not_stated,free,landing point to the right,"This design is followed in 51, 67, and 77/21, except the landing point is to the right"
+162,77,yes,47,not_stated,free,landing point to the right,"This design is followed in 51, 67, and 77/21, except the landing point is to the right"
+162,21,yes,77,stated_same,close,77/21;implied,"This design is followed in 51, 67, and 77/21"
+163,34,NA,,NA,NA,,(nonexistent)
+163,47,NA,,NA,NA,,(nonexistent)
+163,51,unspecified,,not_stated,unspecified,,In 51 the first Grace holds the third Grace's right hand
+163,67,yes,51,reversed,free,,"in fact, it is a reverse copy of 51 except the third Grace is running from right to left"
+163,77,yes,51,reversed,free,,This design is copied in reverse in 77
+163,21,yes,46,not_stated,free,,21 also models after 46
+164,34,NA,,NA,NA,,(nonexistent)
+164,47,NA,,NA,NA,,(nonexistent)
+164,51,unspecified,,not_stated,unspecified,,In 51 a man holds a cricket in his raised right hand
+164,67,NA,,NA,NA,,(nonexistent)
+164,77,unspecified,,not_stated,unspecified,,77/83 shows a man running from left to right
+164,21,yes,46,not_stated,free,,"21, following 46, has a disembodied right hand holding a fly (?)"
+165,34,NA,,NA,NA,,(nonexistent)
+165,47,NA,,NA,NA,,(nonexistent)
+165,51,yes,46,reversed,free,,51 follows in reverse except uses heavy shadings
+165,67,NA,,NA,NA,,(nonexistent)
+165,77,yes,51,reversed,free,,77/21 follows in reverse 51
+165,21,yes,77,stated_same,close,77/21;implied,77/21 follows in reverse 51
+167,34,yes,31,reversed,free,,34 follows in reverse and makes the dolphin belly up
+167,47,yes,34,reversed,free,aesop-same-cut;text reads 47/82 (typo for 47/83),47/82 follows 34 in reverse
+167,51,yes,47,not_stated,free,,This design is followed in 51
+167,67,unspecified,,not_stated,unspecified,,(not described)
+167,77,yes,51,reversed,free,dolphin reversed; background of 51 kept,77/21 reverses the dolphin but keeps the background scene in 51
+167,21,yes,77,stated_same,close,77/21;implied,77/21 reverses the dolphin but keeps the background scene in 51
+168,34,unspecified,,not_stated,unspecified,,34 draws on the left Ajax
+168,47,yes,34,not_stated,free,generic,This design is followed in the rest of the editions
+168,51,yes,34,not_stated,free,generic,This design is followed in the rest of the editions
+168,67,yes,34,not_stated,free,generic,This design is followed in the rest of the editions
+168,77,yes,34,not_stated,free,generic,This design is followed in the rest of the editions
+168,21,yes,34,not_stated,free,generic;except-clause-detail(shield),except 21 adds a shield to Ajax's left hand
+169,34,unspecified,,not_stated,unspecified,positions swapped vs 31,In 34 the tree is moved to the right and the eagle to the left
+169,47,yes,1542,reversed,free,outside-source(1542 reprint of 34 cut),This design is then followed in reverse in 47/83 but without the tree
+169,51,unspecified,,not_stated,unspecified,drops claws of 1548 cut;1548 follows 47 in reverse;ambiguous,51 drops the claws which are in the cut of the first Latin edition of 1548
+169,67,yes,47,not_stated,free,,67 follows 47
+169,77,yes,51,not_stated,free,claws from 1548,77/21 follows 51 but follows 1548 in adding the claws
+169,21,yes,77,stated_same,close,77/21;implied,77/21 follows 51 but follows 1548
+170,34,NA,,NA,NA,,(nonexistent)
+170,47,NA,,NA,NA,,(nonexistent)
+170,51,unspecified,,not_stated,unspecified,first illustrated in Spanish 1549,51 portrays a water-fowl and a coot flying in the air
+170,67,NA,,NA,NA,,(nonexistent)
+170,77,yes,51,reversed,free,,"This design is followed in reverse in 77, 83, and 21"
+170,21,yes,51,reversed,free,,"This design is followed in reverse in 77, 83, and 21"
+171,34,NA,,NA,NA,,(nonexistent)
+171,47,NA,,NA,NA,,(nonexistent)
+171,51,unspecified,,not_stated,unspecified,first illustrated in Spanish 1549,51 portrays two drummers in front of an encampment
+171,67,NA,,NA,NA,,(nonexistent)
+171,77,no,,NA,NA,motif kept,the overall design seems to be a new one
+171,21,yes,77,stated_same,close,77/21;implied,"In 77/21, although the motif of the two drummers is kept"
+172,34,unspecified,,not_stated,unspecified,replaced in 1542 by new design,In 34 Cyclops is seated at the entrance of his cave
+172,47,yes,1542,not_stated,free,generic;outside-source(1542),This design is followed in the rest of the editions
+172,51,yes,47,not_stated,free,,This design in turn is followed in 51 and 77/21
+172,67,yes,1542,not_stated,free,generic;outside-source(1542);positions reversed vs 51,In 67 ... positions of Ulysses and Cyclops are not only reversed but also different from those in 51
+172,77,yes,47,not_stated,free,,This design in turn is followed in 51 and 77/21
+172,21,yes,77,stated_same,close,77/21;implied,This design in turn is followed in 51 and 77/21
+173,34,yes,31,reversed,free,,34 follows this design in reverse
+173,47,unspecified,,not_stated,unspecified,,In 47/83 the raven perches on a tree trunk
+173,51,yes,47,not_stated,free,generic,This design is followed in the rest of the editions
+173,67,yes,47,not_stated,free,new background,"67 which, while following the design of 47 , adds new background scene"
+173,77,yes,47,not_stated,free,generic,This design is followed in the rest of the editions
+173,21,yes,47,not_stated,free,generic,This design is followed in the rest of the editions
+174,34,unspecified,,not_stated,unspecified,,In 34 the herald is blowing on his trumpet
+174,47,unspecified,,not_stated,unspecified,aesop-same-cut,this same cut is used in de Tournes's Aesopi Phrygis Fabulae
+174,51,no,,NA,NA,,"51, in a new design, shows a side-and-rear view"
+174,67,yes,47,reversed,free,,"67, following 47 in reverse, has the two soldiers carry long spears"
+174,77,yes,47,not_stated,free,,This design is followed in 77/21
+174,21,yes,77,stated_same,close,77/21;implied,This design is followed in 77/21
+175,34,yes,31,reversed,free,,34 follows this design in reverse with a different background scene
+175,47,unspecified,,not_stated,unspecified,,"In 47/83 the man, who no longer wears a sword, holds a stone in each hand"
+175,51,unspecified,,not_stated,unspecified,,In 51 the man carries a sack on his back
+175,67,unspecified,,not_stated,unspecified,,In 67 the man is ready to throw the stone at a second dog
+175,77,yes,47,not_stated,free,,This design is followed in 77/21
+175,21,yes,77,stated_same,close,77/21;implied,This design is followed in 77/21
+176,34,NA,,NA,NA,,(nonexistent)
+176,47,NA,,NA,NA,,(nonexistent)
+176,51,unspecified,,not_stated,unspecified,,In 51 his left arm is outstretched but without the shield
+176,67,yes,51,not_stated,free,,67 follows 51
+176,77,yes,51,reversed,free,antecedent of which ambiguous (51 or 67),"67 follows 51, which is followed in reverse in 77/21"
+176,21,yes,77,stated_same,close,77/21;implied,which is followed in reverse in 77/21
+177,34,unspecified,,not_stated,unspecified,,In 34 the elephant is pulling a chariot to the right
+177,47,unspecified,,not_stated,unspecified,,In 47/83 a driver with club upraised
+177,51,unspecified,,not_stated,unspecified,,In 51 an oversized man riding on a diminutive elephant
+177,67,unspecified,,not_stated,unspecified,same cut later in Reusner 1581,In 67 a soldier with a goad riding on the neck of the elephant
+177,77,yes,47,reversed,free,,This design is followed in reverse in 77/21
+177,21,yes,77,stated_same,close,77/21;implied,This design is followed in reverse in 77/21
+178,34,yes,31,reversed,free,,This design is reverse followed in 34
+178,47,unspecified,,not_stated,unspecified,,"In 47/83 the helmet, without the shield on top of it, has a plume and a visor"
+178,51,yes,47,not_stated,free,generic;later ones face right as in 31 (which ones unspecified),This design is followed in the rest of the editions
+178,67,yes,47,not_stated,free,generic;later ones face right as in 31 (which ones unspecified),This design is followed in the rest of the editions
+178,77,yes,47,not_stated,free,generic;later ones face right as in 31 (which ones unspecified),This design is followed in the rest of the editions
+178,21,yes,47,not_stated,free,generic;later ones face right as in 31 (which ones unspecified),This design is followed in the rest of the editions
+179,34,yes,31,reversed,free,generic;successive,This design is followed in reverse successively in the rest of the editions
+179,47,yes,31,reversed,free,generic;successive,This design is followed in reverse successively in the rest of the editions
+179,51,yes,31,reversed,free,generic;successive,This design is followed in reverse successively in the rest of the editions
+179,67,yes,31,reversed,free,generic;successive,This design is followed in reverse successively in the rest of the editions
+179,77,yes,31,reversed,free,generic;successive,This design is followed in reverse successively in the rest of the editions
+179,21,yes,67,not_stated,free,,"21 follows the design of 67, however"
+180,34,unspecified,,not_stated,unspecified,31 reuses cut of emblem 94,In 34 a swallow with a cricket in its beak is flying to its nest
+180,47,yes,34,not_stated,free,generic;motif,This motif is followed in the rest of the editions
+180,51,yes,34,not_stated,free,generic;motif,This motif is followed in the rest of the editions
+180,67,yes,34,not_stated,free,generic;motif,This motif is followed in the rest of the editions
+180,77,yes,34,not_stated,free,generic;motif,This motif is followed in the rest of the editions
+180,21,yes,34,not_stated,free,generic;motif,This motif is followed in the rest of the editions
+181,34,unspecified,,not_stated,unspecified,,In 34 dressed in lion head and skin
+181,47,yes,34,reversed,free,,47/83 follows 34 in reverse
+181,51,yes,47,not_stated,free,,"This design is followed in 51, 67, and 77 except Hercules is walking away from the crowd"
+181,67,yes,47,not_stated,free,,"This design is followed in 51, 67, and 77 except Hercules is walking away from the crowd"
+181,77,yes,47,not_stated,free,,"This design is followed in 51, 67, and 77 except Hercules is walking away from the crowd"
+181,21,unspecified,,NA,NA,harmonised-from-no,"In 21 Hercules, still standing at left but facing the viewer"
+182,34,NA,,NA,NA,,(nonexistent)
+182,47,NA,,NA,NA,,(nonexistent)
+182,51,unspecified,,not_stated,unspecified,,In 51 Mercury at right hands over the moly to Ulysses
+182,67,NA,,NA,NA,,(nonexistent)
+182,77,yes,51,reversed,free,,77 follows 51 in reverse
+182,21,no,,NA,NA,,In a new design 21 has Mercury fly in from upper left
+183,34,NA,,NA,NA,,(nonexistent)
+183,47,NA,,NA,NA,,(nonexistent)
+183,51,yes,1542,not_stated,free,outside-source(1542),51 follows 42 but dresses Proteus in armor
+183,67,NA,,NA,NA,,(nonexistent)
+183,77,yes,1542,reversed,free,outside-source(1542),77/21 follows 42 in reverse
+183,21,yes,77,stated_same,close,77/21;implied,77/21 follows 42 in reverse
+184,34,unspecified,,not_stated,unspecified,,34 draws the shield charged with the figure of a swan facing right
+184,47,yes,34,not_stated,free,generic;background changed from 47/83,This design is followed in the rest of the editions
+184,51,yes,34,not_stated,free,generic;background changed from 47/83,This design is followed in the rest of the editions
+184,67,yes,34,not_stated,free,generic;except-clause-detail(swan on shield facing left),in 67 in which the swan on the shield is facing left
+184,77,yes,34,not_stated,free,generic;background changed from 47/83,This design is followed in the rest of the editions
+184,21,yes,34,not_stated,free,generic;background changed from 47/83,This design is followed in the rest of the editions
+185,34,unspecified,,not_stated,unspecified,,34 draws on top of an altar a cricket on a lyre
+185,47,yes,34,not_stated,free,motif,47/83 follows this motif but changes the lyre into a harp
+185,51,unspecified,,not_stated,unspecified,modifies(47);ambiguous,In 51 the harp of 47 is changed into a lute along with the background
+185,67,no,,NA,NA,lute of 51 reused in new design,In a new design 67 places the lute of 51 on top of a table
+185,77,yes,47,not_stated,free,new background,77 follows 47 but with new background
+185,21,unspecified,,NA,NA,harmonised-from-no,In 21 the lyre stands erect on the altar
+186,34,NA,,NA,NA,,(nonexistent)
+186,47,NA,,NA,NA,,(nonexistent)
+186,51,unspecified,,not_stated,unspecified,different moment of story than 46,51 chooses to illustrate Cadmus killing the dragon with his spear
+186,67,yes,51,not_stated,free,,This design is followed in 67
+186,77,unspecified,,not_stated,unspecified,,In 77/21 Cadmus is sowing the dragon's teeth
+186,21,yes,77,not_stated,free,77/21;scatters right in 21 vs left in 77;dragon reduced to snake,"in 21 ... Cadmus is scattering teeth to the right, whereas in 77 he is scattering them to the left"
+187,34,NA,,NA,NA,,(nonexistent)
+187,47,NA,,NA,NA,,(nonexistent)
+187,51,unspecified,,not_stated,unspecified,,51 divides the cut into six squares
+187,67,NA,,NA,NA,,(nonexistent)
+187,77,no,,NA,NA,,This design is not followed by the rest of the editions. In 77/83 names of the seven sages are on labels
+187,21,unspecified,,not_stated,unspecified,modifies(77/83);ambiguous,"In 21 the labels with names are omitted, leaving only the objects"
+188,34,yes,31,reversed,free,,This design is followed in reverse in 34
+188,47,yes,34,reversed,free,,which is in turn reversed in 47/83 and in 51/67
+188,51,yes,34,reversed,free,,which is in turn reversed in 47/83 and in 51/67
+188,67,yes,51,stated_same,close,51/67;implied,which is in turn reversed in 47/83 and in 51/67
+188,77,yes,51,not_stated,free,hands and background reversed,77 follows 51 but reverses her hands and the background
+188,21,unspecified,,NA,NA,traditional Sphinx;harmonised-from-no,"In 21, however, returns to the more traditional Sphinx"
+190,34,yes,31,not_stated,free,,34 follows 31 except changing Phrixus into a naked youth
+190,47,yes,34,reversed,free,,47/83 follows 34 in reverse but makes Phrixus raise his right arm
+190,51,yes,47,reversed,free,,51 follows 47 in reverse
+190,67,yes,51,not_stated,free,,67 follows 51 but raises Phrixus's left arm
+190,77,yes,51,not_stated,free,,77/21 follows 51 and turns the ram another 90 degrees
+190,21,yes,77,stated_same,close,77/21;implied,77/21 follows 51
+191,34,yes,31,reversed,free,,34 follows this design in reverse
+191,47,yes,34,not_stated,free,,47/83 follows 34 but the man's right hand is holding the woman's left
+191,51,yes,34,not_stated,free,,51 follows 34 but moves the couple along with the tree to the left
+191,67,yes,51,not_stated,free,,67 follows 51 but moves the tree a little to the right
+191,77,yes,47,not_stated,free,,77 follows 47 but moves the tree to the left
+191,21,no,,NA,NA,,"21, in a new design, has the couple sitting on separate chairs"
+192,34,yes,31,not_stated,free,,Following it 34 adds elaborate background scene
+192,47,unspecified,,not_stated,unspecified,modifies(previous),47/83 moves the shore to the left and adds a willow-tree to the right
+192,51,yes,47,reversed,free,,51 follows 47 in reverse
+192,67,NA,,NA,NA,,(nonexistent)
+192,77,yes,51,not_stated,free,new background,77/21 follows 51 but uses a new background
+192,21,yes,77,stated_same,close,77/21;implied;viper drawn three times as large in 21,77/21 follows 51 but uses a new background
+193,34,unspecified,,not_stated,unspecified,,In 34 the tree stands in the center
+193,47,yes,34,not_stated,free,generic;motif,The center tree motif is followed in the rest of the editions
+193,51,yes,34,not_stated,free,,"In 51/67, following 34, three boys are attacking the tree"
+193,67,yes,51,stated_same,close,51/67;implied,"In 51/67, following 34"
+193,77,yes,47,not_stated,free,,"In 77/21, following 47/83, the two boys use sticks"
+193,21,yes,77,stated_same,close,77/21;implied,"In 77/21, following 47/83"
+194,34,yes,31,reversed,free,,34 follows 31 in reverse
+194,47,no,,NA,NA,,"47/83, in a new design, puts the nest in the center of the tree"
+194,51,yes,47,not_stated,free,generic;51/67 adds background,"This design is followed in the rest of the editions, except 51 / 67 adds more background scenes"
+194,67,yes,47,not_stated,free,generic;51/67 adds background,"This design is followed in the rest of the editions, except 51 / 67 adds more background scenes"
+194,77,yes,47,not_stated,free,generic,This design is followed in the rest of the editions
+194,21,yes,47,not_stated,free,generic,This design is followed in the rest of the editions
+195,34,yes,31,not_stated,free,background reversed,34 follows 31 but has Anchises resting his left arm on top of Aeneas's head
+195,47,yes,34,not_stated,free,,"Following 34, 47/83 has Anchises holding his son's head"
+195,51,unspecified,,not_stated,unspecified,,In 51 Anchises wraps his legs around his son's waist
+195,67,unspecified,,not_stated,unspecified,,67 has Aeneas's arms under Anchises' knees
+195,77,yes,51,not_stated,free,hands as in 31,"In 77, following 51"
+195,21,yes,67;47,not_stated,free,multiple-ancestors,"In 21, following both 67 and 47/83"
+196,34,unspecified,,not_stated,unspecified,,In 34 she is standing with two doves under an arch
+196,47,unspecified,,not_stated,unspecified,,In 47/83 a half-clothed Venus sitting on the edge of a canopied bed
+196,51,unspecified,,not_stated,unspecified,,In 51 a half-clothed Venus stands in the studio of Phidias
+196,67,yes,51,not_stated,free,Venus at left facing left,67 follows this design except Venus is standing at left and facing left
+196,77,yes,47,not_stated,free,,77 follows this design except Venus is fully clothed
+196,21,unspecified,,not_stated,unspecified,,In 21 a nude Venus except a cape standing in front of the canopied bed
+197,34,NA,,NA,NA,,(nonexistent)
+197,47,NA,,NA,NA,,(nonexistent)
+197,51,unspecified,,not_stated,unspecified,,"In 51 Penelope, half nude, sits on a bench"
+197,67,NA,,NA,NA,,(nonexistent)
+197,77,yes,51,not_stated,free,,"This design is followed in 77/83, except the two men are not pulling her"
+197,21,unspecified,,NA,NA,harmonised-from-no,In 21 Penelope is putting a veil on her head
+198,34,NA,,NA,NA,,(nonexistent)
+198,47,NA,,NA,NA,,(nonexistent)
+198,51,unspecified,,not_stated,unspecified,,In 51 from his throne King Menzentius
+198,67,NA,,NA,NA,,(nonexistent)
+198,77,unspecified,,not_stated,unspecified,,In 77/21 (reverse copied in 83) the king alone watches
+198,21,yes,77,stated_same,close,77/21;implied,In 77/21 (reverse copied in 83)
+199,34,NA,,NA,NA,,(nonexistent)
+199,47,NA,,NA,NA,,(nonexistent)
+199,51,yes,Fuchs,not_stated,unspecified,outside-source(Fuchs);botanical,botanical illustrations by Fuchs for 51/83
+199,67,NA,,NA,NA,,(nonexistent)
+199,77,yes,Dodoens,not_stated,unspecified,outside-source(Dodoens);botanical,by Dodoens for 77
+199,21,unspecified,,not_stated,unspecified,,Only 21 attempts to illustrate the entire text
+200,34,NA,,NA,NA,,(nonexistent)
+200,47,NA,,NA,NA,,(nonexistent)
+200,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+200,67,NA,,NA,NA,,(nonexistent)
+200,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+200,21,unspecified,,not_stated,unspecified,,21 displays two sides of a coin under the oak tree branches
+201,34,NA,,NA,NA,,(nonexistent)
+201,47,NA,,NA,NA,,(nonexistent)
+201,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+201,67,NA,,NA,NA,,(nonexistent)
+201,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+201,21,unspecified,,not_stated,unspecified,,21 shows at left a nude woman lying supine with a burning torch
+202,34,NA,,NA,NA,,(nonexistent)
+202,47,NA,,NA,NA,,(nonexistent)
+202,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+202,67,NA,,NA,NA,,(nonexistent)
+202,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+202,21,unspecified,,not_stated,unspecified,,21 shows on the left a boat in construction
+203,34,NA,,NA,NA,,(nonexistent)
+203,47,NA,,NA,NA,,(nonexistent)
+203,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+203,67,NA,,NA,NA,,(nonexistent)
+203,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+203,21,unspecified,,not_stated,unspecified,,21 shows in front of the tree a pack-mule standing
+204,34,NA,,NA,NA,,(nonexistent)
+204,47,NA,,NA,NA,,(nonexistent)
+204,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+204,67,NA,,NA,NA,,(nonexistent)
+204,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+204,21,unspecified,,not_stated,unspecified,,21 puts the god Hymen to the left
+205,34,unspecified,,not_stated,unspecified,,(not described)
+205,47,NA,,NA,NA,,(nonexistent)
+205,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+205,67,NA,,NA,NA,,(nonexistent)
+205,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+205,21,unspecified,,not_stated,unspecified,,21 places within ivy garlands a five-string lyre
+206,34,NA,,NA,NA,,(nonexistent)
+206,47,NA,,NA,NA,,(nonexistent)
+206,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+206,67,NA,,NA,NA,,(nonexistent)
+206,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+206,21,unspecified,,not_stated,unspecified,,21 draws two groups of Roman soldiers
+207,34,NA,,NA,NA,,(nonexistent)
+207,47,NA,,NA,NA,,(nonexistent)
+207,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+207,67,NA,,NA,NA,,(nonexistent)
+207,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+207,21,unspecified,,not_stated,unspecified,,21 depicts at left a nude Venus except a cape
+208,34,NA,,NA,NA,,(nonexistent)
+208,47,NA,,NA,NA,,(nonexistent)
+208,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+208,67,NA,,NA,NA,,(nonexistent)
+208,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+208,21,unspecified,,not_stated,unspecified,,21 shows a shepherd's pipe hanging from the branches
+209,34,NA,,NA,NA,,(nonexistent)
+209,47,NA,,NA,NA,,(nonexistent)
+209,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+209,67,NA,,NA,NA,,(nonexistent)
+209,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+209,21,unspecified,,not_stated,unspecified,,21 draws at the left a man walking with a pin-wheel
+210,34,NA,,NA,NA,,(nonexistent)
+210,47,NA,,NA,NA,,(nonexistent)
+210,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+210,67,NA,,NA,NA,,(nonexistent)
+210,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+210,21,unspecified,,not_stated,unspecified,,21 presents at the left a walking cloaked figure
+211,34,NA,,NA,NA,,(nonexistent)
+211,47,NA,,NA,NA,,(nonexistent)
+211,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+211,67,NA,,NA,NA,,(nonexistent)
+211,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+211,21,unspecified,,not_stated,unspecified,,21 places a medallion with the head of Charles V
+212,34,NA,,NA,NA,,(nonexistent)
+212,47,NA,,NA,NA,,(nonexistent)
+212,51,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+212,67,NA,,NA,NA,,(nonexistent)
+212,77,unspecified,,not_stated,unspecified,tree series: only 21 described (see 199 note),(not described)
+212,21,unspecified,,not_stated,unspecified,,21 places a medallion at left painted with a sun

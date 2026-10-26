@@ -1,0 +1,8 @@
+ENTITY	woman	clear
+ENTITY	rectangular tomb/chest with lid on a plinth	clear
+ATTRIBUTE	woman: long dress with sleeves, loose dishevelled hair	clear
+ATTRIBUTE	tomb: plain, no inscription	clear
+ACTION	woman tears at her hair with both hands (grief)	probable
+RELATION	woman: stands beside the tomb	clear
+SETTING	plain ground, no background	clear
+RECOGNISED	mourning woman at a tomb; emblem not identified	indeterminate

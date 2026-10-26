@@ -1,0 +1,10 @@
+ENTITY	lizard-like animal	clear
+ENTITY	tree and tree stump	clear
+ENTITY	branch	clear
+ENTITY	castle/buildings on hill	probable
+ATTRIBUTE	animal: crested/ridged back, striped body, curled tail, round eye	clear
+ATTRIBUTE	animal: open mouth	probable
+ACTION	animal walks along a branch	clear
+RELATION	branch: runs from the stump at left	clear
+SETTING	landscape with hills, trees, castle	clear
+RECOGNISED	chameleon (crest, curled tail, open mouth feeding on air): Alciato 'In adulatores'	probable

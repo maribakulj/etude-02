@@ -1,0 +1,11 @@
+ENTITY	woman	clear
+ENTITY	tomb/sarcophagus	clear
+ENTITY	torn hair (tuft)	clear
+ENTITY	buildings/columns	clear
+INSCRIPTION	D AIACIS M	probable
+ATTRIBUTE	woman: bare-breasted, long dishevelled hair, robe on lower body	clear
+ACTION	woman tears her hair with right hand	clear
+ACTION	woman holds a tuft of torn hair in left hand	clear
+RELATION	woman: sits on the corner of the tomb	clear
+SETTING	architecture (buildings, columns), rocky ground	clear
+RECOGNISED	Virtue mourning on Ajax's tomb (inscription AIACIS); Alciato emblem (cf. p048, p059)	probable

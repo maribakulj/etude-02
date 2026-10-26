@@ -1,0 +1,10 @@
+ENTITY	large masonry structure (stepped wall, quay or tomb)	clear
+ENTITY	rocky cliff with ruins	clear
+ENTITY	small round object in water, possibly with a bird	indeterminate
+ENTITY	birds in sky ×4 approx.	probable
+ATTRIBUTE	structure: moulding with row of arches or bosses	clear
+INSCRIPTION	letter-like marks on structure, unreadable	indeterminate
+RELATION	structure: stands at the water's edge	clear
+RELATION	round object: floats on the waves at lower right	probable
+SETTING	rough sea, cliffs, clouds	clear
+RECOGNISED	monument on shore with round shield in the waves: Achilles' arms washed to Ajax's tomb (cf. p044, p079); first reading was halcyon nest	probable

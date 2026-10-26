@@ -1,0 +1,14 @@
+ENTITY	ass/donkey	clear
+ENTITY	men ×2	clear
+ENTITY	arched plaque/frame (empty)	clear
+ENTITY	stick or hammer	clear
+ATTRIBUTE	right man: feathered hat, short pleated tunic, sword	clear
+ATTRIBUTE	left figure: smaller, armour or striped garment, long moustache	probable
+ATTRIBUTE	arched plaque: blank, no image inside	clear
+ACTION	right man raises stick/hammer to strike	clear
+ACTION	left figure holds a small object (cup?) toward the ass	indeterminate
+ACTION	ass walks, foreleg raised	clear
+RELATION	arched plaque: rises behind / rests on the ass's back	probable
+RELATION	men: on either side of the ass	clear
+SETTING	bare ground, no background	clear
+RECOGNISED	ass carrying an arched shrine-like object, beaten by its driver, with a worshipping figure: Alciato 'Non tibi sed religioni' (ass carrying Isis)	probable

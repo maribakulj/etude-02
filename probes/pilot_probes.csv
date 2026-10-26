@@ -1,0 +1,9 @@
+probe_id,picture,question,picture_answer,text_answer,basis
+pp01,A31b006,Is there a sceptre in the picture?,no,yes,P31 shows a crowned bird followed by birds (Tung no. 38); text: sceptre carries crows
+pp02,A31b006,Is one of the birds wearing a crown?,yes,no,Tung no. 38
+pp03,A31b068,Does the climbing plant wind around the trunk of the large tree?,no,yes,P31: gourd on its own pole beside the pine (Tung no. 125); text: gourd embraces the pine
+pp04,A31b023,Is one man carrying another man on his shoulders?,no,yes,P31: two men side by side (Tung no. 161); text: the blind man carries the lame
+pp05,A31b096,Is the boy blindfolded?,yes,no,P31 shows the denied image; text affirms a shield sign instead
+pp06,A31b096,Is the figure holding a shield?,no,yes,P31; text: sign is a pomegranate on a black shield
+pp07,A31b036,Is a figure of a goddess visible on the animal's back?,no,yes,P31: empty arched plaque (Tung no. 7); text: ass carries an image of Isis
+pp08,A31b083,Is the man being washed drawn noticeably darker than the other men?,no,yes,P31: no darker hatching visible at 500 px (to verify on a scan); text: an Ethiopian

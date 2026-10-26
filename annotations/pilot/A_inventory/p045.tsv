@@ -1,0 +1,11 @@
+ENTITY	fox (or dog-like animal)	probable
+ENTITY	masks ×3 (one held, two hanging on wall)	clear
+ENTITY	bench/step	clear
+ENTITY	columns, window	clear
+ATTRIBUTE	held mask: human face, eye holes	clear
+ATTRIBUTE	lower hanging mask: bearded	clear
+ACTION	animal sits and holds a mask in its forepaws, looking at it	clear
+RELATION	masks: hang on the wall at left	clear
+RELATION	animal: seated on a raised step	clear
+SETTING	interior, architectural	clear
+RECOGNISED	fox with an empty mask: Aesop's fox and the mask (Alciato 'Mentem non formam plus pollere')	clear

@@ -1,0 +1,11 @@
+ENTITY	naked boy (no wings)	clear
+ENTITY	shield	clear
+ENTITY	birds in sky ×6 approx.	probable
+ENTITY	stone/block at feet	probable
+ATTRIBUTE	boy: curly hair, open mouth	clear
+ATTRIBUTE	shield: small device in centre, unreadable	indeterminate
+ACTION	boy holds the shield by its top edge with his left hand	clear
+ACTION	boy stands/walks frontally	clear
+RELATION	shield: rests on the ground at the boy's side	clear
+SETTING	landscape with towns, trees, river	clear
+RECOGNISED	same composition as p023 (naked boy with shield); emblem not identified	probable

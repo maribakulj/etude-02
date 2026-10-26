@@ -1,0 +1,9 @@
+ENTITY	naked winged boy	clear
+ENTITY	arrows ×3	clear
+ATTRIBUTE	boy: wings	clear
+ATTRIBUTE	boy: blindfold	clear
+ATTRIBUTE	boy: curly hair	clear
+ACTION	boy holds arrows in right hand	clear
+ACTION	boy stands frontally	clear
+SETTING	tuft of grass/leaves at feet; blank background	clear
+RECOGNISED	blindfolded winged boy with arrows: Cupid / Love	clear

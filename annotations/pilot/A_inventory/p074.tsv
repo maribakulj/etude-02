@@ -1,0 +1,8 @@
+ENTITY	tree with bare branches	clear
+ENTITY	grapevine with leaves	clear
+ENTITY	bunches of grapes ×3	clear
+ENTITY	grass tuft	clear
+ACTION	vine twines around the trunk	clear
+RELATION	grapes: hang from the vine on the dead tree	clear
+SETTING	small mound, water at right edge	probable
+RECOGNISED	vine on a dead tree: Alciato 'Amicitia etiam post mortem durans' (cf. p033)	probable

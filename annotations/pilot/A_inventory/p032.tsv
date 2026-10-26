@@ -1,0 +1,9 @@
+ENTITY	large tree	clear
+ENTITY	wind heads (puffing faces) ×2	clear
+ENTITY	leaves and acorns	probable
+ENTITY	town and hill in background	clear
+ATTRIBUTE	leaves: oak-like lobed shape	probable
+ACTION	wind heads blow at the tree from the upper corners	clear
+ACTION	leaves fall to the ground	clear
+SETTING	landscape with river/plain, hill, town	clear
+RECOGNISED	same motif as p009/p015/p030 (tree stripped by two winds)	probable

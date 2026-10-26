@@ -1,0 +1,13 @@
+ENTITY	men ×3	clear
+ENTITY	cloth/towel	clear
+ENTITY	jar/vessel at right	clear
+ENTITY	bath or trough/bench behind	probable
+ATTRIBUTE	central man: naked, darker hatching on skin than the others	clear
+ATTRIBUTE	left man: bearded, sleeves rolled	clear
+ATTRIBUTE	right man: bearded, holds a cloth or sponge to his face	probable
+ACTION	left man scrubs the central man with a cloth	clear
+ACTION	right man raises a cloth/sponge (wringing or wiping)	probable
+ACTION	central man stands, body twisted	clear
+RELATION	central man: between the two washers	clear
+SETTING	interior or courtyard with bath/basin; clouds visible above	probable
+RECOGNISED	two men washing a dark-skinned man: washing the Ethiopian white (Alciato 'Impossibile')	clear

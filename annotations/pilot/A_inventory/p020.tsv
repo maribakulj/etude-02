@@ -1,0 +1,13 @@
+ENTITY	rectangular plaque/tablet with scroll side-ornaments	clear
+ENTITY	staff or column with crown finial	clear
+ENTITY	birds ×2 on plaque	clear
+ENTITY	birds in flight ×14 approx.	probable
+ENTITY	cloud	clear
+ATTRIBUTE	plaque: empty, no inscription	clear
+ATTRIBUTE	staff: small crown near the top	probable
+ACTION	two birds face each other beak to beak	clear
+ACTION	flock flies in upper left	clear
+RELATION	birds: perch on top edge of plaque, either side of the staff	clear
+RELATION	staff: rises from the centre of the plaque	clear
+SETTING	landscape with low hills; stones on ground	clear
+RECOGNISED	same scheme as p001 and p002 (birds on a tomb with central post); probably the same emblem	probable

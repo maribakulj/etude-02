@@ -1,0 +1,9 @@
+ENTITY	tree	clear
+ENTITY	wind heads (puffing faces) in clouds ×2	clear
+ENTITY	leaves, many, falling	clear
+ATTRIBUTE	tree: branches bending, few leaves left	clear
+ACTION	wind heads blow at the tree from both upper corners	clear
+ACTION	leaves fall / are blown off	clear
+RELATION	leaves: scattered on and above the ground around the trunk	clear
+SETTING	open ground, hatched sky	clear
+RECOGNISED	tree stripped by two winds: could be an Alciato emblem on adversity or fickle friends, not sure which	indeterminate

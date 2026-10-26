@@ -1,0 +1,417 @@
+emblem,tung,earlier,later,guess
+A31b001,1,31,34,"mentioned, relation unclear"
+A31b001,1,34,51,"mentioned, relation unclear"
+A31b001,1,51,21,"mentioned, relation unclear"
+A31b001,1,31,21,"mentioned, relation unclear"
+A31b002,10,31,34,"mentioned, relation unclear"
+A31b002,10,34,51,"mentioned, relation unclear"
+A31b002,10,51,21,reversed copy
+A31b002,10,31,21,"mentioned, relation unclear"
+A31b003,11,31,34,reversed copy
+A31b003,11,34,51,"mentioned, relation unclear"
+A31b003,11,51,21,"mentioned, relation unclear"
+A31b003,11,31,21,"mentioned, relation unclear"
+A31b004,29,31,34,free copy
+A31b004,29,34,51,"mentioned, relation unclear"
+A31b004,29,51,21,"mentioned, relation unclear"
+A31b004,29,31,21,"mentioned, relation unclear"
+A31b005,30,31,34,"mentioned, relation unclear"
+A31b005,30,34,51,reversed copy
+A31b005,30,51,21,"mentioned, relation unclear"
+A31b005,30,31,21,"mentioned, relation unclear"
+A31b006,38,31,34,"mentioned, relation unclear"
+A31b006,38,34,51,"mentioned, relation unclear"
+A31b006,38,51,21,not mentioned
+A31b006,38,31,21,not mentioned
+A31b007,106,31,34,"mentioned, relation unclear"
+A31b007,106,34,51,"mentioned, relation unclear"
+A31b007,106,51,21,"mentioned, relation unclear"
+A31b007,106,31,21,"mentioned, relation unclear"
+A31b008,12,31,34,"mentioned, relation unclear"
+A31b008,12,34,51,"mentioned, relation unclear"
+A31b008,12,51,21,"mentioned, relation unclear"
+A31b008,12,31,21,"mentioned, relation unclear"
+A31b009,48,31,34,free copy
+A31b009,48,34,51,free copy
+A31b009,48,51,21,free copy
+A31b009,48,31,21,free copy
+A31b010,192,31,34,"mentioned, relation unclear"
+A31b010,192,34,51,"mentioned, relation unclear"
+A31b010,192,51,21,free copy
+A31b010,192,31,21,"mentioned, relation unclear"
+A31b011,90,31,34,free copy
+A31b011,90,34,51,"mentioned, relation unclear"
+A31b011,90,51,21,reversed copy
+A31b011,90,31,21,"mentioned, relation unclear"
+A31b012,160,31,34,not mentioned
+A31b012,160,34,51,not mentioned
+A31b012,160,51,21,not mentioned
+A31b012,160,31,21,not mentioned
+A31b013,46,31,34,"mentioned, relation unclear"
+A31b013,46,34,51,"mentioned, relation unclear"
+A31b013,46,51,21,"mentioned, relation unclear"
+A31b013,46,31,21,"mentioned, relation unclear"
+A31b014,27,31,34,"mentioned, relation unclear"
+A31b014,27,34,51,"mentioned, relation unclear"
+A31b014,27,51,21,"mentioned, relation unclear"
+A31b014,27,31,21,"mentioned, relation unclear"
+A31b015,82,31,34,"mentioned, relation unclear"
+A31b015,82,34,51,"mentioned, relation unclear"
+A31b015,82,51,21,"mentioned, relation unclear"
+A31b015,82,31,21,"mentioned, relation unclear"
+A31b016,121,31,34,"mentioned, relation unclear"
+A31b016,121,34,51,"mentioned, relation unclear"
+A31b016,121,51,21,free copy
+A31b016,121,31,21,"mentioned, relation unclear"
+A31b017,122,31,34,"mentioned, relation unclear"
+A31b017,122,34,51,free copy
+A31b017,122,51,21,"mentioned, relation unclear"
+A31b017,122,31,21,"mentioned, relation unclear"
+A31b018,92,31,34,"mentioned, relation unclear"
+A31b018,92,34,51,"mentioned, relation unclear"
+A31b018,92,51,21,"mentioned, relation unclear"
+A31b018,92,31,21,"mentioned, relation unclear"
+A31b019,119,31,34,"mentioned, relation unclear"
+A31b019,119,34,51,free copy
+A31b019,119,51,21,"mentioned, relation unclear"
+A31b019,119,31,21,"mentioned, relation unclear"
+A31b020,179,31,34,not mentioned
+A31b020,179,34,51,not mentioned
+A31b020,179,51,21,"mentioned, relation unclear"
+A31b020,179,31,21,"mentioned, relation unclear"
+A31b021,58,31,34,"mentioned, relation unclear"
+A31b021,58,34,51,"mentioned, relation unclear"
+A31b021,58,51,21,"mentioned, relation unclear"
+A31b021,58,31,21,"mentioned, relation unclear"
+A31b022,144,31,34,"mentioned, relation unclear"
+A31b022,144,34,51,reversed copy
+A31b022,144,51,21,reversed copy
+A31b022,144,31,21,"mentioned, relation unclear"
+A31b023,161,31,34,"mentioned, relation unclear"
+A31b023,161,34,51,free copy
+A31b023,161,51,21,"mentioned, relation unclear"
+A31b023,161,31,21,"mentioned, relation unclear"
+A31b024,132,31,34,"mentioned, relation unclear"
+A31b024,132,34,51,"mentioned, relation unclear"
+A31b024,132,51,21,"mentioned, relation unclear"
+A31b024,132,31,21,"mentioned, relation unclear"
+A31b025,36,31,34,"mentioned, relation unclear"
+A31b025,36,34,51,"mentioned, relation unclear"
+A31b025,36,51,21,"mentioned, relation unclear"
+A31b025,36,31,21,"mentioned, relation unclear"
+A31b026,74,31,34,"mentioned, relation unclear"
+A31b026,74,34,51,free copy
+A31b026,74,51,21,"mentioned, relation unclear"
+A31b026,74,31,21,"mentioned, relation unclear"
+A31b027,93,31,34,"mentioned, relation unclear"
+A31b027,93,34,51,"mentioned, relation unclear"
+A31b027,93,51,21,reused block from another emblem
+A31b027,93,31,21,reused block from another emblem
+A31b028,39,31,34,"mentioned, relation unclear"
+A31b028,39,34,51,"mentioned, relation unclear"
+A31b028,39,51,21,"mentioned, relation unclear"
+A31b028,39,31,21,"mentioned, relation unclear"
+A31b029,103,31,34,"mentioned, relation unclear"
+A31b029,103,34,51,"mentioned, relation unclear"
+A31b029,103,51,21,"mentioned, relation unclear"
+A31b029,103,31,21,"mentioned, relation unclear"
+A31b030,75,31,34,"mentioned, relation unclear"
+A31b030,75,34,51,"mentioned, relation unclear"
+A31b030,75,51,21,"mentioned, relation unclear"
+A31b030,75,31,21,"mentioned, relation unclear"
+A31b031,143,31,34,"mentioned, relation unclear"
+A31b031,143,34,51,"mentioned, relation unclear"
+A31b031,143,51,21,"mentioned, relation unclear"
+A31b031,143,31,21,"mentioned, relation unclear"
+A31b032,94,31,34,"mentioned, relation unclear"
+A31b032,94,34,51,not mentioned
+A31b032,94,51,21,not mentioned
+A31b032,94,31,21,not mentioned
+A31b033,4,31,34,"mentioned, relation unclear"
+A31b033,4,34,51,independent design
+A31b033,4,51,21,reversed copy
+A31b033,4,31,21,"mentioned, relation unclear"
+A31b034,78,31,34,"mentioned, relation unclear"
+A31b034,78,34,51,free copy
+A31b034,78,51,21,"mentioned, relation unclear"
+A31b034,78,31,21,"mentioned, relation unclear"
+A31b035,43,31,34,"mentioned, relation unclear"
+A31b035,43,34,51,"mentioned, relation unclear"
+A31b035,43,51,21,free copy
+A31b035,43,31,21,"mentioned, relation unclear"
+A31b036,7,31,34,reversed copy
+A31b036,7,34,51,"mentioned, relation unclear"
+A31b036,7,51,21,"mentioned, relation unclear"
+A31b036,7,31,21,"mentioned, relation unclear"
+A31b037,124,31,34,"mentioned, relation unclear"
+A31b037,124,34,51,"mentioned, relation unclear"
+A31b037,124,51,21,reversed copy
+A31b037,124,31,21,"mentioned, relation unclear"
+A31b038,172,31,34,"mentioned, relation unclear"
+A31b038,172,34,51,"mentioned, relation unclear"
+A31b038,172,51,21,free copy
+A31b038,172,31,21,"mentioned, relation unclear"
+A31b039,28,31,34,exception to a copy (check)
+A31b039,28,34,51,free copy
+A31b039,28,51,21,free copy
+A31b039,28,31,21,exception to a copy (check)
+A31b040,193,31,34,"mentioned, relation unclear"
+A31b040,193,34,51,free copy
+A31b040,193,51,21,"mentioned, relation unclear"
+A31b040,193,31,21,"mentioned, relation unclear"
+A31b041,120,31,34,"mentioned, relation unclear"
+A31b041,120,34,51,"mentioned, relation unclear"
+A31b041,120,51,21,"mentioned, relation unclear"
+A31b041,120,31,21,"mentioned, relation unclear"
+A31b042,133,31,34,"mentioned, relation unclear"
+A31b042,133,34,51,not mentioned
+A31b042,133,51,21,not mentioned
+A31b042,133,31,21,not mentioned
+A31b043,22,31,34,"mentioned, relation unclear"
+A31b043,22,34,51,"mentioned, relation unclear"
+A31b043,22,51,21,"mentioned, relation unclear"
+A31b043,22,31,21,"mentioned, relation unclear"
+A31b044,162,31,34,"mentioned, relation unclear"
+A31b044,162,34,51,"mentioned, relation unclear"
+A31b044,162,51,21,free copy
+A31b044,162,31,21,"mentioned, relation unclear"
+A31b045,194,31,34,reversed copy
+A31b045,194,34,51,"mentioned, relation unclear"
+A31b045,194,51,21,free copy
+A31b045,194,31,21,not mentioned
+A31b046,178,31,34,reversed copy
+A31b046,178,34,51,free copy
+A31b046,178,51,21,not mentioned
+A31b046,178,31,21,free copy
+A31b047,188,31,34,reversed copy
+A31b047,188,34,51,reversed copy
+A31b047,188,51,21,"mentioned, relation unclear"
+A31b047,188,31,21,"mentioned, relation unclear"
+A31b048,130,31,34,"mentioned, relation unclear"
+A31b048,130,34,51,"mentioned, relation unclear"
+A31b048,130,51,21,"mentioned, relation unclear"
+A31b048,130,31,21,"mentioned, relation unclear"
+A31b049,189,31,34,reversed copy
+A31b049,189,34,51,reversed copy
+A31b049,189,51,21,"mentioned, relation unclear"
+A31b049,189,31,21,"mentioned, relation unclear"
+A31b050,83,31,34,"mentioned, relation unclear"
+A31b050,83,34,51,"mentioned, relation unclear"
+A31b050,83,51,21,"mentioned, relation unclear"
+A31b050,83,31,21,"mentioned, relation unclear"
+A31b051,24,31,34,free copy
+A31b051,24,34,51,not mentioned
+A31b051,24,51,21,"mentioned, relation unclear"
+A31b051,24,31,21,free copy
+A31b052,86,31,34,"mentioned, relation unclear"
+A31b052,86,34,51,"mentioned, relation unclear"
+A31b052,86,51,21,"mentioned, relation unclear"
+A31b052,86,31,21,"mentioned, relation unclear"
+A31b053,20,31,34,"mentioned, relation unclear"
+A31b053,20,34,51,reversed copy
+A31b053,20,51,21,reversed copy
+A31b053,20,31,21,"mentioned, relation unclear"
+A31b054,104,31,34,"mentioned, relation unclear"
+A31b054,104,34,51,free copy
+A31b054,104,51,21,free copy
+A31b054,104,31,21,"mentioned, relation unclear"
+A31b055,169,31,34,"mentioned, relation unclear"
+A31b055,169,34,51,"mentioned, relation unclear"
+A31b055,169,51,21,free copy
+A31b055,169,31,21,"mentioned, relation unclear"
+A31b056,174,31,34,"mentioned, relation unclear"
+A31b056,174,34,51,independent design
+A31b056,174,51,21,reversed copy
+A31b056,174,31,21,independent design
+A31b057,42,31,34,free copy
+A31b057,42,34,51,not mentioned
+A31b057,42,51,21,not mentioned
+A31b057,42,31,21,free copy
+A31b058,154,31,34,"mentioned, relation unclear"
+A31b058,154,34,51,independent design
+A31b058,154,51,21,"mentioned, relation unclear"
+A31b058,154,31,21,"mentioned, relation unclear"
+A31b059,166,31,34,free copy
+A31b059,166,34,51,free copy
+A31b059,166,51,21,free copy
+A31b059,166,31,21,"mentioned, relation unclear"
+A31b060,145,31,34,"mentioned, relation unclear"
+A31b060,145,34,51,not mentioned
+A31b060,145,51,21,"mentioned, relation unclear"
+A31b060,145,31,21,"mentioned, relation unclear"
+A31b061,21,31,34,"mentioned, relation unclear"
+A31b061,21,34,51,"mentioned, relation unclear"
+A31b061,21,51,21,"mentioned, relation unclear"
+A31b061,21,31,21,"mentioned, relation unclear"
+A31b062,191,31,34,reversed copy
+A31b062,191,34,51,free copy
+A31b062,191,51,21,independent design
+A31b062,191,31,21,independent design
+A31b063,148,31,34,"mentioned, relation unclear"
+A31b063,148,34,51,"mentioned, relation unclear"
+A31b063,148,51,21,"mentioned, relation unclear"
+A31b063,148,31,21,"mentioned, relation unclear"
+A31b064,13,31,34,"mentioned, relation unclear"
+A31b064,13,34,51,"mentioned, relation unclear"
+A31b064,13,51,21,independent design
+A31b064,13,31,21,independent design
+A31b065,56,31,34,"mentioned, relation unclear"
+A31b065,56,34,51,"mentioned, relation unclear"
+A31b065,56,51,21,free copy
+A31b065,56,31,21,"mentioned, relation unclear"
+A31b066,155,31,34,"mentioned, relation unclear"
+A31b066,155,34,51,"mentioned, relation unclear"
+A31b066,155,51,21,"mentioned, relation unclear"
+A31b066,155,31,21,"mentioned, relation unclear"
+A31b067,25,31,34,not mentioned
+A31b067,25,34,51,not mentioned
+A31b067,25,51,21,not mentioned
+A31b067,25,31,21,not mentioned
+A31b068,125,31,34,"mentioned, relation unclear"
+A31b068,125,34,51,free copy
+A31b068,125,51,21,free copy
+A31b068,125,31,21,"mentioned, relation unclear"
+A31b069,195,31,34,reversed copy
+A31b069,195,34,51,"mentioned, relation unclear"
+A31b069,195,51,21,"mentioned, relation unclear"
+A31b069,195,31,21,"mentioned, relation unclear"
+A31b070,175,31,34,reversed copy
+A31b070,175,34,51,"mentioned, relation unclear"
+A31b070,175,51,21,"mentioned, relation unclear"
+A31b070,175,31,21,"mentioned, relation unclear"
+A31b071,109,31,34,"mentioned, relation unclear"
+A31b071,109,34,51,"mentioned, relation unclear"
+A31b071,109,51,21,"mentioned, relation unclear"
+A31b071,109,31,21,"mentioned, relation unclear"
+A31b072,111,31,34,"mentioned, relation unclear"
+A31b072,111,34,51,"mentioned, relation unclear"
+A31b072,111,51,21,"mentioned, relation unclear"
+A31b072,111,31,21,"mentioned, relation unclear"
+A31b073,108,31,34,"mentioned, relation unclear"
+A31b073,108,34,51,"mentioned, relation unclear"
+A31b073,108,51,21,"mentioned, relation unclear"
+A31b073,108,31,21,"mentioned, relation unclear"
+A31b074,173,31,34,reversed copy
+A31b074,173,34,51,not mentioned
+A31b074,173,51,21,not mentioned
+A31b074,173,31,21,not mentioned
+A31b075,167,31,34,"mentioned, relation unclear"
+A31b075,167,34,51,free copy
+A31b075,167,51,21,"mentioned, relation unclear"
+A31b075,167,31,21,"mentioned, relation unclear"
+A31b076,107,31,34,"mentioned, relation unclear"
+A31b076,107,34,51,free copy
+A31b076,107,51,21,free copy
+A31b076,107,31,21,"mentioned, relation unclear"
+A31b077,8,31,34,reversed copy
+A31b077,8,34,51,free copy
+A31b077,8,51,21,independent design
+A31b077,8,31,21,independent design
+A31b078,44,31,34,"mentioned, relation unclear"
+A31b078,44,34,51,"mentioned, relation unclear"
+A31b078,44,51,21,not mentioned
+A31b078,44,31,21,not mentioned
+A31b079,177,31,34,"mentioned, relation unclear"
+A31b079,177,34,51,"mentioned, relation unclear"
+A31b079,177,51,21,"mentioned, relation unclear"
+A31b079,177,31,21,"mentioned, relation unclear"
+A31b080,110,31,34,"mentioned, relation unclear"
+A31b080,110,34,51,"mentioned, relation unclear"
+A31b080,110,51,21,"mentioned, relation unclear"
+A31b080,110,31,21,"mentioned, relation unclear"
+A31b081,33,31,34,"mentioned, relation unclear"
+A31b081,33,34,51,"mentioned, relation unclear"
+A31b081,33,51,21,"mentioned, relation unclear"
+A31b081,33,31,21,"mentioned, relation unclear"
+A31b082,105,31,34,"mentioned, relation unclear"
+A31b082,105,34,51,"mentioned, relation unclear"
+A31b082,105,51,21,free copy
+A31b082,105,31,21,"mentioned, relation unclear"
+A31b083,59,31,34,"mentioned, relation unclear"
+A31b083,59,34,51,"mentioned, relation unclear"
+A31b083,59,51,21,"mentioned, relation unclear"
+A31b083,59,31,21,"mentioned, relation unclear"
+A31b084,153,31,34,"mentioned, relation unclear"
+A31b084,153,34,51,"mentioned, relation unclear"
+A31b084,153,51,21,"mentioned, relation unclear"
+A31b084,153,31,21,"mentioned, relation unclear"
+A31b085,95,31,34,"mentioned, relation unclear"
+A31b085,95,34,51,"mentioned, relation unclear"
+A31b085,95,51,21,reversed copy
+A31b085,95,31,21,"mentioned, relation unclear"
+A31b086,190,31,34,free copy
+A31b086,190,34,51,"mentioned, relation unclear"
+A31b086,190,51,21,free copy
+A31b086,190,31,21,"mentioned, relation unclear"
+A31b087,53,31,34,"mentioned, relation unclear"
+A31b087,53,34,51,reversed copy
+A31b087,53,51,21,"mentioned, relation unclear"
+A31b087,53,31,21,"mentioned, relation unclear"
+A31b088,112,31,34,"mentioned, relation unclear"
+A31b088,112,34,51,"mentioned, relation unclear"
+A31b088,112,51,21,"mentioned, relation unclear"
+A31b088,112,31,21,"mentioned, relation unclear"
+A31b089,113,31,34,"mentioned, relation unclear"
+A31b089,113,34,51,"mentioned, relation unclear"
+A31b089,113,51,21,"mentioned, relation unclear"
+A31b089,113,31,21,"mentioned, relation unclear"
+A31b090,64,31,34,"mentioned, relation unclear"
+A31b090,64,34,51,"mentioned, relation unclear"
+A31b090,64,51,21,"mentioned, relation unclear"
+A31b090,64,31,21,"mentioned, relation unclear"
+A31b091,131,31,34,"mentioned, relation unclear"
+A31b091,131,34,51,reversed copy
+A31b091,131,51,21,reversed copy
+A31b091,131,31,21,"mentioned, relation unclear"
+A31b092,181,31,34,"mentioned, relation unclear"
+A31b092,181,34,51,free copy
+A31b092,181,51,21,"mentioned, relation unclear"
+A31b092,181,31,21,"mentioned, relation unclear"
+A31b093,52,31,34,"mentioned, relation unclear"
+A31b093,52,34,51,independent design
+A31b093,52,51,21,"mentioned, relation unclear"
+A31b093,52,31,21,"mentioned, relation unclear"
+A31b094,9,31,34,"mentioned, relation unclear"
+A31b094,9,34,51,"mentioned, relation unclear"
+A31b094,9,51,21,"mentioned, relation unclear"
+A31b094,9,31,21,"mentioned, relation unclear"
+A31b095,152,31,34,"mentioned, relation unclear"
+A31b095,152,34,51,"mentioned, relation unclear"
+A31b095,152,51,21,"mentioned, relation unclear"
+A31b095,152,31,21,"mentioned, relation unclear"
+A31b096,114,31,34,no commentary
+A31b096,114,34,51,no commentary
+A31b096,114,51,21,no commentary
+A31b096,114,31,21,no commentary
+A31b097,54,31,34,"mentioned, relation unclear"
+A31b097,54,34,51,"mentioned, relation unclear"
+A31b097,54,51,21,"mentioned, relation unclear"
+A31b097,54,31,21,"mentioned, relation unclear"
+A31b098,180,31,34,"mentioned, relation unclear"
+A31b098,180,34,51,free copy
+A31b098,180,51,21,not mentioned
+A31b098,180,31,21,not mentioned
+A31b099,196,31,34,"mentioned, relation unclear"
+A31b099,196,34,51,"mentioned, relation unclear"
+A31b099,196,51,21,"mentioned, relation unclear"
+A31b099,196,31,21,"mentioned, relation unclear"
+A31b100,32,31,34,"mentioned, relation unclear"
+A31b100,32,34,51,"mentioned, relation unclear"
+A31b100,32,51,21,"mentioned, relation unclear"
+A31b100,32,31,21,"mentioned, relation unclear"
+A31b101,14,31,34,"mentioned, relation unclear"
+A31b101,14,34,51,"mentioned, relation unclear"
+A31b101,14,51,21,"mentioned, relation unclear"
+A31b101,14,31,21,"mentioned, relation unclear"
+A31b102,35,31,34,"mentioned, relation unclear"
+A31b102,35,34,51,"mentioned, relation unclear"
+A31b102,35,51,21,reversed copy
+A31b102,35,31,21,"mentioned, relation unclear"
+A31b103,134,31,34,"mentioned, relation unclear"
+A31b103,134,34,51,"mentioned, relation unclear"
+A31b103,134,51,21,"mentioned, relation unclear"
+A31b103,134,31,21,"mentioned, relation unclear"
+A31b104,135,31,34,"mentioned, relation unclear"
+A31b104,135,34,51,"mentioned, relation unclear"
+A31b104,135,51,21,"mentioned, relation unclear"
+A31b104,135,31,21,"mentioned, relation unclear"

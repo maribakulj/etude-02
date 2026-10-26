@@ -1,0 +1,12 @@
+ENTITY	long-eared hoofed animal (deer/hind or ass)	probable
+ENTITY	infant / small child	clear
+ENTITY	man at doorway	clear
+ENTITY	large tree	clear
+ENTITY	houses ×3	clear
+ENTITY	birds in sky ×4 approx.	probable
+ATTRIBUTE	animal: long pointed muzzle, long ears	clear
+ACTION	animal lies with child and leans its head toward it (nursing or protecting)	probable
+ACTION	man in doorway looks out / works at something	indeterminate
+RELATION	child: lies against the animal's chest under the tree	clear
+SETTING	rural landscape, village, hills, fence	clear
+RECOGNISED	hind nursing an infant could be Telephus suckled by a doe; not certain	indeterminate

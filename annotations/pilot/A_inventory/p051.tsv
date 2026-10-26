@@ -1,0 +1,10 @@
+ENTITY	tree with tufted needle-like foliage (pine)	probable
+ENTITY	climbing vine with large leaves	clear
+ENTITY	gourds ×4 approx.	probable
+ENTITY	town/buildings	clear
+ENTITY	sun with rays at right	probable
+ENTITY	bird in flight	probable
+ACTION	vine climbs the tree trunk	clear
+RELATION	gourds: hang from the vine high in the tree	probable
+SETTING	river landscape with town, hills, storm or rain lines at right	clear
+RECOGNISED	gourd climbing a pine: Alciato 'In momentaneam felicitatem' (cf. p022)	probable

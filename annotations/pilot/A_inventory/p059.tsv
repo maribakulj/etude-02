@@ -1,0 +1,11 @@
+ENTITY	woman	clear
+ENTITY	rectangular tomb	clear
+ENTITY	tree bent by wind	clear
+INSCRIPTION	D M	clear
+INSCRIPTION	AIACIS	clear
+ATTRIBUTE	woman: long dishevelled hair, dress with belt	clear
+ATTRIBUTE	woman: barefoot	probable
+ACTION	woman tears her hair with both hands	clear
+RELATION	woman: sits on the tomb	clear
+SETTING	landscape with hills; windswept tree at left	clear
+RECOGNISED	grieving woman on the tomb of Ajax (D M AIACIS): Virtue mourning Ajax (Alciato emblem; cf. p048, p037)	probable

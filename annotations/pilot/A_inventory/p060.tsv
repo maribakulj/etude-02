@@ -1,0 +1,10 @@
+ENTITY	men ×4 (one seated, three washers)	probable
+ENTITY	basin on ground	clear
+ENTITY	well/fountain with jug	probable
+ENTITY	bucket/bowl held up	probable
+ATTRIBUTE	seated man: dark skin rendered by dense hatching	clear
+ACTION	washers pour water and scrub the dark man	clear
+ACTION	one washer holds his hand to his face (wiping sweat or despair)	indeterminate
+RELATION	dark man: seated in the middle, surrounded by washers	clear
+SETTING	landscape with trees, hills; well at left	clear
+RECOGNISED	washing the Ethiopian: Alciato 'Impossibile' (cf. p026, p042)	clear

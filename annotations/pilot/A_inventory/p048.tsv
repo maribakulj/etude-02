@@ -1,0 +1,11 @@
+ENTITY	woman	clear
+ENTITY	large tomb/sarcophagus with gadrooned rim on stepped base	clear
+ENTITY	torn hair (tuft held in hand)	probable
+ENTITY	cloud	clear
+ATTRIBUTE	woman: long dishevelled hair, loose robe	clear
+INSCRIPTION	AIACIS (with one or two more letters, partly unclear)	probable
+ACTION	woman tears her hair with left hand	clear
+ACTION	woman holds a tuft of torn hair in right hand	probable
+RELATION	woman: sits on the tomb	clear
+SETTING	paved floor, wall at left, sky	clear
+RECOGNISED	grieving woman on Ajax's tomb (inscription): Virtue mourning at Ajax's tomb (Alciato emblem); p037 is probably the same subject	probable

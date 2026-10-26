@@ -1,0 +1,14 @@
+ENTITY	winged figure (standing)	clear
+ENTITY	sword	clear
+ENTITY	children/youths ×2 seated	clear
+ENTITY	bow	clear
+ENTITY	standing figure at right (woman?)	probable
+ENTITY	building with window	clear
+ATTRIBUTE	winged figure: long robe, sword at side	clear
+ATTRIBUTE	right figure: holds an arrow or rod	probable
+ACTION	winged figure holds a cloth/band or bundle toward the children	indeterminate
+ACTION	first child holds up a bow	probable
+ACTION	second child sits gesturing toward the right figure	probable
+RELATION	children: seated on the ground between the winged figure and the right figure	clear
+SETTING	street or courtyard with house	probable
+RECOGNISED	winged figure, children with bow: perhaps Eros/Anteros or Nemesis subject; not recognised	indeterminate

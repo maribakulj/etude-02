@@ -1,0 +1,13 @@
+ENTITY	lion	clear
+ENTITY	hares ×3	clear
+ENTITY	tree trunk	clear
+ENTITY	castle/town with towers	clear
+ENTITY	cloud	clear
+ENTITY	staff/stick or broken lances lying on ground ×2	indeterminate
+ATTRIBUTE	lion: long mane, lying flat, eyes closed (dead or asleep)	probable
+ACTION	lion lies stretched on the ground	clear
+ACTION	hare (front) pulls at or approaches lion's mane	probable
+ACTION	hares stand near the lion's head	clear
+RELATION	hares: gathered around the lion's head	clear
+SETTING	landscape with castle, trees, hills in background	clear
+RECOGNISED	hares plucking the mane of a dead lion: Alciato 'Cum larvis non luctandum' (do not fight the dead); recognised from the motif	probable
